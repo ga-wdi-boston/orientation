@@ -385,7 +385,7 @@ Rbenv is a tool that we can use to manage multiple versions of Ruby and determin
 
 Now that you have Ruby installed, you can begin to install gems on your own. However, gems usually come with a lot of unnecessary documentation - let's tell Ruby to skip those by running the following command:
 
-  `echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc`
+  `echo 'gem: --no-document' >> ~/.gemrc`
 
 Next, we'll go ahead and install Rails.
 

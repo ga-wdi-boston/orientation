@@ -112,7 +112,7 @@ We're going to be installing Node next; Node (and its various packages) will be 
     sudo apt-get install npm
     ```
 
-1. Add the following snippets to your bash configuration files (`.bash_profile` on OS X, `.bashrc` on Linux).
+1. Add **one** of the following snippets to your `.bashrc` file:
 
     ```
     # OS X

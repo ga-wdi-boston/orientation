@@ -266,7 +266,7 @@ Now let's take care of some settings.
 - Colorize git in the command line
 
     ```
-    git config --global color.ui true`
+    git config --global color.ui true
     ```
 
 - Set up a global 'excludesfile', listing all the files that we might want git to ignore.

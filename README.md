@@ -12,7 +12,7 @@ Please upgrade to the latest version of OS X, Yosemite (10.10.5).
 Windows or Linux
 ----------------
 
-General Assembly no longer officially supports Windows or Linux in immersive programs. If you have a Windows or a Linux machine, you should contact your Immsersive Producer. Instructors may provide support for these operating systems at their own discretion.
+General Assembly no longer officially supports Windows or Linux in immersive programs. If you have a Windows or a Linux machine, you should contact your Immersive Producer. Instructors may provide support for these operating systems at their own discretion.
 
 If you are on a Windows machine, you **must** set up your computer to dual-boot Linux Ubuntu before you can get started.
 

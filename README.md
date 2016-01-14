@@ -394,6 +394,7 @@ Next, we'll go ahead and install Rails.
 Here are a couple of other gems we should also install.
 
   `gem install bundler`
+  `gem install rubocop`
 
 #Postgres
 

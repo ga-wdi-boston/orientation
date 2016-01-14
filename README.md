@@ -244,7 +244,7 @@ Configuring Git
 
 Now let's take care of some settings.
 
-- Show the current Git branch in the terminal prompt
+- Show the current Git branch in the terminal prompt, and tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
 
     Run the command `subl ~/.bashrc`. Paste the following code into the bottom of the file.
 
@@ -255,12 +255,7 @@ Now let's take care of some settings.
         echo "("${ref#refs/heads/}")"
       }
       export PS1="\w \$(parse_git_branch)\$ "
-    ```
-
-- Tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
-
-    ```
-    echo "export EDITOR='subl -w'" >> ~/.bashrc
+      export EDITOR='subl -w'
     ```
 
 - Colorize git in the command line

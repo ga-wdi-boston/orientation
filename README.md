@@ -7,7 +7,7 @@ Before you come in...
 
 OS X
 ----
-Please upgrade to the latest version of OS X, Yosemite (10.10.5). After you're on the latest version of OS X, download & install an application called XCode through the App Store.
+Please upgrade to the latest version of OS X, Yosemite (10.10.5).
 
 Windows or Linux
 ----------------

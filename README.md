@@ -7,12 +7,12 @@ Before you come in...
 
 OS X
 ----
-Please upgrade to the latest version of OS X, Yosemite (10.10.5). After you're on the latest version of OS X, download & install an application called XCode through the App Store.
+Please upgrade to the latest version of OS X, Yosemite (10.10.5).
 
 Windows or Linux
 ----------------
 
-General Assembly no longer officially supports Windows or Linux in immersive programs. If you have a Windows or a Linux machine, you should contact your Immsersive Producer. Instructors may provide support for these operating systems at their own discretion.
+General Assembly no longer officially supports Windows or Linux in immersive programs. If you have a Windows or a Linux machine, you should contact your Immersive Producer. Instructors may provide support for these operating systems at their own discretion.
 
 If you are on a Windows machine, you **must** set up your computer to dual-boot Linux Ubuntu before you can get started.
 
@@ -112,7 +112,7 @@ We're going to be installing Node next; Node (and its various packages) will be 
     sudo apt-get install npm
     ```
 
-1. Add the following snippets to your bash configuration files (`.bash_profile` on OS X, `.bashrc` on Linux).
+1. Add **one** of the following snippets to your `.bashrc` file:
 
     ```
     # OS X
@@ -244,7 +244,7 @@ Configuring Git
 
 Now let's take care of some settings.
 
-- Show the current Git branch in the terminal prompt
+- Show the current Git branch in the terminal prompt, and tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
 
     Run the command `subl ~/.bashrc`. Paste the following code into the bottom of the file.
 
@@ -255,18 +255,13 @@ Now let's take care of some settings.
         echo "("${ref#refs/heads/}")"
       }
       export PS1="\w \$(parse_git_branch)\$ "
-    ```
-
-- Tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
-
-    ```
-    echo "export EDITOR='subl -w'" >> ~/.bashrc
+      export EDITOR='subl -w'
     ```
 
 - Colorize git in the command line
 
     ```
-    git config --global color.ui true`
+    git config --global color.ui true
     ```
 
 - Set up a global 'excludesfile', listing all the files that we might want git to ignore.
@@ -385,7 +380,7 @@ Rbenv is a tool that we can use to manage multiple versions of Ruby and determin
 
 Now that you have Ruby installed, you can begin to install gems on your own. However, gems usually come with a lot of unnecessary documentation - let's tell Ruby to skip those by running the following command:
 
-  `echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc`
+  `echo 'gem: --no-document' >> ~/.gemrc`
 
 Next, we'll go ahead and install Rails.
 
@@ -394,6 +389,7 @@ Next, we'll go ahead and install Rails.
 Here are a couple of other gems we should also install.
 
   `gem install bundler`
+  `gem install rubocop`
 
 #Postgres
 

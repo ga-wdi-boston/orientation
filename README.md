@@ -94,6 +94,26 @@ Install Homebrew
 
     `brew install caskroom/cask/brew-cask`
 
+Atom
+====
+The text editor we'll be using in this course is called **Atom**; it was developed by the GitHub team, and is highly extensible.
+
+Installing Atom
+---------------
+Run the following command(s) to install Atom.
+
+  ##### OS X
+  `brew cask install atom`
+
+  ##### Linux
+  ```
+  sudo add-apt-repository ppa:webupd8team/atom
+
+  sudo apt-get update
+
+  sudo apt-get install atom
+  ```
+
 NVM and Node/NPM
 ================
 

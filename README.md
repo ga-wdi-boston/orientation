@@ -90,6 +90,59 @@ Install Homebrew
 
 1. Once Homebrew says `Your system is ready to brew`, run  `brew update` to update Homebrew's directory of packages.
 
+1. Lastly, install Brew Cask, a Homebrew add-on for installing GUI applications from the command line.
+
+    `brew install caskroom/cask/brew-cask`
+
+Atom
+====
+The text editor we'll be using in this course is called **Atom**; it was developed by the GitHub team, and is highly extensible.
+
+Installing Atom
+---------------
+Run the following command(s) to install Atom.
+
+##### OS X
+
+```
+brew cask install atom
+```
+
+##### Linux
+
+```
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+```
+
+Atom Add-Ons
+------------
+We're going to use Atom's package manager, `apm`, to add a number of helpful extensions to your Atom installation. For each package listed below, run `apm install <name-of-package>` in the terminal to perform the installation.
+
+- aligner
+- aligner-scss
+- aligner-css
+- aligner-ruby
+- atom-beautify
+- atom-jshint
+- editorconfig
+- esformatter
+- fixmyjs
+- git-diff-details
+- git-history
+- git-plus
+- language-ember-htmlbars
+- language-markdown
+- linter
+- linter-csslint
+- linter-eslint
+- linter-markdown
+- linter-ruby
+- linter-scss-lint
+- markdown-writer
+- sort-lines
+
 NVM and Node/NPM
 ================
 

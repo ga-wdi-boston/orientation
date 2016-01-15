@@ -57,7 +57,7 @@ echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
 echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
 ```
 
-Finally, let's inspect our changes by typing `cat /etc/pahts`. It should look like this:
+Finally, let's inspect our changes by typing `cat /etc/paths`. It should look like this:
 
 ```
 # /etc/paths

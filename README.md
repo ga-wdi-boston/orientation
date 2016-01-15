@@ -90,6 +90,10 @@ Install Homebrew
 
 1. Once Homebrew says `Your system is ready to brew`, run  `brew update` to update Homebrew's directory of packages.
 
+1. Lastly, install Brew Cask, a Homebrew add-on for installing GUI applications from the command line.
+
+    `brew install caskroom/cask/brew-cask`
+
 NVM and Node/NPM
 ================
 

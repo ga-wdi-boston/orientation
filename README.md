@@ -397,44 +397,49 @@ Here are a couple of other gems we should also install.
 
 #Postgres
 
-Next, we'll download Postgres, the database program we'll be using for most of the course.
+Next, we'll download Postgres, a database program that we'll be using for most of the course.
 
 1. First, download and install Postgres.
 
   #####OS X
 
-  Download and install the Postgress App : http://postgresapp.com/
+  Run `brew install postgres` to install Postgres.
 
   #####Linux
 
   Run `sudo apt-get install postgresql libpq-dev` to install Postgres and its dependencies.
 
-2. Once you've installed Postgres, install the postgres gem from the command line so that Ruby can access it.
+1. Then, configure your new Postgres installation by entering the following lines into the console:
 
   #####OS X
-  `gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config`
+
+  ```
+  mkdir -p ~/Library/LaunchAgents
+
+  ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+
+  createdb `whoami`
+  ```
 
   #####Linux
-  `gem install pg`
 
-  Linux folks must also specify a default database user, using the following command:
+  ```
+  sudo -u postgres createuser `whoami` -s
 
-  `sudo -u postgres createuser *<ubuntu_username>* -s`
+  sudo -u postgres createdb `whoami`
+
+  echo "export PATH=/usr/local/psql/bin:$PATH" >> ~/.bashrc
+  ```
 
   See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
 
-3. It's terminal shortcut time! Let's configure a `psql` shortcut so that we can run Postgres from the command line.
+  > Whether you're on OS X or Linux, you can test your configuration by running `psql` in the console.
 
-  #####OS X
+1. Finally, install the `pg` gem from the command line so that Ruby programs can communicate with Postgres.
 
-  Create a new terminal shortcut, just like we did with Sublime Text.
-
-  `ln -s /Applications/Postgres.app/Contents/Versions/9.4/bin/psql /usr/local/bin/psql`
-
-  #####Linux
-
-  Linux already has a shortcut set up for us; just add the existing shortcut to the environmental PATH variable.
-  `echo "export PATH=/usr/local/psql/bin:$PATH" >> ~/.bashrc`
+  `gem install pg`
 
 # Evernote
 

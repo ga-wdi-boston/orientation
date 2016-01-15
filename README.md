@@ -102,17 +102,21 @@ Installing Atom
 ---------------
 Run the following command(s) to install Atom.
 
-  ##### OS X
-  `brew cask install atom`
+##### OS X
 
-  ##### Linux
-  ```
-  sudo add-apt-repository ppa:webupd8team/atom
+```
+brew cask install atom
+```
 
-  sudo apt-get update
+##### Linux
 
-  sudo apt-get install atom
-  ```
+```
+sudo add-apt-repository ppa:webupd8team/atom
+
+sudo apt-get update
+
+sudo apt-get install atom
+```
 
 NVM and Node/NPM
 ================

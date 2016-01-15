@@ -116,6 +116,33 @@ sudo apt-get update
 sudo apt-get install atom
 ```
 
+Atom Add-Ons
+------------
+We're going to use Atom's package manager, `apm`, to add a number of helpful extensions to your Atom installation. For each package listed below, run `apm install <name-of-package>` in the terminal to perform the installation.
+
+- aligner
+- aligner-scss
+- aligner-css
+- aligner-ruby
+- atom-beautify
+- atom-jshint
+- editorconfig
+- esformatter
+- fixmyjs
+- git-diff-details
+- git-history
+- git-plus
+- language-ember-htmlbars
+- language-markdown
+- linter
+- linter-csslint
+- linter-eslint
+- linter-markdown
+- linter-ruby
+- linter-scss-lint
+- markdown-writer
+- sort-lines
+
 NVM and Node/NPM
 ================
 

@@ -179,11 +179,13 @@ We're going to be installing Node next; Node (and its various packages) will be 
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
     ```
 
-1. Use NVM to install the latest stable version of Node
+1. Use NVM to install the latest stable version of Node (4.2.4)
 
     ```
-    nvm install stable
+    nvm install v4.2.4
     ```
+    
+    ** if node version 5 is already installed type: nvm alias default v4.2.4
 
 1. Finally, use NPM to install the Node modules mentioned earlier and make them available across all of our projects.
 
@@ -336,9 +338,9 @@ Rbenv is a tool that we can use to manage multiple versions of Ruby and determin
 
     `rbenv install ruby-build`
 
-5. Install version 2.2.0 of Ruby and make it the system-wide default using the command
+5. Install version 2.2.4 of Ruby and make it the system-wide default using the command
 
-  `rbenv install 2.2.0 && rbenv global 2.2.0`
+  `rbenv install 2.2.4 && rbenv global 2.2.4`
 
   You can see what versions of Ruby rbenv has downloaded by running `rbenv versions`; to see which version you are currently using, type either `rbenv version` or `ruby -v`.
 

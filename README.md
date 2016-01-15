@@ -23,7 +23,7 @@ Installfest!
 
 Follow these instructions to set up your laptop for work in WDI. If you've previously set up a development environment on your computer, you may wish to skip some of these steps; **do not do so** without first checking with an instructor!
 
-If at any point you are unsure of whether you have done something correctly, ask an instructor. It's important in many cases that we do these steps in order.
+If at any point you are unsure of whether you have done something correctly, ask an instructor. It's important in many cases that we do these steps in order.sub
 
 Bash (OS X)
 ===========
@@ -212,9 +212,9 @@ Configuring Git
 
 Now let's take care of some settings.
 
-- Show the current Git branch in the terminal prompt, and tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
+- Show the current Git branch in the terminal prompt, and tweak Git's EDITOR variable so that commit message pop-ups open in Atom.
 
-    Run the command `subl ~/.bashrc`. Paste the following code into the bottom of the file.
+    Run the command `atom ~/.bashrc`. Paste the following code into the bottom of the file.
 
     ```bash
       # Git
@@ -223,7 +223,7 @@ Now let's take care of some settings.
         echo "("${ref#refs/heads/}")"
       }
       export PS1="\w \$(parse_git_branch)\$ "
-      export EDITOR='subl -w'
+      export EDITOR='atom --wait'
     ```
 
 - Colorize git in the command line

@@ -185,7 +185,17 @@ We're going to be installing Node next; Node (and its various packages) will be 
     nvm install v4.2.4
     ```
     
-    ** if node version 5 is already installed type: nvm alias default v4.2.4
+    ** if node version 5 is already installed type 
+    
+    ```
+    nvm alias default v4.2.4
+    ```
+    
+    then
+    
+    ```
+    nvm use default
+    ```
 
 1. Finally, use NPM to install the Node modules mentioned earlier and make them available across all of our projects.
 

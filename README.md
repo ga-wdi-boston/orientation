@@ -18,7 +18,6 @@ Immersive Producer. Instructors may provide support for these operating systems
 If you are on a Windows machine, you **must** set up your computer to dual-boot
 Linux Ubuntu before you can get started.
 
---
 
 # Installfest
 
@@ -30,23 +29,42 @@ instructor!
 If at any point you are unsure of whether you have done something correctly,
 ask an instructor. It's important in many cases that we do these steps in order.
 
-## Bash (OS X)
-
---
+## OS X (Only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
- To smooth out *some* of the differences, we need to change how OS X loads our
- shell (`bash`) configuration.
+To smooth out *some* of the differences, we need to change how OS X loads our
+shell (`bash`) configuration.
 
-Check if you have a `.bashrc` file in your home directory. Open your terminal
-and type `ls ~/.bashrc`. If you receive a warning saying no such file or
-directory exists, type `touch ~/.bashrc`. This creates an empty file for us.
+1.Check if you have a `.bashrc` file in your home directory. Open your terminal
+and type:
 
-Next, check if you have a `.bash_profile` in your home directory. Open your
-terminal and type `ls ~/.bash_profile`. If you receive a warning saying no such
-file or directory exists, type `touch ~/.bash_profile`.
+```bash
+ls ~/.bashrc
+```
 
-Then, execute the follow commands at the terminal.
+***IF*** you receive a warning saying no such file or directory exists type:
+
+```bash
+touch ~/.bashrc
+```
+
+This creates an empty file for us.
+
+2.Check if you have a `.bash_profile` in your home directory. Open your
+terminal and type
+
+```bash
+ls ~/.bash_profile
+```
+
+***IF*** you receive a warning saying no such file or directory exists type:
+
+```bash
+touch ~/.bash_profile
+```
+
+
+3.Execute the follow commands at the terminal:
 
 ```bash
 echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
@@ -54,7 +72,11 @@ echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
 ```
 
 Next, we'll look at `.bash_profile` to make sure it has the contents we expect.
-Type `cat ~/.bash_profile` in the terminal to look at the contents of the file.
+Type the following in the terminal to look at the contents of the file:
+```bash
+cat ~/.bash_profile
+```
+
 Near the bottom, you should have something that looks like this:
 
 ```bash
@@ -64,15 +86,20 @@ export PATH=/usr/local/bin:$PATH
 test -f ~/.bashrc && source ~/.bashrc
 ```
 
-You will also need to update `/etc/paths` by running the following commands.
+4.You will also need to update `/etc/paths` by running the following commands:
 
 ```bash
 echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
 echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
 ```
 
-Finally, let's inspect our changes by typing `cat /etc/paths`. It should look
-like this:
+5.Finally, let's inspect our changes by typing:
+
+```bash
+cat /etc/paths
+```
+
+It should look like this:
 
 ```bash
 # /etc/paths
@@ -86,45 +113,59 @@ like this:
 
 ## Homebrew
 
---
-
-Those of you who are on Ubuntu already have a powerful package manager, `apt`, built into your operating system. However, OS X doesn't come with a package manager installed, so we'll be installing a 3rd-party package manager called Homebrew to install software from the command line. If you're running Linux, please feel free to skip ahead to the next section.
+Those of you who are on Ubuntu already have a powerful package manager, `apt`,
+built into your operating system. However, OS X doesn't come with a package
+manager installed, so we'll be installing a 3rd-party package manager called
+Homebrew to install software from the command line. If you're running Linux,
+please feel free to skip ahead to the next section.
 
 ## Command Line Tools
 
---
+In order for Homebrew to work, we'll need to rely on a number of programs that
+come pre-installed on Linux. Install these tools **via the terminal** using the
+command:
 
-In order for Homebrew to work, we'll need to rely on a number of programs that come pre-installed on Linux. Install these tools **via the terminal** using the command `xcode-select --install`. This may require that you run a Software Update before proceeding.
+```
+xcode-select --install
+```
 
-Install Homebrew
-----------------
+This may require that you run a Software Update before proceeding.
 
-1. First, go to [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/), scroll down
+### Install Homebrew
+
+1.First, go to [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/), scroll down
 to "Installation" and copy and paste the entire command listed there into your
 terminal.
 
-1. Homebrew has a built-in diagnostic tool to determine if it's working
-correctly; you can run it by entering the command `brew doctor` into your
-terminal.
+2.Homebrew has a built-in diagnostic tool to determine if it's working
+correctly; you can run it by entering the following command in your terminal:
 
-    **NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these errors are probably minor, but some might not be; please wait until one of the instructors has given you the go-ahead before moving on.
+```bash
+brew doctor
+```
 
-1. Once Homebrew says `Your system is ready to brew`, run  `brew update` to
+**NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these
+errors are probably minor, but some might not be; please wait until one of the
+instructors has given you the go-ahead before moving on.
+
+3.Once Homebrew says `Your system is ready to brew`, run the following command
 update Homebrew's directory of packages.
 
-1. Lastly, install Brew Cask, a Homebrew add-on for installing GUI
-applications from the command line.
+```bash
+brew update
+```
 
-    `brew install caskroom/cask/brew-cask`
+4.Lastly, install Brew Cask, a Homebrew add-on for installing GUI applications
+from the command line.
+
+```bash
+brew install caskroom/cask/brew-cask
+```
 
 ## Atom
 
 The text editor we'll be using in this course is called **Atom**; it was
 developed by the GitHub team, and is highly extensible.
-
-## Installing Atom
-
---
 
 Run the following command(s) to install Atom.
 
@@ -173,8 +214,6 @@ extensions to your Atom installation. For each package listed below, run
 
 ## Installing NVM and Node/NPM
 
---
-
 We're going to be installing Node next; Node (and its various packages) will be
 the foundation of a large part of the course. First, though, we're going to
 download a tool called [NVM](https://github.com/creationix/nvm) that allows us
@@ -215,13 +254,13 @@ modules:
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 
-1.Use NVM to install the latest stable version of Node (4.2.4)
+2.Use NVM to install the latest stable version of Node (4.2.4)
 
 ```bash
   nvm install v4.2.4
 ```
 
-***if node version 5 is already installed type***
+***If node version 5 is already installed type***
 
 ```bash
   nvm alias default v4.2.4
@@ -233,7 +272,7 @@ then
   nvm use default
 ```
 
-1. Finally, use NPM to install the Node modules mentioned earlier and make them
+3.Finally, use NPM to install the Node modules mentioned earlier and make them
 available across all of our projects.
 
 ```bash
@@ -243,7 +282,6 @@ available across all of our projects.
 
 ## Git (and GitHub)
 
---
 
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
@@ -341,12 +379,11 @@ Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide 
 
 ## Rbenv, Ruby, and Rails
 
---
 
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
-1. Install Rbenv
+1.Install Rbenv
 
 ### OS X
 ```bash
@@ -360,7 +397,7 @@ Copy and paste this entire line into your terminal and run it.
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 ```
 
-2. Tell Rbenv to use homebrew's directories instead of rbenv's
+2.Tell Rbenv to use homebrew's directories instead of rbenv's
 
 ### OS X
 `Open ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
@@ -387,10 +424,10 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 ```
 
-4.Once you've done this, run `source ~/.bashrc` to reload the terminal's
+3.Once you've done this, run `source ~/.bashrc` to reload the terminal's
 settings.
 
-5.Install a tool to re-hash gems after each installation (Linux users,
+4.Install a tool to re-hash gems after each installation (Linux users,
 unfortunately must do this manually).
 
 ### OS X
@@ -413,7 +450,7 @@ install it with the following command.
 sudo apt-get install libffi-dev
 ```
 
-6. Install `ruby-build`, a plugin for rbenv.
+5.Install `ruby-build`, a plugin for rbenv.
 
 ### OS X
 
@@ -433,7 +470,7 @@ then
 rbenv install ruby-build
 ```
 
-7. Install version 2.2.4 of Ruby and make it the system-wide default using the
+6.Install version 2.2.4 of Ruby and make it the system-wide default using the
 command:
 
 ```bash
@@ -446,8 +483,6 @@ You can see what versions of Ruby rbenv has downloaded by running
 
 ## From Ruby to Rails (and more)
 
---
-
 Now that you have Ruby installed, you can begin to install gems on your own.
 However, gems usually come with a lot of unnecessary documentation - let's tell
 Ruby to skip those by running the following command:
@@ -457,7 +492,6 @@ echo 'gem: --no-document' >> ~/.gemrc
 ```
 
 Next, we'll go ahead and install Rails.
-
 
 ```bash
 gem install rails
@@ -476,7 +510,7 @@ gem install rubocop
 Next, we'll download Postgres, a database program that we'll be using for most
 of the course.
 
-1. First, download and install Postgres.
+1.First, download and install Postgres.
 
 ### OS X
 
@@ -492,7 +526,7 @@ Run to install Postgres and its dependencies.
 sudo apt-get install postgresql libpq-dev
 ```
 
-2. Then, configure your new Postgres installation by entering the following
+2.Then, configure your new Postgres installation by entering the following
 lines into the console:
 
 ### OS X

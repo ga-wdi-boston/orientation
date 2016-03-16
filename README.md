@@ -282,12 +282,9 @@ available across all of our projects.
 
 ## Git (and GitHub)
 
-
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
-
-Installing Git
 
 ### OS X
 
@@ -301,29 +298,32 @@ Enter the command `sudo apt-get install git`.
 
 Now let's take care of some settings.
 
-Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
-variable so that commit message pop-ups open in Atom.
+1.Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
+variable so that commit message pop-ups open in Atom. Run the command:
 
-Run the command `atom ~/.bashrc`. Paste the following code into the bottom of
-the file.
+```bash
+atom ~/.bashrc
+```
 
-  ```bash
-  # Git
-  function parse_git_branch {
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-    echo "("${ref#refs/heads/}")"
-  }
-  export PS1="\w \$(parse_git_branch)\$ "
-  export EDITOR='atom --wait'
-  ```
+2.Paste the following code into the bottom of the file:
 
-Colorize git in the command line
+```bash
+# Git
+function parse_git_branch {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo "("${ref#refs/heads/}")"
+}
+export PS1="\w \$(parse_git_branch)\$ "
+export EDITOR='atom --wait'
+```
+
+3.Colorize git in the command line
 
 ```bash
 git config --global color.ui true
 ```
 
-Set up a global 'excludesfile', listing all the files that we might want git
+4.Set up a global 'excludesfile', listing all the files that we might want git
 to ignore.
 
 ```bash
@@ -331,7 +331,7 @@ git config --global core.excludesfile ~/.gitignore
 echo ".DS_Store" >> ~/.gitignore
 ```
 
-Set a default user
+5.Set a default user
 
 ```bash
 git config --global user.name "yourUsername"
@@ -343,10 +343,19 @@ git config --global user.email "your_email@example.com"
 In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
 
-1.Generate a new key by running `ssh-keygen -t rsa -C "your_email@example.com"`
-(feel free to put in a password or select a non-default location for your keys, but it's not necessary to do so; to move ahead, just keep hitting `enter`).
-2. Add this new key to your system by running `ssh-add ~/.ssh/id_rsa`
-3. Copy the new key to your clipboard using either:
+1.Generate a new key by running
+```bash
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+(Feel free to put in a password or select a non-default location for your keys,
+but it's not necessary to do so; to move ahead, just keep hitting `enter`).
+
+2.Add this new key to your system by running:
+```bash
+ssh-add ~/.ssh/id_rsa
+```
+
+3.Copy the new key to your clipboard using either:
 
 ### OSX
 ```bash
@@ -357,20 +366,24 @@ GitHub to have a matching set of SSH keys.
 ```bash
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
-then, log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
+
+4.Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
 and paste in your SSH key. To test it out, type the following into the command
 line:
 
-  `ssh -T git@github.com`
+```bash
+ssh -T git@github.com
+```
 
 If you get a prompt along the lines of
 
 ```bash
-  The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
-  RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
-  Are you sure you want to continue connecting (yes/no)?
+The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
+RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
+Are you sure you want to continue connecting (yes/no)?
 ```
-just type 'yes'. If everything's working, you should get a response like the
+
+Just type 'yes'. If everything's working, you should get a response like the
 following:
 
 ```bash
@@ -386,6 +399,7 @@ determine which version we use for a particular project.
 1.Install Rbenv
 
 ### OS X
+
 ```bash
 brew install rbenv
 ```

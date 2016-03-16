@@ -6,7 +6,7 @@
 
 ## OS X
 
-Please upgrade to the latest version of OS X, Yosemite (10.10.5).
+Please upgrade to the latest version of OS X, El Capitan (10.11.3).
 
 ## Windows or Linux
 
@@ -73,6 +73,7 @@ echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
 
 Next, we'll look at `.bash_profile` to make sure it has the contents we expect.
 Type the following in the terminal to look at the contents of the file:
+
 ```bash
 cat ~/.bash_profile
 ```
@@ -247,41 +248,41 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
 #### OS X
 
 ```bash
-  export NVM_DIR=~/.nvm
-  source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 ```
 
 #### Linux
 
 ```bash
-  export NVM_DIR="/home/your_username/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+export NVM_DIR="/home/your_username/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 
 2.Use NVM to install the latest longterm stable version of Node (4.4.0)
 
 ```bash
-  nvm install v4
+nvm install v4
 ```
 
 ***If node version 5 is already installed type***
 
 ```bash
-  nvm alias default v4
+nvm alias default v4
 ```
 
 then
 
 ```bash
-  nvm use default
+nvm use default
 ```
 
 3.Finally, use NPM to install the Node modules mentioned earlier and make them
 available across all of our projects.
 
 ```bash
-  npm install -g jshint grunt-cli
-  npm install -g jsonlint
+npm install -g jshint grunt-cli
+npm install -g jsonlint
 ```
 
 
@@ -340,16 +341,11 @@ git config --global core.excludesfile ~/.gitignore
 echo ".DS_Store" >> ~/.gitignore
 ```
 
-5.Set a default user
+5.Configure Git
 
 ```bash
-git config --global user.name "yourUsername"
-git config --global user.email "your_email@example.com"
-```
-
-6.Configure git
-
-```bash
+git config --global user.name "<yourUsername>"
+git config --global user.email "<your_email@example.com>"
 git config --global pull.rebase true
 git config --global branch.autosetuprebase always
 git config --global push.default simple
@@ -364,8 +360,9 @@ GitHub to have a matching set of SSH keys.
 1.Generate a new key by running
 
 ```bash
-ssh-keygen -t rsa -C "your_email@example.com"
+ssh-keygen -t rsa -C "<your_email@example.com>"
 ```
+
 (Feel free to put in a password or select a non-default location for your keys,
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
@@ -384,6 +381,7 @@ ssh-add ~/.ssh/id_rsa
 ```
 
 #### Linux
+
 ```bash
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
@@ -428,6 +426,7 @@ brew install rbenv
 #### Linux
 
 Copy and paste this entire line into your terminal and run it.
+
 ```bash
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 ```
@@ -435,6 +434,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 2.Tell Rbenv to use homebrew's directories instead of rbenv's
 
 #### OS X
+
 `Open ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
 in about Git.
 
@@ -616,10 +616,12 @@ sudo apt-get install libsass
 ```
 
 ## Evernote
+__Suggested__
 
 [Download and install Evernote](https://evernote.com/evernote/)
 
 ## ScreenHero
+__Suggested__
 
 You will be sent and invitation to download screenhero, an app that allows you
 to share your screen with other users. This is a useful tool for remote

@@ -277,6 +277,7 @@ available across all of our projects.
 
 ```bash
   npm install -g jshint grunt-cli
+  npm install -g jsonlint
 ```
 
 
@@ -438,8 +439,12 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 ```
 
-3.Once you've done this, run `source ~/.bashrc` to reload the terminal's
-settings.
+3.Once you've done this, run the following command to reload the terminal's
+settings:
+
+```bash
+source ~/.bashrc
+```
 
 4.Install a tool to re-hash gems after each installation (Linux users,
 unfortunately must do this manually).
@@ -448,12 +453,6 @@ unfortunately must do this manually).
 
 ```bash
 brew install rbenv-gem-rehash
-```
-
-Then download a package with a number of common gems.
-
-```bash
-brew install rbenv-default-gems
 ```
 
 #### Linux
@@ -516,6 +515,7 @@ Here are a couple of other gems we should also install.
 ```bash
 gem install bundler
 gem install rubocop
+gem install scss_lint
 ```
 
 
@@ -577,8 +577,27 @@ can communicate with Postgres.
 gem install pg
 ```
 
+## Other Goodies
+
+#### OS X
+
+```bash
+brew install libsass
+```
+
+#### Linux
+
+```bash
+sudo apt-get install libsass
+```
+
 ## Evernote
 
 [Download and install Evernote](https://evernote.com/evernote/)
 
 # CONGRATULATIONS! YOU'RE READY TO ROLL!
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.

@@ -169,13 +169,13 @@ developed by the GitHub team, and is highly extensible.
 
 Run the following command(s) to install Atom.
 
-### OS X
+#### OS X
 
 ```bash
 brew cask install atom
 ```
 
-### Linux
+#### Linux
 
 ```bash
 sudo add-apt-repository ppa:webupd8team/atom
@@ -226,13 +226,13 @@ modules:
 - Grunt, a tool for automating background tasks. (`grunt-cli`)
 
 
-### OS X
+#### OS X
 
 ```bash
   brew install nvm
 ```
 
-### Linux
+#### Linux
 
 ```bash
   sudo apt-get install npm
@@ -240,14 +240,14 @@ modules:
 
 1.Open your `.bashrc` file by typing `open .bashrc` and paste in the following:
 
-### OS X
+#### OS X
 
 ```bash
   export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
 ```
 
-### Linux
+#### Linux
 
 ```bash
   export NVM_DIR="/home/your_username/.nvm"
@@ -286,11 +286,11 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-### OS X
+#### OS X
 
 Enter the command `brew install git`.
 
-### Linux
+#### Linux
 
 Enter the command `sudo apt-get install git`.
 
@@ -357,12 +357,12 @@ ssh-add ~/.ssh/id_rsa
 
 3.Copy the new key to your clipboard using either:
 
-### OSX
+#### OSX
 ```bash
   pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-### Linux
+#### Linux
 ```bash
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
@@ -398,13 +398,13 @@ determine which version we use for a particular project.
 
 1.Install Rbenv
 
-### OS X
+#### OS X
 
 ```bash
 brew install rbenv
 ```
 
-### Linux
+#### Linux
 
 Copy and paste this entire line into your terminal and run it.
 ```bash
@@ -413,7 +413,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 
 2.Tell Rbenv to use homebrew's directories instead of rbenv's
 
-### OS X
+#### OS X
 `Open ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
 in about Git.
 
@@ -424,7 +424,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-### Linux
+#### Linux
 
 `Open ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
 in about Git.
@@ -444,7 +444,7 @@ settings.
 4.Install a tool to re-hash gems after each installation (Linux users,
 unfortunately must do this manually).
 
-### OS X
+#### OS X
 
 ```bash
 brew install rbenv-gem-rehash
@@ -456,7 +456,7 @@ Then download a package with a number of common gems.
 brew install rbenv-default-gems
 ```
 
-### Linux
+#### Linux
 Rbenv on Linux depends on another library called `libffi-dev`. Download and
 install it with the following command.
 
@@ -466,13 +466,13 @@ sudo apt-get install libffi-dev
 
 5.Install `ruby-build`, a plugin for rbenv.
 
-### OS X
+#### OS X
 
 ```bash
 brew install ruby-build
 ```
 
-### Linux
+#### Linux
 
 ```bash
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -526,13 +526,13 @@ of the course.
 
 1.First, download and install Postgres.
 
-### OS X
+#### OS X
 
 ```bash
 brew install postgres
 ```
 
-### Linux
+#### Linux
 
 Run to install Postgres and its dependencies.
 
@@ -543,7 +543,7 @@ sudo apt-get install postgresql libpq-dev
 2.Then, configure your new Postgres installation by entering the following
 lines into the console:
 
-### OS X
+#### OS X
 
 ```bash
 mkdir -p ~/Library/LaunchAgents
@@ -555,7 +555,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 createdb `whoami`
 ```
 
-### Linux
+#### Linux
 
 ```bash
 sudo -u postgres createuser `whoami` -s

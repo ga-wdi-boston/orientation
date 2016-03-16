@@ -16,7 +16,7 @@ Immersive Producer. Instructors may provide support for these operating systems
  at their own discretion.
 
 If you are on a Windows machine, you **must** set up your computer to dual-boot
-Linux Ubuntu before you can get started.
+Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 
 # Installfest
@@ -229,13 +229,13 @@ modules:
 #### OS X
 
 ```bash
-  brew install nvm
+brew install nvm
 ```
 
 #### Linux
 
 ```bash
-  sudo apt-get install npm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
 1.Open your `.bashrc` file by typing `open .bashrc` and paste in the following:
@@ -287,6 +287,9 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
+***Please paste your GitHub username in the `projects` slack channel.*** You
+will be added to a cohort GitHub team.
+
 #### OS X
 
 Enter the command `brew install git`.
@@ -316,6 +319,7 @@ function parse_git_branch {
 }
 export PS1="\w \$(parse_git_branch)\$ "
 export EDITOR='atom --wait'
+export VISUAL='atom --wait'
 ```
 
 3.Colorize git in the command line
@@ -337,6 +341,15 @@ echo ".DS_Store" >> ~/.gitignore
 ```bash
 git config --global user.name "yourUsername"
 git config --global user.email "your_email@example.com"
+```
+
+6.Configure git
+
+```bash
+git config --global pull.rebase true
+git config --global branch.autosetuprebase always
+git config --global push.default simple
+git config --global branch.autosetupmerge true
 ```
 
 ## Linking with GitHub
@@ -483,6 +496,8 @@ then
 rbenv install ruby-build
 ```
 
+Don't worry if the above step doesn't take. Some Linux machines may not need it.
+
 6.Install version 2.2.4 of Ruby and make it the system-wide default using the
 command:
 
@@ -564,6 +579,8 @@ sudo -u postgres createdb `whoami`
 
 echo "export PATH=/usr/local/psql/bin:$PATH" >> ~/.bashrc
 ```
+
+Type `\q` to quit postgres
 
 See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
 

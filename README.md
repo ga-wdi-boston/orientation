@@ -133,9 +133,11 @@ This may require that you run a Software Update before proceeding.
 
 ### Install Homebrew
 
-1.First, go to [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/), scroll down
-to "Installation" and copy and paste the entire command listed there into your
-terminal.
+1.First, enter this command into your terminal:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 2.Homebrew has a built-in diagnostic tool to determine if it's working
 correctly; you can run it by entering the following command in your terminal:
@@ -166,6 +168,8 @@ brew install caskroom/cask/brew-cask
 
 The text editor we'll be using in this course is called **Atom**; it was
 developed by the GitHub team, and is highly extensible.
+
+***Note: From this point forward you will open Atom from the command line***
 
 Run the following command(s) to install Atom.
 
@@ -254,16 +258,16 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 
-2.Use NVM to install the latest stable version of Node (4.2.4)
+2.Use NVM to install the latest longterm stable version of Node (4.4.0)
 
 ```bash
-  nvm install v4.2.4
+  nvm install v4
 ```
 
 ***If node version 5 is already installed type***
 
 ```bash
-  nvm alias default v4.2.4
+  nvm alias default v4
 ```
 
 then
@@ -358,6 +362,7 @@ In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
 
 1.Generate a new key by running
+
 ```bash
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
@@ -365,6 +370,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
 2.Add this new key to your system by running:
+
 ```bash
 ssh-add ~/.ssh/id_rsa
 ```
@@ -372,6 +378,7 @@ ssh-add ~/.ssh/id_rsa
 3.Copy the new key to your clipboard using either:
 
 #### OSX
+
 ```bash
   pbcopy < ~/.ssh/id_rsa.pub
 ```
@@ -459,16 +466,16 @@ settings:
 source ~/.bashrc
 ```
 
-4.Install a tool to re-hash gems after each installation (Linux users,
-unfortunately must do this manually).
+4.***Note: after installing gems you may need to run this command***
 
-#### OS X
+#### OS X and Linux
 
 ```bash
-brew install rbenv-gem-rehash
+rbenv rehash
 ```
 
 #### Linux
+
 Rbenv on Linux depends on another library called `libffi-dev`. Download and
 install it with the following command.
 
@@ -498,11 +505,11 @@ rbenv install ruby-build
 
 Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
-6.Install version 2.2.4 of Ruby and make it the system-wide default using the
+6.Install version 2.3 of Ruby and make it the system-wide default using the
 command:
 
 ```bash
-rbenv install 2.2.4 && rbenv global 2.2.4
+rbenv install 2.3 && rbenv global 2.3
 ```
 
 You can see what versions of Ruby rbenv has downloaded by running
@@ -611,6 +618,13 @@ sudo apt-get install libsass
 ## Evernote
 
 [Download and install Evernote](https://evernote.com/evernote/)
+
+## ScreenHero
+
+You will be sent and invitation to download screenhero, an app that allows you
+to share your screen with other users. This is a useful tool for remote
+debugging and pair-programming. Please downlaod this and setup your account when
+you get your invite via email.
 
 # CONGRATULATIONS! YOU'RE READY TO ROLL!
 

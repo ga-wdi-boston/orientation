@@ -116,8 +116,8 @@ It should look like this:
 Those of you who are on Ubuntu already have a powerful package manager, `apt`,
 built into your operating system. However, OS X doesn't come with a package
 manager installed, so we'll be installing a 3rd-party package manager called
-Homebrew to install software from the command line. If you're running Linux,
-please feel free to skip ahead to the next section.
+Homebrew to install software from the command line. ***If you're running Linux,
+please hold tight until we get to the section on Atom.***
 
 ## Command Line Tools
 

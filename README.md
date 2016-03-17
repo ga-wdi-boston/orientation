@@ -350,6 +350,7 @@ git config --global pull.rebase true
 git config --global branch.autosetuprebase always
 git config --global push.default simple
 git config --global branch.autosetupmerge true
+git config --global core.editor "atom --wait"
 ```
 
 ## Linking with GitHub

@@ -182,10 +182,12 @@ brew cask install atom
 
 #### Linux
 
+Download Atom from [Atom.io](https://atom.io/)
+
+Once finished run the following command:
+
 ```bash
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt-get update
-sudo apt-get install atom
+sudo dpkg -i atom-amd64.deb
 ```
 
 ### Atom Add-Ons

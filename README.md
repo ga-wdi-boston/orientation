@@ -214,6 +214,7 @@ extensions to your Atom installation. For each package listed below, run
 - linter-csslint
 - linter-eslint
 - linter-markdown
+- linter-rubocop
 - linter-ruby
 - linter-scss-lint
 - markdown-writer

@@ -158,11 +158,16 @@ update Homebrew's directory of packages.
 brew update
 ```
 
-4.Lastly, install Brew Cask, a Homebrew add-on for installing GUI applications
+4.Install Brew Cask, a Homebrew add-on for installing GUI applications
 from the command line.
 
 ```bash
 brew install caskroom/cask/brew-cask
+```
+
+5.Lastly, install tidy-html5
+```bash
+brew install tidy-html5
 ```
 
 ## Atom
@@ -213,6 +218,7 @@ extensions to your Atom installation. For each package listed below, run
 - linter
 - linter-csslint
 - linter-eslint
+- linter-tidy
 - linter-markdown
 - linter-rubocop
 - linter-ruby

@@ -177,17 +177,11 @@ developed by the GitHub team, and is highly extensible.
 
 ***Note: From this point forward you will open Atom from the command line***
 
-Run the following command(s) to install Atom.
-
-#### OS X
-
-```bash
-brew cask install atom
-```
-
-#### Linux
+#### OS X & Linux
 
 Download Atom from [Atom.io](https://atom.io/)
+
+#### Linux ONLY
 
 Once finished run the following command:
 

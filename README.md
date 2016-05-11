@@ -511,11 +511,11 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 
 Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
-6.Install version 2.3 of Ruby and make it the system-wide default using the
+6.Install version 2.3.0 of Ruby and make it the system-wide default using the
 command:
 
 ```bash
-rbenv install 2.3 && rbenv global 2.3
+rbenv install 2.3.0 && rbenv global 2.3.0
 ```
 
 You can see what versions of Ruby rbenv has downloaded by running

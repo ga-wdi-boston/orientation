@@ -63,7 +63,6 @@ ls ~/.bash_profile
 touch ~/.bash_profile
 ```
 
-
 3.Execute the follow commands at the terminal:
 
 ```bash
@@ -126,7 +125,7 @@ In order for Homebrew to work, we'll need to rely on a number of programs that
 come pre-installed on Linux. Install these tools **via the terminal** using the
 command:
 
-```
+```bash
 xcode-select --install
 ```
 
@@ -166,6 +165,7 @@ brew install caskroom/cask/brew-cask
 ```
 
 5.Lastly, install tidy-html5
+
 ```bash
 brew install tidy-html5
 ```
@@ -195,31 +195,24 @@ We're going to use Atom's package manager, `apm`, to add a number of helpful
 extensions to your Atom installation. For each package listed below, run
 `apm install <name-of-package>` in the terminal to perform the installation.
 
-- aligner
-- aligner-scss
-- aligner-css
-- aligner-ruby
-- atom-beautify
-- atom-jshint
-- editorconfig
-- esformatter
-- fixmyjs
-- git-diff-details
-- git-history
-- git-plus
-- language-ember-htmlbars
-- language-markdown
-- less-than-slash
-- linter
-- linter-csslint
-- linter-eslint
-- linter-markdown
-- linter-rubocop
-- linter-ruby
-- linter-scss-lint
-- linter-tidy
-- markdown-writer
-- sort-lines
+```bash
+  apm install aligner
+```
+
+```bash
+  apm install aligner-scss
+```
+
+```bash
+  apm install aligner-css
+```
+
+Now that we have some practice with running the 'apm install <package_name>' we
+do a shortcut where is runs the same command but installs all packages in one go!
+
+```bash
+apm install aligner-ruby atom-beautify atom-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-ember-htmlbars language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+```
 
 ## Installing NVM and Node/NPM
 

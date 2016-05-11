@@ -595,8 +595,6 @@ createdb `whoami`
 sudo -u postgres createuser `whoami` -s
 
 sudo -u postgres createdb `whoami`
-
-echo "export PATH=/usr/local/psql/bin:$PATH" >> ~/.bashrc
 ```
 
 Type `\q` to quit postgres

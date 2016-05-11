@@ -215,14 +215,15 @@ extensions to your Atom installation. For each package listed below, run
 - git-plus
 - language-ember-htmlbars
 - language-markdown
+- less-than-slash
 - linter
 - linter-csslint
 - linter-eslint
-- linter-tidy
 - linter-markdown
 - linter-rubocop
 - linter-ruby
 - linter-scss-lint
+- linter-tidy
 - markdown-writer
 - sort-lines
 

@@ -291,7 +291,8 @@ nvm use default
 available across all of our projects.
 
 ```bash
-npm install -g jshint grunt-cli
+npm install -g jshint
+npm install -g grunt-cli
 npm install -g jsonlint
 ```
 

@@ -6,7 +6,7 @@
 
 ## OS X
 
-Please upgrade to the latest version of OS X, El Capitan (10.11.3).
+Please upgrade to the latest version of OS X, El Capitan (10.11.4).
 
 ## Windows or Linux
 

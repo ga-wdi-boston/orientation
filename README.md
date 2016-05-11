@@ -509,12 +509,6 @@ brew install ruby-build
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
-then
-
-```bash
-rbenv install ruby-build
-```
-
 Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
 6.Install version 2.3 of Ruby and make it the system-wide default using the

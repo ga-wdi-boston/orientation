@@ -166,11 +166,8 @@ Mindset_**
 
 **MUST WATCH** [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
 
-Below you'll find the Expectations we have for you, as aspiring developers in
-this program:
-
-The goal of the program is not to produce working code, **working code is a
-by-product of the goal.** The goal of the program is to learn how to create
+**Please Note** : The goal of the program is not to produce working code, working code is a
+by-product of the goal. The goal of the program is to learn  how to create
 working code.
 
 ### Diagnostics

@@ -196,6 +196,15 @@ see around campus. This includes:
 
 ## Outcomes
 
+One of the great perks of this Immersive program would be the Outcomes support
+you receive upon successful completion of the Web Development Immersive Program.
+You will have a chance to hear from you Outcomes Producer and to get a high
+level snapshot of what you can expect for Outcomes throughout the course.
+
+You will have much more information provided during your first Outcomes
+Programming session, so not to worry if every question you have is not answered
+during this segment!
+
 ## Installfest
 
 Follow these instructions to set up your laptop for work in WDI. If you've

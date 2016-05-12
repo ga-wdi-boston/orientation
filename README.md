@@ -252,7 +252,7 @@ source $(brew --prefix nvm)/nvm.sh
 #### Linux
 
 ```bash
-export NVM_DIR="/home/your_username/.nvm"
+export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 

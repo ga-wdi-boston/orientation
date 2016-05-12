@@ -1,0 +1,18 @@
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input
+	safecrlf = false
+	quotepath = false
+	editor = atom --wait
+[pull]
+	rebase = true
+[push]
+	default = current
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[branch]
+	autosetuprebase = always

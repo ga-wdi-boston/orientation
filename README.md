@@ -114,6 +114,27 @@ the index card
 
 ## Workspace Culture
 
+Break into groups of three or four. In your group, discuss and outline your
+expectations of each other as colleagues. Then, we'll share what each group has
+discussed and record a social contract.
+
+Most groups of developers come up with something like the following:
+
+-   Respect is mutually given, not earned; follow [Wheaton's
+    Law](http://knowyourmeme.com/memes/wheatons-law)
+-   Be an open communicator; do not disengage when working in a group, and
+    practice active listening.
+-   Be open to constructive feedback; when giving feedback, be specific.
+-   Take others' intent into account; follow [Hanlon's
+    Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor).
+-   Be collaborative, share freely, and respect others' abilities and
+    preferences.
+-   Maintain a growth mindset and a good attitude.
+-   Ask lots of questions, but do your due diligence!
+-   Leave outside stress and your ego at the door.
+-   Foster a space where it safe to fail and learn from mistakes.
+-   Have fun!
+
 ## Staff Introductions
 
 ## Operations

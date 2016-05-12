@@ -31,17 +31,18 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 ## Table of Contents
 
- - [Agenda](#agenda)
- - [Consultant Team Introductions](#consultant-team-introductions)
- - [Alumni Panel](#alumni-panel)
- - [Consultant Q&A](#consultant-qa)
- - [Program Roadmap](#program-roadmap)
- - [Expectations & Policies](#expectations--policies)
- - [Workspace Culture](#workspace-culture)
- - [Staff Introductions](#staff-introductions)
- - [Operations](#operations)
- - [Outcomes](#outcomes)
- - [Installfest](#installfest)
+ -[Agenda](#agenda)
+ -[Consultant Team Introductions](#consultant-team-introductions)
+ -[Icebreakers](#icebreaker)
+ -[Alumni Panel](#alumni-panel)
+ -[Consultant Q&A](#consultant-qa)
+ -[Program Roadmap](#program-roadmap)
+ -[Expectations & Policies](#expectations--policies)
+ -[Workspace Culture](#workspace-culture)
+ -[Staff Introductions](#staff-introductions)
+ -[Operations](#operations)
+ -[Outcomes](#outcomes)
+ -[Installfest](#installfest)
 
 ## Agenda
 
@@ -79,6 +80,29 @@ portion of Orientation you can expect to learn:
 -   What they were doing prior to General Assembly
 -   Learn an interesting fact or guilty pleasure from each
 -   Learn their favorite applications and why
+
+## Icebreakers
+
+During this portion of orientation, we will begin to break the 'ice' and get
+to know eachother a bit better!
+
+### Two Truth's and a Lie
+
+Here's how to play:
+
+-   Write 3 interesting facts on the lined side of a 3x5 indexcard
+-   Two of the facts are **true** and one of the facts will be a **lie**
+-   Keep in mind that the lie should be believable like a truth and the truth's
+could be lies
+-   Cards are collected, shuffled and passed back out
+-   'Johnny' starts and reads the facts on the card he holds
+-   'Johnny' has 2 guesses to indentify the person whos card he's holding
+-   After 2 guess, if 'Johnny' is not correct, 'Jane' shares that it's her card
+-   'Johnny' now has 2 guesses to try and pick the fact that is the **lie**
+-   'Johnny' highlights which fact is the **lie** and 'Jane' on blank side of
+the index card
+-   'Jane' goes next and reads the facts on the card she holds
+-   This continues until all cards are read and indentified
 
 ## Alumni Panel
 

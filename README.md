@@ -160,6 +160,10 @@ First a foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and practice having a  **_Growth
 Mindset_**
 
+### Growth Mindset Diagram
+
+![Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
+
 ### MUST SEE
 
 [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
@@ -177,7 +181,8 @@ working code.
 recently-covered material
 2.  These diagnostics scores will not impact your completion; they are a tool
 for you and us to gauge your comprehension of the material
-3   **Don't stress out about these diagnostics, and don't obsess over the results**
+3   **Don't stress out about these diagnostics, and don't obsess over the
+results**
 
 #### Practice
 

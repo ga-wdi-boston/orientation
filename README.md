@@ -279,10 +279,14 @@ available across all of our projects.
 
 ```bash
 npm install -g jshint
-npm install -g grunt-cli
-npm install -g jsonlint
 ```
 
+Just like we did before with the Atom packages install, we can string together
+the various packages we'd like installed into one executable command:
+
+```bash
+npm install -g jsonlint grunt-cli
+```
 
 ## Git (and GitHub)
 

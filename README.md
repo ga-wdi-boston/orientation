@@ -106,6 +106,18 @@ the index card
 
 ## Alumni Panel
 
+Let's be honest, deciding to make the life changing decision to enroll in this
+full-time immersive program, most likely came with some questions and possible
+doubt. This portion of orientation will give you the opportunity to hear from
+alumni from past Web Development Immersive programs. You can expect to hear:
+
+-   What their experience was like in WDI
+-   What were some the challenges they faced during their cohorts
+-   What was something they wish they knew at the start of the program
+-   Looking back, what was something they heard but didn't really internalize
+and wish they had
+-   Open the floor up for questions
+
 ## Consultant Q&A
 
 ## Program Roadmap

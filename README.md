@@ -50,20 +50,20 @@ promptly at 9:00am and will run until 5:00pm. The day is split into two parts;
 Orientation and Install-fest. Below you'll find the agenda for the day _Please
 keep in mind that this agenda is subject to change_ :
 
-**9:00am | Opening and Team Introductions**\n
-**9:15am | Icebreakers**\n
-**10:00am | Alumni Panel**\n
-**10:30am | Break / Equipment Audit**\n
-**10:40am | Consultant Panel Q&A**\n
-**11:15am | Program Roadmap**\n
-**11:30am | Expectations & Policies**\n
-**12:00pm | Workspace Culture**\n
-**12:15pm | Campus Staff Introductions**\n
-**12:30pm | Lunch**\n
-**1:30pm | Operations Presentation**\n
-**1:45pm | Outcomes Presentation**\n
-**2:00pm | Install-Fest**\n
-**5:00pm | Wrap up and Celebration**\n
+###### 9:00am | Opening and Team Introductions
+###### 9:15am | Icebreakers
+###### 10:00am | Alumni Panel
+###### 10:30am | Break / Equipment Audit
+###### 10:40am | Consultant Panel Q&A
+###### 11:15am | Program Roadmap
+###### 11:30am | Expectations & Policies
+###### 12:00pm | Workspace Culture
+###### 12:15pm | Campus Staff Introductions
+###### 12:30pm | Lunch
+###### 1:30pm | Operations Presentation
+###### 1:45pm | Outcomes Presentation
+###### 2:00pm | Install-Fest
+###### 5:00pm | Wrap up and Celebration
 
 ## Consultant Team Introductions
 

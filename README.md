@@ -417,55 +417,49 @@ brew install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
-1.Open your `.bashrc` file by typing `open .bashrc` and paste in the following:
+1.  Open your `.bashrc` file by typing `open .bashrc` and paste in the
+    following:
 
-#### OS X
+    ```bash
+    # OS X
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
+    ```
 
-```bash
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-```
+    ```bash
+    # Ubuntu
+    export NVM_DIR="/home/$(whoami)/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+    ```
 
-#### Linux
+1.  Use NVM to install the latest longterm stable version of Node (4.4.4)
 
-```bash
-export NVM_DIR="/home/$(whoami)/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-```
+    ```bash
+    nvm install v4
+    nvm alias lts v4
+    nvm alias default lts ## or, if v5 is already installed:
+                          # nvm alias default v4
+                          ## then,
+    nvm use default
+    ```
 
-2.Use NVM to install the latest longterm stable version of Node (4.4.0)
+1.  Restart your Terminal by quitting the application and re-opening it.
 
-```bash
-nvm install v4
-nvm alias lts v4
-nvm alias default lts
-```
+1.  Finally, use NPM to install the Node modules mentioned earlier and make them
+    available across all of our projects.
 
-***If node version 5 is already installed type***
+    ```bash
+    npm install -g npm
+    npm install -g jshint
+    ```
 
-```bash
-nvm alias default v4
-```
+    Just like we did before with the Atom packages install, we can string
+    together the various packages we'd like installed into one executable
+    command:
 
-then
-
-```bash
-nvm use default
-```
-
-3.Finally, use NPM to install the Node modules mentioned earlier and make them
-available across all of our projects.
-
-```bash
-npm install -g jshint
-```
-
-Just like we did before with the Atom packages install, we can string together
-the various packages we'd like installed into one executable command:
-
-```bash
-npm install -g jsonlint grunt-cli remark-lint jscs bower ember
-```
+    ```bash
+    npm install -g jsonlint grunt-cli remark-lint jscs bower ember
+    ```
 
 ## Git (and GitHub)
 

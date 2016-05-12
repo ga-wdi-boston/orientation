@@ -31,18 +31,18 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 ## Table of Contents
 
- -[Agenda](#agenda)
- -[Consultant Team Introductions](#consultant-team-introductions)
- -[Icebreakers](#icebreaker)
- -[Alumni Panel](#alumni-panel)
- -[Consultant Q&A](#consultant-qa)
- -[Program Roadmap](#program-roadmap)
- -[Expectations & Policies](#expectations--policies)
- -[Workspace Culture](#workspace-culture)
- -[Staff Introductions](#staff-introductions)
- -[Operations](#operations)
- -[Outcomes](#outcomes)
- -[Installfest](#installfest)
+-   [Agenda](#agenda)
+-   [Consultant Team Introductions](#consultant-team-introductions)
+-   [Icebreakers](#icebreaker)
+-   [Alumni Panel](#alumni-panel)
+-   [Consultant Q&A](#consultant-qa)
+-   [Program Roadmap](#program-roadmap)
+-   [Expectations & Policies](#expectations--policies)
+-   [Workspace Culture](#workspace-culture)
+-   [Staff Introductions](#staff-introductions)
+-   [Operations](#operations)
+-   [Outcomes](#outcomes)
+-   [Installfest](#installfest)
 
 ## Agenda
 

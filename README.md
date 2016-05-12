@@ -160,14 +160,6 @@ First a foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and practice having a  **_Growth
 Mindset_**
 
-Growth Mindset:
-
-[Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
-
-The image above is a great visual representation of what each of you will go
-through **several times** during this program! It is also a great visual of what
-makes a Growth Minded individual!
-
 ### MUST SEE
 
 [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)

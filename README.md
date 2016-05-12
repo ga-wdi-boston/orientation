@@ -47,23 +47,26 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 Orientation is a very packed, busy day for everyone involved! The day will begin
 promptly at 9:00am and will run until 5:00pm. The day is split into two parts;
-Orientation and Install-fest. Below you'll find the agenda for the day _Please
-keep in mind that this agenda is subject to change_ :
+Orientation and Install-fest. Below you'll find the agenda for the day:
 
-###### 9:00am | Opening and Team Introductions
-###### 9:15am | Icebreakers
-###### 10:00am | Alumni Panel
-###### 10:30am | Break / Equipment Audit
-###### 10:40am | Consultant Panel Q&A
-###### 11:15am | Program Roadmap
-###### 11:30am | Expectations & Policies
-###### 12:00pm | Workspace Culture
-###### 12:15pm | Campus Staff Introductions
-###### 12:30pm | Lunch
-###### 1:30pm | Operations Presentation
-###### 1:45pm | Outcomes Presentation
-###### 2:00pm | Install-Fest
-###### 5:00pm | Wrap up and Celebration
+| Time        | Event                          |
+| ------------|:------------------------------:|
+| 9:00am      | Opening and Team Introductions |
+| 9:15am      | Icebreakers                    |
+| 10:00am     | Alumni Panel                   |
+| 10:30am     | Break / Equipment Audit        |
+| 10:40am     | Consultant Panel Q&A           |
+| 11:15am     | Program Roadmap                |
+| 11:30am     | Expectations & Policies        |
+| 12:00pm     | Workspace Culture              |
+| 12:15pm     | Campus Staff Introductions     |
+| 12:30pm     | Lunch                          |
+| 1:30pm      | Operations Presentation        |
+| 1:45pm      | Outcomes Presentation          |
+| 2:00pm      | Installfest                    |
+| 5:00pm      | Wrap up and Celebration        |
+
+**_Times and Events are subject to change_**
 
 ## Consultant Team Introductions
 

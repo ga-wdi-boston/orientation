@@ -259,6 +259,7 @@ export NVM_DIR="/home/$(whoami)/.nvm"
 2.Use NVM to install the latest longterm stable version of Node (4.4.0)
 
 ```bash
+nvm install v4
 nvm alias lts v4
 nvm alias default lts
 ```

@@ -161,6 +161,7 @@ you understand what a **_Growth Mindset_** is and practice having a  **_Growth
 Mindset_**
 
 Growth Mindset:
+
 [Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
 
 The image above is a great visual representation of what each of you will go

@@ -152,6 +152,92 @@ Here are some example questions you should ask:
 
 ## Expectations & Policies
 
+We take great pride in our Web Development Immersive program! Part of the reason
+is due to **very** clear expectations and policies we have in place. You will
+these below.
+
+First a foremost, to be successful in this program, it is **imperative** that
+you understand what a **_Growth Mindset_** is and practice having a  **_Growth
+Mindset_**
+
+**GROWTH MINDSET DIAGRAM**
+
+![Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
+
+**MUST WATCH** [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
+
+**Please Note** : The goal of the program is not to produce working code, working code is a
+by-product of the goal. The goal of the program is to learn  how to create
+working code.
+
+### Diagnostics
+
+1.  Diagnostics will be given regularly, and are designed to reflect
+recently-covered material
+2.  These diagnostics scores will not impact your completion; they are a tool
+for you and us to gauge your comprehension of the material
+3   **Don't stress out about these diagnostics, and don't obsess over the
+results**
+
+### Practice
+
+-   Practice will be assigned semi-regularly, and will be assessed in terms of:
+
+    -   Code quality (e.g. indentation, good comments, readability, etc.)
+    -   Functionality (Does it run correctly? Is it robust? Is it efficient?)
+
+-   However, as important as doing your practice work is, remember that the
+most important thing is what you're learning.
+
+### Professionalism
+
+-   We will treat you like adults and expect you to behave like adults.
+-   Disagreements with other students should be resolved on your own.
+-   As with every rule, there are exceptions. If any student is behaving in a
+way that is disrespectful and/or dangerous towards their fellow developers,
+that should be brought to the producer's attention immediately. Similarly,
+any issues that involved consultants should be brought to the producer's
+attention
+
+### Independence
+
+-   We will do our best to train you with everything we can in the time we have.
+ However, the ultimate responsibility for what you learn lies with you.
+-   If you're having trouble with material, ask questions. See out consultants
+outside of class. Find extra tutorials online.
+-   If you're ahead, ask for more work!
+
+### Attendance
+
+#### Late arrivals and Early departures
+
+-   If you arrive after 9:15am (Program beings at 9:00am) you are late. Any
+training missed is your responsibility to make up.
+-   If you leave before 5:00pm, you have left early.
+-   If you're late arrivals and early departures exceed 5, you will not
+successfully complete the program.
+
+#### Absences
+
+-   If you miss more than 3 days regardless of reason, you will not successfully
+complete the program
+-   If you know of a planned absence(s), please contract the producer ASAP
+
+### Successful Completion Requirements
+
+-   Program Attendance
+-   Successful completion of ALL projects
+-   Submission of all Assignments
+-   Outcomes Programming Attendance
+-   Outcomes Programming Participation
+
+### Rewards for Successful Completion
+
+-   Outcomes Support
+-   Participation in the Meet & Hire Letter and Certificate of Completion
+-   Participation in sem-anual Graduation Celebration
+-   You may also request a reference or recommendation from Consultants
+
 ## Workspace Culture
 
 Break into groups of three or four. In your group, discuss and outline your

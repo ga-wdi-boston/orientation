@@ -177,6 +177,21 @@ Most groups of developers come up with something like the following:
 
 ## Staff Introductions
 
+Majority of your experiences in the program workspace will have interactions
+with the consultant, production, outcomes and operations teams. However, there
+are addition departments working hard, behind the scenes, to ensure your
+experience along with that of future programs are the best they possibly can be.
+This portion will allow you to meet some addition friendly faces that you will
+see around campus. This includes:
+
+-   Senior Leadership
+-   Marketing
+-   Partnerships
+-   Classes, Events & Workshops
+-   Admissions
+-   Product
+-   Other Immersive Programs
+
 ## Operations
 
 ## Outcomes

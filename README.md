@@ -490,6 +490,21 @@ following:
 ```bash
 Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
 ```
+## Install [`hub`](https://github.com/github/hub)
+
+> hub is a command line tool that wraps git in order to extend it with extra
+> features and commands that make working with GitHub easier. -- [`hub`
+> README](https://github.com/github/hub).
+
+```bash
+brew install hub
+```
+
+After installing `hub`, add the following line to your `~/.bashrc`.
+
+```bash
+eval "$(hub alias -s)"
+```
 
 ## Rbenv, Ruby, and Rails
 

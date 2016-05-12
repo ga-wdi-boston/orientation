@@ -160,13 +160,11 @@ First a foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and practice having a  **_Growth
 Mindset_**
 
-**Growth Mindset Diagram**
+**GROWTH MINDSET DIAGRAM**
 
 ![Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
 
 **MUST WATCH** [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
-
-[The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
 
 Below you'll find the Expectations we have for you, as aspiring developers in
 this program:

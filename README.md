@@ -111,12 +111,24 @@ full-time immersive program, most likely came with some questions and possible
 doubt. This portion of orientation will give you the opportunity to hear from
 alumni from past Web Development Immersive programs. You can expect to hear:
 
+-   Names of each alumni panelist and what they were doing before WDI
+-   What the alumni do now after successfully completing the program
 -   What their experience was like in WDI
--   What were some the challenges they faced during their cohorts
+-   What some the challenges were that they faced during their cohorts
 -   What was something they wish they knew at the start of the program
--   Looking back, what was something they heard but didn't really internalize
-and wish they had
 -   Open the floor up for questions
+
+Example questions to ask:
+
+-   What do you wish someone had told you? Would you have believed it?
+-   How long was the gap in time between learning something and feeling
+comfortable using it?
+-   What is your learning process on-the-job?
+-   How important were the projects for your learning and comfort?
+-   What was it like day-to-day and week-to-week during the program?
+-   How did you convince someone that you can do the job even though you
+don't have experience?
+-   What was your highest level of education? Did your degree matter?
 
 ## Consultant Q&A
 

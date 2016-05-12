@@ -2,13 +2,24 @@
 
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Before you come in
+# Web Development Immersive Orientation
 
-## OS X
+## Welcome to Web Developement Immersive
+
+We are super excited to have you part of our flagship program here at General
+Assembly! This README will provide all the information you will need to be
+successfully oriented into the Web Development Immersive Program.
+
+## Before we get started
+
+Please be sure that your computer is up-to-date with the most recent operating
+system version.
+
+### OS X
 
 Please upgrade to the latest version of OS X, El Capitan (10.11.4).
 
-## Windows or Linux
+### Windows or Linux
 
 General Assembly no longer officially supports Windows or Linux in immersive
 programs. If you have a Windows or a Linux machine, you should contact your
@@ -18,8 +29,41 @@ Immersive Producer. Instructors may provide support for these operating systems
 If you are on a Windows machine, you **must** set up your computer to dual-boot
 Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
+## Table of Contents
 
-# Installfest
+ - Agenda
+ - Consultant Team Introductions
+ - Alumni Panel
+ - Consultant Q&A
+ - Program Roadmap
+ - Expectations & Policies
+ - Workspace Culture
+ - Staff Introductions
+ - Operations
+ - Outcomes
+ - Installfest
+
+## Agenda
+
+## Consultant Team Introductions
+
+## Alumni Panel
+
+## Consultant Q&A
+
+## Program Roadmap
+
+## Expectations & Policies
+
+## Workspace Culture
+
+## Staff Introductions
+
+## Operations
+
+## Outcomes
+
+## Installfest
 
 Follow these instructions to set up your laptop for work in WDI. If you've
 previously set up a development environment on your computer, you may wish to

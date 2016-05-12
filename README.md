@@ -132,6 +132,22 @@ don't have experience?
 
 ## Consultant Q&A
 
+You just heard from various WDI alumni, now is your opportunity
+to ask the Consultant team questions you'd like answered. From each
+Consultant, you can expect to hear:
+
+-   More about their background and journey
+-   How they began their careers in web development
+-   The biggest challenge they had in starting their careers
+-   Projects they've worked on
+
+Here are some example questions you should ask:
+
+-   What do you believe the key to success is in this program?
+-   What is you personality and communication style?
+-   How do I keep a positive attitude when things seem impossible?
+-   Any words of wisdom before we begin this journey?
+
 ## Program Roadmap
 
 ## Expectations & Policies

@@ -90,9 +90,9 @@ to know eachother a bit better!
 
 Here's how to play:
 
--   Write 3 interesting facts on the lined side of a 3x5 indexcard
+-   Write 3 interesting facts on the lined side of a 3x5 index card
 -   Two of the facts are **true** and one of the facts will be a **lie**
--   Keep in mind that the lie should be believable like a truth and the truth's
+-   Keep in mind that the lie should be believable like a truth and the truths
 could be lies
 -   Cards are collected, shuffled and passed back out
 -   'Johnny' starts and reads the facts on the card he holds
@@ -102,7 +102,7 @@ could be lies
 -   'Johnny' highlights which fact is the **lie** and 'Jane' on blank side of
 the index card
 -   'Jane' goes next and reads the facts on the card she holds
--   This continues until all cards are read and indentified
+-   This continues until everyone has played!
 
 ## Alumni Panel
 

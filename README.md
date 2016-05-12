@@ -6,14 +6,14 @@
 
 ## Welcome to Web Developement Immersive
 
-We are super excited to have you part of our flagship program here at General
+We are super excited to have you as part of our flagship program here at General
 Assembly! This README will provide all the information you will need to be
 successfully oriented into the Web Development Immersive Program.
 
 ## Before we get started
 
-Please be sure that your computer is up-to-date with the most recent operating
-system version.
+Please be sure that your computer is up-to-date with the most recent version of
+your operating system.
 
 ### OS X
 

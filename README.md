@@ -70,6 +70,16 @@ Orientation and Install-fest.
 
 ## Consultant Team Introductions
 
+Throughout the Web Development Immersive program, you will have a dedicated team
+of Consultants provide you with training, support and direction. During this
+portion of Orientation you can expect to learn:
+
+-   Names of the consultant team members
+-   How long they have been with General Assembly
+-   What they were doing prior to General Assembly
+-   Learn an interesting fact or guilty pleasure from each
+-   Learn their favorite applications and why
+
 ## Alumni Panel
 
 ## Consultant Q&A

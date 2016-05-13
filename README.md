@@ -33,7 +33,7 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 -   [Agenda](#agenda)
 -   [Consultant Team Introductions](#consultant-team-introductions)
--   [Icebreakers](#icebreaker)
+-   [Icebreakers](#icebreakers)
 -   [Alumni Panel](#alumni-panel)
 -   [Consultant Q&A](#consultant-qa)
 -   [Program Roadmap](#program-roadmap)
@@ -149,6 +149,53 @@ Here are some example questions you should ask:
 -   Any words of wisdom before we begin this journey?
 
 ## Program Roadmap
+
+Web Development Immersive is split into 4 main units. Below you'll find a high
+level breakdown of what you can expect in each unit:
+
+**UNIT 1**
+
+-   Learn programming fundamentals with JavaScript and practice using basic
+development tools
+-   Use HTML and CSS to construct a single page application, and use JS and
+jQuery to interact with them through the DOM. Use AJAX to communicate with an
+API
+-   _Project 1_ : Build in-browser game utilizing a backend API
+
+**UNIT 2**
+
+-   Revisit programming fundamentals with Ruby, and take our first steps into
+Rails
+-   Learn about using SQL databases and persisting data in Rails
+-   Practice building Rails back-ends that integrate into client-side apps via
+an API
+-   _Project 2_ : Build your first full-stack application
+
+**UNIT 3**
+
+-   Explore building an API in JavaScript using Node.js and Express
+-   Explore a non-relational database, MongoDB, and integrate it into Express
+using the Mongoose Objext-Document Mapper. Use Express middleware to add new
+features to an Express apps
+-   _Project 3_ : Build your second full-stack application as a group
+
+**UNIT 4**
+
+-   Learn about a client-side JavaScript framework, Ember.js, and learn how to
+add it on top of an API
+-   _Capstone Project_ : Build a full-stack application that will serve as your
+main portfolio piece
+
+**DAY IN THE LIFE OF**
+
+|   Time of Day    |      Event        |
+|:-----------------|:-----------------:|
+| 9:00am - 9:30am  | Diagnostic        |
+| 9:30am - 12:30pm | Training Bloc     |
+| 12:30pm - 1:30pm | Lunch             |
+| 1:30pm - 4:00pm  | Training/Workshop |
+| 4:00pm - 5:00pm  | 1-on-1 / Workshop |
+| 5:00pm - 10:00pm | Practice/Study    |
 
 ## Expectations & Policies
 

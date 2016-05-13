@@ -188,14 +188,14 @@ main portfolio piece
 
 **DAY IN THE LIFE OF**
 
-|   Time of Day    |      Event        |
+| Time of Day      |       Event       |
 |:-----------------|:-----------------:|
-| 9:00am - 9:30am  | Diagnostic        |
-| 9:30am - 12:30pm | Training Bloc     |
-| 12:30pm - 1:30pm | Lunch             |
+| 9:00am - 9:30am  |    Diagnostic     |
+| 9:30am - 12:30pm |   Training Bloc   |
+| 12:30pm - 1:30pm |       Lunch       |
 | 1:30pm - 4:00pm  | Training/Workshop |
 | 4:00pm - 5:00pm  | 1-on-1 / Workshop |
-| 5:00pm - 10:00pm | Practice/Study    |
+| 5:00pm - 10:00pm |  Practice/Study   |
 
 ## Expectations & Policies
 
@@ -573,7 +573,7 @@ Now that we have some practice with running the 'apm install <package_name>' we
 do a shortcut where is runs the same command but installs all packages in one go!
 
 ```bash
-apm install aligner-ruby atom-beautify atom-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-ember-htmlbars language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+apm install aligner-ruby atom-beautify atom-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
 ## Installing NVM and Node/NPM

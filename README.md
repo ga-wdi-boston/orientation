@@ -287,9 +287,9 @@ Operations team.
 Who makes up our Operations team? Our **Campus Commander** and
 **Front-Lines** staff.
 
-The Operations team is responsible for so many crucial
-parts of our campus and programs, that we cannot list them all, but here are
-several things you could go to them for:
+The Operations team is responsible for so many crucial parts of our campus and
+programs, that we cannot list them all, but here are several things you could go
+to them for:
 
 -   Adjusting the temperature of the workspace
 -   Conference room bookings
@@ -299,11 +299,11 @@ several things you could go to them for:
 -   And many more!
 
 Since we are in a co-working space called, WeWork, there are some additional
-amenities you receive. But first, we should define our what our relationship
-with WeWork looks like. We rent out our 4 workspace rooms from WeWork. What this
-means is that we **do not own** WeWork **nor** does WeWork own General Assembly!
-Here are area's that you can use, but are not **_exclusive_** to General
-Assmebly students or staff:
+amenities you'll have access to. But first, we should define what our
+relationship with WeWork looks like. We rent out our 4 workspace rooms from
+WeWork. What this means is that we **do not own** WeWork **nor** does WeWork own
+General Assembly! Here are area's that you'll have access to, but are not
+**_exclusive_** to General Assmebly students or staff:
 
 -   The Dugout
 -   Kitchen areas
@@ -313,7 +313,7 @@ booths, etc. on those floors)
 How do I get access to these amenities you might ask. You have to provide three
 pieces of information to our Campus Commander:
 
--   Picture of your PhotoID / Identification
+-   Picture of your Photo I.D. / Identification
 -   Picture of you, shoulder up, with a white background (Selfie)
 -   First Name, Last Name and Email Address
 

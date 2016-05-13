@@ -188,14 +188,14 @@ main portfolio piece
 
 **DAY IN THE LIFE OF**
 
-|   Time of Day    |      Event        |
+| Time of Day      |       Event       |
 |:-----------------|:-----------------:|
-| 9:00am - 9:30am  | Diagnostic        |
-| 9:30am - 12:30pm | Training Bloc     |
-| 12:30pm - 1:30pm | Lunch             |
+| 9:00am - 9:30am  |    Diagnostic     |
+| 9:30am - 12:30pm |   Training Bloc   |
+| 12:30pm - 1:30pm |       Lunch       |
 | 1:30pm - 4:00pm  | Training/Workshop |
 | 4:00pm - 5:00pm  | 1-on-1 / Workshop |
-| 5:00pm - 10:00pm | Practice/Study    |
+| 5:00pm - 10:00pm |  Practice/Study   |
 
 ## Expectations & Policies
 
@@ -698,7 +698,7 @@ to ignore.
 
 ```bash
 git config --global core.excludesfile ~/.gitignore
-echo ".DS_Store" >> ~/.gitignore
+cp .gitignore ~/.gitignore # from this repository directory
 ```
 
 5.Configure Git

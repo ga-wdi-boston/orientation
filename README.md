@@ -144,7 +144,7 @@ Consultant, you can expect to hear:
 Here are some example questions you should ask:
 
 -   What do you believe the key to success is in this program?
--   What is you personality and communication style?
+-   What is your personality and communication style?
 -   How do I keep a positive attitude when things seem impossible?
 -   Any words of wisdom before we begin this journey?
 
@@ -199,13 +199,12 @@ main portfolio piece
 
 ## Expectations & Policies
 
-We take great pride in our Web Development Immersive program! Part of the reason
-is due to **very** clear expectations and policies we have in place. You will
-these below.
+We take great pride in our Web Development Immersive program! A main reason why
+our program is so successful is due to **very** clear expectations and policies
+we have in place. You will these below.
 
-First a foremost, to be successful in this program, it is **imperative** that
-you understand what a **_Growth Mindset_** is and practice having a  **_Growth
-Mindset_**
+First and foremost, to be successful in this program, it is **imperative** that
+you understand what a **_Growth Mindset_** is and have one!
 
 **GROWTH MINDSET DIAGRAM**
 
@@ -213,17 +212,17 @@ Mindset_**
 
 **MUST WATCH** [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
 
-**Please Note** : The goal of the program is not to produce working code, working code is a
-by-product of the goal. The goal of the program is to learn  how to create
-working code.
+**Please Note** : The goal of the program is not to produce working code,
+working code is a by-product of the goal. The goal of the program is to learn
+how to create working code.
 
 ### Diagnostics
 
-1.  Diagnostics will be given regularly, and are designed to reflect
+-   Diagnostics will be given regularly, and are designed to reflect
 recently-covered material
-2.  These diagnostics scores will not impact your completion; they are a tool
+-   These diagnostics scores will not impact your completion; they are a tool
 for you and us to gauge your comprehension of the material
-3   **Don't stress out about these diagnostics, and don't obsess over the
+-   **Don't stress out about these diagnostics, and don't obsess over the
 results**
 
 ### Practice
@@ -244,12 +243,14 @@ most important thing is what you're learning.
 way that is disrespectful and/or dangerous towards their fellow developers,
 that should be brought to the producer's attention immediately. Similarly,
 any issues that involved consultants should be brought to the producer's
-attention
+attention immediately
+-   Please see the 'Code of Conduct' portion of your student enrollment
+agreement if you have questions about this
 
 ### Independence
 
 -   We will do our best to train you with everything we can in the time we have.
- However, the ultimate responsibility for what you learn lies with you.
+ However, the ultimate responsibility for what you learn lies with **YOU***.
 -   If you're having trouble with material, ask questions. See out consultants
 outside of class. Find extra tutorials online.
 -   If you're ahead, ask for more work!
@@ -258,22 +259,22 @@ outside of class. Find extra tutorials online.
 
 #### Late arrivals and Early departures
 
--   If you arrive after 9:15am (Program beings at 9:00am) you are late. Any
+-   If you arrive after **9:15am** (Program beings at 9:00am) you are late. Any
 training missed is your responsibility to make up.
--   If you leave before 5:00pm, you have left early.
--   If you're late arrivals and early departures exceed 5, you will not
+-   If you leave before **5:00pm**, you have left early.
+-   If you're late arrivals and early departures exceed **5**, you will not
 successfully complete the program.
 
 #### Absences
 
--   If you miss more than 3 days regardless of reason, you will not successfully
+-   If you miss more than **3** days regardless of reason, you will not successfully
 complete the program
--   If you know of a planned absence(s), please contract the producer ASAP
+-   If you know of a planned absence(s), please contract a producer ASAP
 
 ### Successful Completion Requirements
 
 -   Program Attendance
--   Successful completion of ALL projects
+-   Successful completion of **ALL** projects
 -   Submission of all Assignments
 -   Outcomes Programming Attendance
 -   Outcomes Programming Participation
@@ -281,7 +282,8 @@ complete the program
 ### Rewards for Successful Completion
 
 -   Outcomes Support
--   Participation in the Meet & Hire Letter and Certificate of Completion
+-   Participation in the Meet & Hire
+-   Letter and Certificate of Completion
 -   Participation in sem-anual Graduation Celebration
 -   You may also request a reference or recommendation from Consultants
 
@@ -310,8 +312,8 @@ Most groups of developers come up with something like the following:
 
 ## Staff Introductions
 
-Majority of your experiences in the program workspace will have interactions
-with the consultant, production, outcomes and operations teams. However, there
+Majority of your experiences in the program workspace will have you interact
+with the consultants, production, outcomes and operations teams. However, there
 are addition departments working hard, behind the scenes, to ensure your
 experience along with that of future programs are the best they possibly can be.
 This portion will allow you to meet some addition friendly faces that you will
@@ -323,7 +325,7 @@ see around campus. This includes:
 -   Classes, Events & Workshops
 -   Admissions
 -   Product
--   Other Immersive Programs
+-   Other Immersive Programs Teams
 
 ## Operations
 
@@ -372,13 +374,15 @@ We will be collecting these access cards on your final day of the program.
 
 ## Outcomes
 
-One of the great perks of this Immersive program would be the Outcomes support
-you receive upon successful completion of the Web Development Immersive Program.
-You will have a chance to hear from you Outcomes Producer and to get a high
-level snapshot of what you can expect for Outcomes throughout the course.
+One of the most valuable resources and benefits from participating in an
+Immersive Program at General Assembly is our Outcomes Team. Upon successful
+completion of the Web Development Immersive Program, you will have access to
+this great resourse! During this segment, you will have a chance to hear from
+you Outcomes Producer and to get a high level snapshot of what you can expect
+for Outcomes throughout the course.
 
 You will have much more information provided during your first Outcomes
-Programming session, so not to worry if every question you have is not answered
+Programming session, so do not worry if every question you have is not answered
 during this segment!
 
 ## Installfest
@@ -386,12 +390,12 @@ during this segment!
 Follow these instructions to set up your laptop for work in WDI. If you've
 previously set up a development environment on your computer, you may wish to
 skip some of these steps; **do not do so** without first checking with an
-instructor!
+consultant!
 
 If at any point you are unsure of whether you have done something correctly,
-ask an instructor. It's important in many cases that we do these steps in order.
+ask an consultant. It's important in many cases that we do these steps in order.
 
-## OS X (Only)
+### OS X (Only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
 To smooth out *some* of the differences, we need to change how OS X loads our
@@ -412,8 +416,8 @@ touch ~/.bashrc
 
 This creates an empty file for us.
 
-2.Check if you have a `.bash_profile` in your home directory. Open your
-terminal and type
+2.Check if you have a `.bash_profile` in your home directory. In your
+terminal type:
 
 ```bash
 ls ~/.bash_profile
@@ -473,7 +477,7 @@ It should look like this:
 /sbin
 ```
 
-## Homebrew
+### Homebrew
 
 Those of you who are on Ubuntu already have a powerful package manager, `apt`,
 built into your operating system. However, OS X doesn't come with a package
@@ -481,7 +485,7 @@ manager installed, so we'll be installing a 3rd-party package manager called
 Homebrew to install software from the command line. ***If you're running Linux,
 please hold tight until we get to the section on Atom.***
 
-## Command Line Tools
+### Command Line Tools
 
 In order for Homebrew to work, we'll need to rely on a number of programs that
 come pre-installed on Linux. Install these tools **via the terminal** using the
@@ -495,13 +499,13 @@ This may require that you run a Software Update before proceeding.
 
 ### Install Homebrew
 
-1.First, enter this command into your terminal:
+1.  First, enter this command into your terminal:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2.Homebrew has a built-in diagnostic tool to determine if it's working
+2.  Homebrew has a built-in diagnostic tool to determine if it's working
 correctly; you can run it by entering the following command in your terminal:
 
 ```bash
@@ -510,7 +514,7 @@ brew doctor
 
 **NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these
 errors are probably minor, but some might not be; please wait until one of the
-instructors has given you the go-ahead before moving on.
+consultants has given you the go-ahead before moving on.
 
 3.Once Homebrew says `Your system is ready to brew`, run the following command
 update Homebrew's directory of packages.
@@ -519,20 +523,13 @@ update Homebrew's directory of packages.
 brew update
 ```
 
-4.Install Brew Cask, a Homebrew add-on for installing GUI applications
-from the command line.
-
-```bash
-brew install caskroom/cask/brew-cask
-```
-
-5.Lastly, install tidy-html5
+4.Lastly, install tidy-html5
 
 ```bash
 brew install tidy-html5
 ```
 
-## Atom
+### Atom
 
 The text editor we'll be using in this course is called **Atom**; it was
 developed by the GitHub team, and is highly extensible.
@@ -570,13 +567,14 @@ extensions to your Atom installation. For each package listed below, run
 ```
 
 Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one go!
+do a shortcut where is runs the same command but installs all packages in one
+go!
 
 ```bash
 apm install aligner-ruby atom-beautify atom-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
-## Installing NVM and Node/NPM
+### Installing NVM and Node/NPM
 
 We're going to be installing Node next; Node (and its various packages) will be
 the foundation of a large part of the course. First, though, we're going to
@@ -602,51 +600,52 @@ brew install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
-1.  Open your `.bashrc` file by typing `open .bashrc` and paste in the
+-   Open your `.bashrc` file by typing `open .bashrc` and paste in the
     following:
 
-    ```bash
-    # OS X
-    export NVM_DIR=~/.nvm
-    source $(brew --prefix nvm)/nvm.sh
-    ```
+```bash
+# OS X
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
 
-    ```bash
-    # Ubuntu
-    export NVM_DIR="/home/$(whoami)/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-    ```
+```bash
+# Ubuntu
+export NVM_DIR="/home/$(whoami)/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+```
+#### OS X
 
-1.  Use NVM to install the latest longterm stable version of Node (4.4.4)
+-   Use NVM to install the latest longterm stable version of Node (4.4.4)
 
-    ```bash
-    nvm install v4
-    nvm alias lts v4
-    nvm alias default lts ## or, if v5 is already installed:
-                          # nvm alias default v4
-                          ## then,
-    nvm use default
-    ```
+```bash
+nvm install v4
+nvm alias lts v4
+nvm alias default lts ## or, if v5 is already installed:
+                      # nvm alias default v4
+                      ## then,
+nvm use default
+```
 
-1.  Restart your Terminal by quitting the application and re-opening it.
+-   Restart your Terminal by quitting the application and re-opening it.
 
-1.  Finally, use NPM to install the Node modules mentioned earlier and make them
+-   Finally, use NPM to install the Node modules mentioned earlier and make them
     available across all of our projects.
 
-    ```bash
-    npm install -g npm
-    npm install -g jshint
-    ```
+```bash
+npm install -g npm
+npm install -g jshint
+```
 
-    Just like we did before with the Atom packages install, we can string
-    together the various packages we'd like installed into one executable
-    command:
+Just like we did before with the Atom packages install, we can string
+together the various packages we'd like installed into one executable
+command:
 
-    ```bash
-    npm install -g jsonlint grunt-cli remark-lint jscs bower ember
-    ```
+```bash
+npm install -g jsonlint grunt-cli remark-lint jscs bower ember
+```
 
-## Git (and GitHub)
+### Git (and GitHub)
 
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
@@ -660,18 +659,18 @@ Enter the command `brew install git`.
 
 Enter the command `sudo apt-get install git`.
 
-## Configuring Git
+### Configuring Git
 
 Now let's take care of some settings.
 
-1.Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
+1.  Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
 variable so that commit message pop-ups open in Atom. Run the command:
 
 ```bash
 atom ~/.bashrc
 ```
 
-2.Paste the following code into the bottom of the file:
+2.  Paste the following code into the bottom of the file:
 
 ```bash
 # Git
@@ -684,13 +683,13 @@ export EDITOR='atom --wait'
 export VISUAL='atom --wait'
 ```
 
-3.Colorize git in the command line
+3.  Colorize git in the command line
 
 ```bash
 git config --global color.ui true
 ```
 
-4.Set up a global 'excludesfile', listing all the files that we might want git
+4.  Set up a global 'excludesfile', listing all the files that we might want git
 to ignore.
 
 ```bash
@@ -698,7 +697,7 @@ git config --global core.excludesfile ~/.gitignore
 cp .gitignore ~/.gitignore # from this repository directory
 ```
 
-5.Configure Git
+5.  Configure Git
 
 ```bash
 git config --global user.name "<yourUsername>"
@@ -710,12 +709,12 @@ git config --global branch.autosetupmerge true
 git config --global core.editor "atom --wait"
 ```
 
-## Linking with GitHub
+### Linking with GitHub
 
 In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
 
-1.Generate a new key by running
+1.  Generate a new key by running
 
 ```bash
 ssh-keygen -t rsa -C "<your_email@example.com>"
@@ -724,13 +723,13 @@ ssh-keygen -t rsa -C "<your_email@example.com>"
 (Feel free to put in a password or select a non-default location for your keys,
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
-2.Add this new key to your system by running:
+2.  Add this new key to your system by running:
 
 ```bash
 ssh-add ~/.ssh/id_rsa
 ```
 
-3.Copy the new key to your clipboard using either:
+3.  Copy the new key to your clipboard using either:
 
 #### OSX
 
@@ -744,7 +743,7 @@ ssh-add ~/.ssh/id_rsa
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
 
-4.Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
+4.  Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
 and paste in your SSH key. To test it out, type the following into the command
 line:
 
@@ -766,7 +765,7 @@ following:
 ```bash
 Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
 ```
-## Install [`hub`](https://github.com/github/hub)
+### Install [`hub`](https://github.com/github/hub)
 
 > hub is a command line tool that wraps git in order to extend it with extra
 > features and commands that make working with GitHub easier. -- [`hub`
@@ -782,13 +781,13 @@ After installing `hub`, add the following line to your `~/.bashrc`.
 eval "$(hub alias -s)"
 ```
 
-## Rbenv, Ruby, and Rails
+### Rbenv, Ruby, and Rails
 
 
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
-1.Install Rbenv
+1.  Install Rbenv
 
 #### OS X
 
@@ -804,7 +803,7 @@ Copy and paste this entire line into your terminal and run it.
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 ```
 
-2.Tell Rbenv to use homebrew's directories instead of rbenv's
+2.  Tell Rbenv to use homebrew's directories instead of rbenv's
 
 #### OS X
 
@@ -832,14 +831,14 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 ```
 
-3.Once you've done this, run the following command to reload the terminal's
+3.  Once you've done this, run the following command to reload the terminal's
 settings:
 
 ```bash
 source ~/.bashrc
 ```
 
-4.***Note: after installing gems you may need to run this command***
+4.  ***Note: after installing gems you may need to run this command***
 
 #### OS X and Linux
 
@@ -908,7 +907,7 @@ gem install scss_lint
 ```
 
 
-## Postgres
+### Postgres
 
 Next, we'll download Postgres, a database program that we'll be using for most
 of the course.
@@ -959,7 +958,7 @@ See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/commu
 > Whether you're on OS X or Linux, you can test your configuration by running
 > `psql` in the console.
 
-3.Finally, install the `pg` gem from the command line so that Ruby programs
+3.  Finally, install the `pg` gem from the command line so that Ruby programs
 can communicate with Postgres.
 
 ```bash

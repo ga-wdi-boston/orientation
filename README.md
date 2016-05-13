@@ -280,6 +280,49 @@ see around campus. This includes:
 
 ## Operations
 
+We want to ensure that you have the best experience possible during your time in
+WDI! One of the key components to ensure outstanding student experiences is our
+Operations team.
+
+Who makes up our Operations team? Our **Campus Commander** and
+**Front-Lines** staff.
+
+The Operations team is responsible for so many crucial
+parts of our campus and programs, that we cannot list them all, but here are
+several things you could go to them for:
+
+-   Adjusting the temperature of the workspace
+-   Conference room bookings
+-   Printing
+-   Office supplies
+-   Loaner computer
+-   And many more!
+
+Since we are in a co-working space called, WeWork, there are some additional
+amenities you receive. But first, we should define our what our relationship
+with WeWork looks like. We rent out our 4 workspace rooms from WeWork. What this
+means is that we **do not own** WeWork **nor** does WeWork own General Assembly!
+Here are area's that you can use, but are not **_exclusive_** to General
+Assmebly students or staff:
+
+-   The Dugout
+-   Kitchen areas
+-   Floors 1, 2, 6, 7 (This includes kitchens, conference rooms, phone
+booths, etc. on those floors)
+
+How do I get access to these amenities you might ask. You have to provide three
+pieces of information to our Campus Commander:
+
+-   Picture of your PhotoID / Identification
+-   Picture of you, shoulder up, with a white background (Selfie)
+-   First Name, Last Name and Email Address
+
+Once the Campus Commander has these three items **_FROM EVERYONE_**, access
+cards will be created and handed out. **PLEASE NOTE** No one will receive their
+access card until all information is collected!
+
+We will be collecting these access cards on your final day of the program.
+
 ## Outcomes
 
 One of the great perks of this Immersive program would be the Outcomes support

@@ -188,14 +188,14 @@ main portfolio piece
 
 **DAY IN THE LIFE OF**
 
-|   Time of Day    |      Event        |
+| Time of Day      |       Event       |
 |:-----------------|:-----------------:|
-| 9:00am - 9:30am  | Diagnostic        |
-| 9:30am - 12:30pm | Training Bloc     |
-| 12:30pm - 1:30pm | Lunch             |
+| 9:00am - 9:30am  |    Diagnostic     |
+| 9:30am - 12:30pm |   Training Bloc   |
+| 12:30pm - 1:30pm |       Lunch       |
 | 1:30pm - 4:00pm  | Training/Workshop |
 | 4:00pm - 5:00pm  | 1-on-1 / Workshop |
-| 5:00pm - 10:00pm | Practice/Study    |
+| 5:00pm - 10:00pm |  Practice/Study   |
 
 ## Expectations & Policies
 
@@ -651,9 +651,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
-
-***Please paste your GitHub username in the `projects` slack channel.*** You
-will be added to a cohort GitHub team.
 
 #### OS X
 

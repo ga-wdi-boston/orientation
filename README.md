@@ -168,7 +168,7 @@ Rails
 -   Learn about using SQL databases and persisting data in Rails
 -   Practice building Rails back-ends that integrate into front-end apps via an
 API
--   _Project 2_ : Build a first full-stack application
+-   _Project 2_ : Build your first full-stack application
 
 **UNIT 3**
 
@@ -176,7 +176,7 @@ API
 -   Explore a non-relational database, MongoDB, and integrate it into Express
 using the Mongoose Objext-Document Mapper. Use Express middleware to add new
 features to Express apps
--   _Project 3_ : Build second full-stack application a group
+-   _Project 3_ : Build your second full-stack application as a group
 
 **UNIT 4**
 

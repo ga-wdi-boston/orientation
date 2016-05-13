@@ -652,9 +652,6 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-***Please paste your GitHub username in the `projects` slack channel.*** You
-will be added to a cohort GitHub team.
-
 #### OS X
 
 Enter the command `brew install git`.

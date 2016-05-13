@@ -33,7 +33,7 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
 -   [Agenda](#agenda)
 -   [Consultant Team Introductions](#consultant-team-introductions)
--   [Icebreakers](#icebreaker)
+-   [Icebreakers](#icebreakers)
 -   [Alumni Panel](#alumni-panel)
 -   [Consultant Q&A](#consultant-qa)
 -   [Program Roadmap](#program-roadmap)

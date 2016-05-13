@@ -150,6 +150,52 @@ Here are some example questions you should ask:
 
 ## Program Roadmap
 
+Web Development Immersive is split into 4 main units. Below you'll find a high level
+breakdown of what you'll learn in each unit:
+
+**UNIT 1**
+
+-   Learn programming fundamentals w. JavaScript and practice using basic
+development tools
+-   Use HTML and CSS to construct a Single Page App, and use JS and jQuery to
+interact with them through the DOM. Use AJAX to communicate with a back-end API
+-   _Project 1_ : Build in-browser game utilizing a backend API
+
+**UNIT 2**
+
+-   Revisit programming fundamentals w. Ruby, and take our first steps into
+Rails
+-   Learn about using SQL databases and persisting data in Rails
+-   Practice building Rails back-ends that integrate into front-end apps via an
+API
+-   _Project 2_ : Build a first full-stack application
+
+**UNIT 3**
+
+-   Explore building a back-end in JavaScript using Node.js and Express
+-   Explore a non-relational database, MongoDB, and integrate it into Express
+using the Mongoose Objext-Document Mapper. Use Express middleware to add new
+features to Express apps
+-   _Project 3_ : Build second full-stack application a group
+
+**UNIT 4**
+
+-   Learn about a client-side JavaScript framework, Ember.js, and learn how to
+add it on top of a back-end
+-   _Capstone Project_ : Build a full-stack application that will act as your
+main portfolio piece
+
+**DAY IN THE LIFE OF**
+
+| Time of Day      |      Event        |
+|:-----------------|:-----------------:|
+| 9:00am - 9:30am  | Diagnostic        |
+| 9:30am - 12:30pm | Training Bloc     |
+| 12:30pm - 1:30pm | Lunch             |
+| 1:30pm - 4:00pm  | Training/Workshop |
+| 4:00pm - 5:00pm  | 1-on-1 / Workshop |
+| 5:00pm - 10:00pm | Practice/Study    |
+
 ## Expectations & Policies
 
 We take great pride in our Web Development Immersive program! Part of the reason

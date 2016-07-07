@@ -571,7 +571,7 @@ do a shortcut where is runs the same command but installs all packages in one
 go!
 
 ```bash
-apm install aligner-ruby atom-beautify atom-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
 ### Installing NVM and Node/NPM

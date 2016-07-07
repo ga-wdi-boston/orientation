@@ -600,7 +600,11 @@ brew install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
+
+
 ### OS X and Linux
+
+__Restart your terminal (close it and reopen it)__
 
 -   Open your `.bashrc` file by typing `open .bashrc` and paste in the
     following depending on your operating system:

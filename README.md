@@ -1011,7 +1011,7 @@ __Suggested__
 
 You will be sent and invitation to download screenhero, an app that allows you
 to share your screen with other users. This is a useful tool for remote
-debugging and pair-programming. Please downlaod this and setup your account when
+debugging and pair-programming. Please download this and setup your account when
 you get your invite via email.
 
 # CONGRATULATIONS! YOU'RE READY TO ROLL!

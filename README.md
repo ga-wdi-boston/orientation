@@ -600,8 +600,10 @@ brew install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
+### OS X and Linux
+
 -   Open your `.bashrc` file by typing `open .bashrc` and paste in the
-    following:
+    following depending on your operating system:
 
 ```bash
 # OS X
@@ -614,7 +616,8 @@ source $(brew --prefix nvm)/nvm.sh
 export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
-#### OS X
+
+#### OS X Only
 
 -   Use NVM to install the latest longterm stable version of Node (4.4.4)
 
@@ -660,6 +663,8 @@ Enter the command `brew install git`.
 Enter the command `sudo apt-get install git`.
 
 ### Configuring Git
+
+__Both OS X and Linux__
 
 Now let's take care of some settings.
 
@@ -710,6 +715,8 @@ git config --global core.editor "atom --wait"
 ```
 
 ### Linking with GitHub
+
+__Both OS X and Linux__
 
 In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
@@ -870,6 +877,8 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 ```
 
 Don't worry if the above step doesn't take. Some Linux machines may not need it.
+
+### OS X and Linux
 
 6.Install version 2.3.0 of Ruby and make it the system-wide default using the
 command:

@@ -979,6 +979,19 @@ brew install libsass
 sudo apt-get install libsass
 ```
 
+## Chrome
+
+If you do not already have Google Chrome, download it now and set it as your
+default browser.
+
+When done do the following on any page in Chrome:
+- Press Command + opttion + J simultaneously to open up the Chrome inspector
+- On the top right of the inspector window there are three dots, click that.
+- Goto settings and make sure yours look like the following images.
+
+![Google](https://cloud.githubusercontent.com/assets/388761/15828315/c771a996-2bdc-11e6-843b-18059be92774.png)
+![Google](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
+
 ## Evernote
 __Suggested__
 

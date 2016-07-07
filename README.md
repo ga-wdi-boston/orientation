@@ -572,7 +572,7 @@ go!
 
 ```bash
 apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
-```
+```h
 
 ### Installing NVM and Node/NPM
 
@@ -772,6 +772,11 @@ following:
 ```bash
 Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
 ```
+
+Last thing, not that you have git and GitHub we want this repo on your local
+computer. Please follow along as I show you how to fork, clone and put the repo
+in the correct directory.
+
 ### Install [`hub`](https://github.com/github/hub)
 
 > hub is a command line tool that wraps git in order to extend it with extra

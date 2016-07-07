@@ -619,7 +619,7 @@ export NVM_DIR="/home/$(whoami)/.nvm"
 
 #### OS X Only
 
--   Use NVM to install the latest longterm stable version of Node (4.4.4)
+-   Use NVM to install the latest longterm stable version of Node (4.4.7)
 
 ```bash
 nvm install v4

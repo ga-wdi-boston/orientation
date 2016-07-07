@@ -606,7 +606,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
 
 __Restart your terminal (close it and reopen it)__
 
--   Open your `.bashrc` file by typing `open .bashrc` and paste in the
+-   Open your `.bashrc` file by typing `atom .bashrc` and paste in the
     following depending on your operating system:
 
 ```bash

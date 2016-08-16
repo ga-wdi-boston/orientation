@@ -792,9 +792,10 @@ the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
 fork to your Github  account, make sure you copy the HTTPS clone link (It will
 look something like `https://github.com/<your github name>/orientation.git`)
 
--   In your `wdi/tmp/` directory, run `git clone <link copied from github>`
+-   In your root directory `cd ~`, let's move to our downloads file by `cd
+Downloads/`, then run `git clone <link copied from github>`.
 
--   Move into the `oritentation` directory by `cd orientation`. Now we have to set up
+-   Move into the `oritentation` directory by `cd orientation/`. Now we have to set up
 a global 'excludesfile', listing all the files that we might want git to ignore.
 
 ```bash

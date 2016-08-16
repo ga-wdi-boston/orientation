@@ -641,7 +641,7 @@ export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 
-#### OS X Only
+### OSX and Linux
 
 -   Use NVM to install the latest longterm stable version of Node (4.4.7)
 
@@ -651,7 +651,7 @@ nvm alias default v4
 nvm use default
 ```
 
--   Restart your Terminal by quitting the application and re-opening it.
+-   ***Restart your Terminal by quitting the application and re-opening it.***
 
 -   Finally, use NPM to install the Node modules mentioned earlier and make them
     available across all of our projects.
@@ -672,11 +672,13 @@ we'll be using these credentials later.
 
 ### OS X ONLY
 
-Enter the command `brew install git`.
+Enter the command:
+`brew install git`
 
 ### Linux ONLY
 
-Enter the command `sudo apt-get install git`.
+Enter the command:
+`sudo apt-get install git`
 
 ## Configuring Git
 

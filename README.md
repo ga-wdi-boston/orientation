@@ -744,6 +744,8 @@ ssh-add ~/.ssh/id_rsa
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
 
+### OSX and Linux
+
 -   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
 and paste in your SSH key. To test it out, type the following into the command
 line:

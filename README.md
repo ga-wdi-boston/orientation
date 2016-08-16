@@ -637,6 +637,8 @@ nvm use default
 
 -   ***Restart your Terminal by quitting the application and re-opening it.***
 
+-   ***AGAIN, Restart your Terminal***
+
 -   Finally, use NPM to install the Node modules mentioned earlier and make them
     available across all of our projects.
 

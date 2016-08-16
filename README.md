@@ -493,6 +493,56 @@ diagnostics practices projects studies templates tmp trainings`
 1.  To confirm all directories have been made, `ls` in the `~/wdi/` and confirm all
 sub directories have been successfully created
 
+## Atom
+
+The text editor we'll be using in this course is called **Atom**; it was
+developed by the GitHub team, and is highly extensible.
+
+***Note: From this point forward you will open Atom from the command line***
+
+### OS X & Linux
+
+Download Atom from [Atom.io](https://atom.io/)
+
+### Linux ONLY
+
+Once finished run the following command:
+
+```bash
+sudo dpkg -i atom-amd64.deb
+```
+
+### Atom Shell commands
+
+Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
+on 'install shell commands' to install the necessary toolkit.
+
+### Atom Add-Ons
+
+We're going to use Atom's package manager, `apm`, to add a number of helpful
+extensions to your Atom installation. For each package listed below, run
+`apm install <name-of-package>` in the terminal to perform the installation.
+
+```bash
+  apm install aligner
+```
+
+```bash
+  apm install aligner-scss
+```
+
+```bash
+  apm install aligner-css
+```
+
+Now that we have some practice with running the 'apm install <package_name>' we
+do a shortcut where is runs the same command but installs all packages in one
+go!
+
+```bash
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+```
+
 ## Homebrew
 
 Those of you who are on Ubuntu already have a powerful package manager, `apt`,
@@ -543,56 +593,6 @@ brew update
 
 ```bash
 brew install tidy-html5
-```
-
-## Atom
-
-The text editor we'll be using in this course is called **Atom**; it was
-developed by the GitHub team, and is highly extensible.
-
-***Note: From this point forward you will open Atom from the command line***
-
-### OS X & Linux
-
-Download Atom from [Atom.io](https://atom.io/)
-
-### Linux ONLY
-
-Once finished run the following command:
-
-```bash
-sudo dpkg -i atom-amd64.deb
-```
-
-### Atom Shell commands
-
-Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
-on 'install shell commands' to install the necessary toolkit.
-
-### Atom Add-Ons
-
-We're going to use Atom's package manager, `apm`, to add a number of helpful
-extensions to your Atom installation. For each package listed below, run
-`apm install <name-of-package>` in the terminal to perform the installation.
-
-```bash
-  apm install aligner
-```
-
-```bash
-  apm install aligner-scss
-```
-
-```bash
-  apm install aligner-css
-```
-
-Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one
-go!
-
-```bash
-apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
 ### Installing NVM and Node/NPM

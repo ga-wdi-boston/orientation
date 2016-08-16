@@ -395,6 +395,56 @@ consultant!
 If at any point you are unsure of whether you have done something correctly,
 ask an consultant. It's important in many cases that we do these steps in order.
 
+## Atom
+
+The text editor we'll be using in this course is called **Atom**; it was
+developed by the GitHub team, and is highly extensible.
+
+***Note: From this point forward you will open Atom from the command line***
+
+### OS X & Linux
+
+Download Atom from [Atom.io](https://atom.io/)
+
+### Linux ONLY
+
+Once finished run the following command:
+
+```bash
+sudo dpkg -i atom-amd64.deb
+```
+
+### Atom Shell commands
+
+Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
+on 'install shell commands' to install the necessary toolkit.
+
+### Atom Add-Ons
+
+We're going to use Atom's package manager, `apm`, to add a number of helpful
+extensions to your Atom installation. For each package listed below, run
+`apm install <name-of-package>` in the terminal to perform the installation.
+
+```bash
+  apm install aligner
+```
+
+```bash
+  apm install aligner-scss
+```
+
+```bash
+  apm install aligner-css
+```
+
+Now that we have some practice with running the 'apm install <package_name>' we
+do a shortcut where is runs the same command but installs all packages in one
+go!
+
+```bash
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+```
+
 ### OS X (Only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
@@ -475,72 +525,6 @@ It should look like this:
 /bin
 /usr/sbin
 /sbin
-```
-
-## Local Directory Setup
-
-Let's set up our file structure ensure we all have the same setup!
-
-1.  Move to your root directory by: `cd ~`
-
-1.  Let's make a `wdi`directory where everything will be kept. Run `mkdir wdi`, then
-`cd wdi`
-
-1.  Once in `wdi`, we will make sub directories in which all trainings, practices,
-studies, etc will live. Copy and paste in terminal: `mkdir apps challenges
-diagnostics practices projects studies templates tmp trainings`
-
-1.  To confirm all directories have been made, `ls` in the `~/wdi/` and confirm all
-sub directories have been successfully created
-
-## Atom
-
-The text editor we'll be using in this course is called **Atom**; it was
-developed by the GitHub team, and is highly extensible.
-
-***Note: From this point forward you will open Atom from the command line***
-
-### OS X & Linux
-
-Download Atom from [Atom.io](https://atom.io/)
-
-### Linux ONLY
-
-Once finished run the following command:
-
-```bash
-sudo dpkg -i atom-amd64.deb
-```
-
-### Atom Shell commands
-
-Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
-on 'install shell commands' to install the necessary toolkit.
-
-### Atom Add-Ons
-
-We're going to use Atom's package manager, `apm`, to add a number of helpful
-extensions to your Atom installation. For each package listed below, run
-`apm install <name-of-package>` in the terminal to perform the installation.
-
-```bash
-  apm install aligner
-```
-
-```bash
-  apm install aligner-scss
-```
-
-```bash
-  apm install aligner-css
-```
-
-Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one
-go!
-
-```bash
-apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
 ## Homebrew

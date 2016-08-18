@@ -191,9 +191,9 @@ main portfolio piece
 | Time of Day      |       Event       |
 |:-----------------|:-----------------:|
 | 9:00am - 9:30am  |    Diagnostic     |
-| 9:30am - 12:30pm |   Training Bloc   |
-| 12:30pm - 1:30pm |       Lunch       |
-| 1:30pm - 4:00pm  | Training/Workshop |
+| 9:30am - 12:00pm |   Training Bloc   |
+| 12:00pm - 1:00pm |       Lunch       |
+| 1:00pm - 4:00pm  | Training/Workshop |
 | 4:00pm - 5:00pm  | 1-on-1 / Workshop |
 | 5:00pm - 10:00pm |  Practice/Study   |
 
@@ -267,8 +267,9 @@ successfully complete the program.
 
 #### Absences
 
--   If you miss more than **3** days regardless of reason, you will not successfully
-complete the program
+-   If you miss more than **3** days regardless of reason, you will not
+successfully complete the program
+
 -   If you know of a planned absence(s), please contract a producer ASAP
 
 ### Successful Completion Requirements

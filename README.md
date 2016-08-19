@@ -201,7 +201,7 @@ main portfolio piece
 
 We take great pride in our Web Development Immersive program! A main reason why
 our program is so successful is due to **very** clear expectations and policies
-we have in place. You will these below.
+we have in place. You will find these below.
 
 First and foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and have one!
@@ -250,7 +250,7 @@ agreement if you have questions about this
 ### Independence
 
 -   We will do our best to train you with everything we can in the time we have.
- However, the ultimate responsibility for what you learn lies with **YOU***.
+ However, the ultimate responsibility for what you learn lies with **YOU**.
 -   If you're having trouble with material, ask questions. See out consultants
 outside of class. Find extra tutorials online.
 -   If you're ahead, ask for more work!
@@ -262,7 +262,7 @@ outside of class. Find extra tutorials online.
 -   If you arrive after **9:00am** you are late. Any
 training missed is your responsibility to make up.
 -   If you leave before **5:00pm**, you have left early.
--   If you're late arrivals and early departures exceed **5**, you will not
+-   If your late arrivals and early departures exceed **5**, you will not
 successfully complete the program.
 
 #### Absences
@@ -772,27 +772,11 @@ following:
 Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
 ```
 
-Last thing, not that you have git and GitHub we want this repo on your local
+Last thing, now that you have git and GitHub we want this repo on your local
 computer. Please follow along as I show you how to fork, clone and put the repo
 in the correct directory.
 
-### Install [`hub`](https://github.com/github/hub)
-
-> hub is a command line tool that wraps git in order to extend it with extra
-> features and commands that make working with GitHub easier. -- [`hub`
-> README](https://github.com/github/hub).
-
-```bash
-brew install hub
-```
-
-After installing `hub`, add the following line to your `~/.bashrc`.
-
-```bash
-eval "$(hub alias -s)"
-```
-
--   Now that our local machines is set up with Github, we need to `fork and clone`
+-   Now that our local machine is set up with Git, we need to `fork and clone`
 the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
 fork to your Github  account, make sure you copy the HTTPS clone link (It will
 look something like `https://github.com/<your github name>/orientation.git`)
@@ -806,6 +790,54 @@ a global 'excludesfile', listing all the files that we might want git to ignore.
 ```bash
 git config --global core.excludesfile ~/.gitignore
 cp .gitignore ~/.gitignore # from this repository directory
+```
+
+### Install [`hub`](https://github.com/github/hub)
+
+> hub is a command line tool that wraps git in order to extend it with extra
+> features and commands that make working with GitHub easier. -- [`hub`
+> README](https://github.com/github/hub).
+
+#### OSX ONLY
+
+```bash
+brew install hub
+```
+
+After installing `hub`, add the following line to your `~/.bashrc`.
+
+```bash
+eval "$(hub alias -s)"
+```
+
+####Linux ONLY
+
+Paste at a Terminal prompt:
+
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+```
+
+```sh
+PATH="$HOME/.linuxbrew/bin:$PATH"
+```
+
+Edit your ~/.bash_profile to add ~/.linuxbrew/bin to your PATH:
+
+```sh
+echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+```
+
+Now you need to install some setup-tools:
+
+```sh
+sudo apt-get install build-essential curl git python-setuptools ruby
+```
+
+You're done! Try installing hub:
+
+```sh
+brew install hub
 ```
 
 ## Rbenv, Ruby, and Rails
@@ -979,15 +1011,11 @@ sudo -u postgres createuser `whoami` -s
 sudo -u postgres createdb `whoami`
 ```
 
--   IF you're not already in postrgres, run `psql` in terminal and you should see some like this:
-`#< name of computer/db >`
-
--   Type `\q` to quit postgres
-
-See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
-
 > Whether you're on OS X or Linux, you can test your configuration by running
 > `psql` in the console.
+> To quit, type `\q`
+
+See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
 
 3.  Finally, install the `pg` gem from the command line so that Ruby programs
 can communicate with Postgres.
@@ -1017,7 +1045,7 @@ default browser.
 
 When done do the following on any page in Chrome:
 
--   Press Command + opttion + J simultaneously to open up the Chrome inspector
+-   Press Command + option + J simultaneously to open up the Chrome inspector
 -   On the top right of the inspector window there are three dots, click that.
 -   Goto settings and make sure yours look like the following images.
 

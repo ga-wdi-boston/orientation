@@ -17,7 +17,7 @@ your operating system.
 
 ### OS X
 
-Please upgrade to the latest version of OS X, El Capitan (10.11.4).
+Please upgrade to the latest version of OS X, El Capitan (10.11.6).
 
 ### Windows or Linux
 
@@ -191,9 +191,9 @@ main portfolio piece
 | Time of Day      |       Event       |
 |:-----------------|:-----------------:|
 | 9:00am - 9:30am  |    Diagnostic     |
-| 9:30am - 12:30pm |   Training Bloc   |
-| 12:30pm - 1:30pm |       Lunch       |
-| 1:30pm - 4:00pm  | Training/Workshop |
+| 9:30am - 12:00pm |   Training Bloc   |
+| 12:00pm - 1:00pm |       Lunch       |
+| 1:00pm - 4:00pm  | Training/Workshop |
 | 4:00pm - 5:00pm  | 1-on-1 / Workshop |
 | 5:00pm - 10:00pm |  Practice/Study   |
 
@@ -201,7 +201,7 @@ main portfolio piece
 
 We take great pride in our Web Development Immersive program! A main reason why
 our program is so successful is due to **very** clear expectations and policies
-we have in place. You will these below.
+we have in place. You will find these below.
 
 First and foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and have one!
@@ -250,7 +250,7 @@ agreement if you have questions about this
 ### Independence
 
 -   We will do our best to train you with everything we can in the time we have.
- However, the ultimate responsibility for what you learn lies with **YOU***.
+ However, the ultimate responsibility for what you learn lies with **YOU**.
 -   If you're having trouble with material, ask questions. See out consultants
 outside of class. Find extra tutorials online.
 -   If you're ahead, ask for more work!
@@ -259,16 +259,17 @@ outside of class. Find extra tutorials online.
 
 #### Late arrivals and Early departures
 
--   If you arrive after **9:15am** (Program beings at 9:00am) you are late. Any
+-   If you arrive after **9:00am** you are late. Any
 training missed is your responsibility to make up.
 -   If you leave before **5:00pm**, you have left early.
--   If you're late arrivals and early departures exceed **5**, you will not
+-   If your late arrivals and early departures exceed **5**, you will not
 successfully complete the program.
 
 #### Absences
 
--   If you miss more than **3** days regardless of reason, you will not successfully
-complete the program
+-   If you miss more than **3** days regardless of reason, you will not
+successfully complete the program
+
 -   If you know of a planned absence(s), please contract a producer ASAP
 
 ### Successful Completion Requirements
@@ -395,6 +396,56 @@ consultant!
 If at any point you are unsure of whether you have done something correctly,
 ask an consultant. It's important in many cases that we do these steps in order.
 
+## Atom
+
+The text editor we'll be using in this course is called **Atom**; it was
+developed by the GitHub team, and is highly extensible.
+
+***Note: From this point forward you will open Atom from the command line***
+
+### OS X & Linux
+
+Download Atom from [Atom.io](https://atom.io/)
+
+### Linux ONLY
+
+Once finished run the following command:
+
+```bash
+sudo dpkg -i atom-amd64.deb
+```
+
+### Atom Shell commands
+
+Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
+on 'install shell commands' to install the necessary toolkit.
+
+### Atom Add-Ons
+
+We're going to use Atom's package manager, `apm`, to add a number of helpful
+extensions to your Atom installation. For each package listed below, run
+`apm install <name-of-package>` in the terminal to perform the installation.
+
+```bash
+  apm install aligner
+```
+
+```bash
+  apm install aligner-scss
+```
+
+```bash
+  apm install aligner-css
+```
+
+Now that we have some practice with running the 'apm install <package_name>' we
+do a shortcut where is runs the same command but installs all packages in one
+go!
+
+```bash
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+```
+
 ### OS X (Only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
@@ -477,13 +528,13 @@ It should look like this:
 /sbin
 ```
 
-### Homebrew
+## Homebrew
 
 Those of you who are on Ubuntu already have a powerful package manager, `apt`,
 built into your operating system. However, OS X doesn't come with a package
 manager installed, so we'll be installing a 3rd-party package manager called
 Homebrew to install software from the command line. ***If you're running Linux,
-please hold tight until we get to the section on Atom.***
+please hold tight until we get to the section on `nvm`.***
 
 ### Command Line Tools
 
@@ -497,15 +548,15 @@ xcode-select --install
 
 This may require that you run a Software Update before proceeding.
 
-### Install Homebrew
+## Install Homebrew
 
-1.  First, enter this command into your terminal:
+-   First, enter this command into your terminal:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2.  Homebrew has a built-in diagnostic tool to determine if it's working
+-   Homebrew has a built-in diagnostic tool to determine if it's working
 correctly; you can run it by entering the following command in your terminal:
 
 ```bash
@@ -516,62 +567,17 @@ brew doctor
 errors are probably minor, but some might not be; please wait until one of the
 consultants has given you the go-ahead before moving on.
 
-3.Once Homebrew says `Your system is ready to brew`, run the following command
+-   Once Homebrew says `Your system is ready to brew`, run the following command
 update Homebrew's directory of packages.
 
 ```bash
 brew update
 ```
 
-4.Lastly, install tidy-html5
+-   Lastly, install tidy-html5
 
 ```bash
 brew install tidy-html5
-```
-
-### Atom
-
-The text editor we'll be using in this course is called **Atom**; it was
-developed by the GitHub team, and is highly extensible.
-
-***Note: From this point forward you will open Atom from the command line***
-
-#### OS X & Linux
-
-Download Atom from [Atom.io](https://atom.io/)
-
-#### Linux ONLY
-
-Once finished run the following command:
-
-```bash
-sudo dpkg -i atom-amd64.deb
-```
-
-### Atom Add-Ons
-
-We're going to use Atom's package manager, `apm`, to add a number of helpful
-extensions to your Atom installation. For each package listed below, run
-`apm install <name-of-package>` in the terminal to perform the installation.
-
-```bash
-  apm install aligner
-```
-
-```bash
-  apm install aligner-scss
-```
-
-```bash
-  apm install aligner-css
-```
-
-Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one
-go!
-
-```bash
-apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
 ### Installing NVM and Node/NPM
@@ -584,72 +590,65 @@ between them for different projects. Then we'll download Node, and use its
 associated package manager, NPM, to download and install the following Node
 modules:
 
-- JShint, a tool for testing JavaScript code quality. (`jshint`)
-- Grunt, a tool for automating background tasks. (`grunt-cli`)
+-   JShint, a tool for testing JavaScript code quality. (`jshint`)
+-   Grunt, a tool for automating background tasks. (`grunt-cli`)
 
-
-#### OS X
+### OSX
 
 ```bash
 brew install nvm
 ```
 
-#### Linux
+### Linux
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
+### OSX and Linux
 
+**Restart your terminal (close it and reopen it; not just the window!)**
 
-### OS X and Linux
-
-__Restart your terminal (close it and reopen it)__
-
--   Open your `.bashrc` file by typing `atom .bashrc` and paste in the
+-   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
     following depending on your operating system:
 
+### OSX Only
+
 ```bash
-# OS X
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
+### Only Linux
+
 ```bash
-# Ubuntu
 export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
 
-#### OS X Only
+### OSX and Linux
 
 -   Use NVM to install the latest longterm stable version of Node (4.4.7)
 
 ```bash
-nvm install v4
-nvm alias lts v4
-nvm alias default lts ## or, if v5 is already installed:
-                      # nvm alias default v4
-                      ## then,
+nvm install --lts=argon
+nvm alias default v4
 nvm use default
 ```
 
--   Restart your Terminal by quitting the application and re-opening it.
+-   ***Restart your Terminal by quitting the application and re-opening it.***
+
+-   ***AGAIN, Restart your Terminal***
 
 -   Finally, use NPM to install the Node modules mentioned earlier and make them
     available across all of our projects.
-
-```bash
-npm install -g npm
-npm install -g jshint
-```
 
 Just like we did before with the Atom packages install, we can string
 together the various packages we'd like installed into one executable
 command:
 
 ```bash
-npm install -g jsonlint grunt-cli remark-lint jscs bower ember
+npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower ember
 ```
 
 ### Git (and GitHub)
@@ -658,28 +657,30 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-#### OS X
+### OS X ONLY
 
-Enter the command `brew install git`.
+Enter the command:
+`brew install git`
 
-#### Linux
+### Linux ONLY
 
-Enter the command `sudo apt-get install git`.
+Enter the command:
+`sudo apt-get install git`
 
-### Configuring Git
+## Configuring Git
 
-__Both OS X and Linux__
+### Both OS X and Linux
 
 Now let's take care of some settings.
 
-1.  Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
+-   Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
 variable so that commit message pop-ups open in Atom. Run the command:
 
 ```bash
 atom ~/.bashrc
 ```
 
-2.  Paste the following code into the bottom of the file:
+-   Paste the following code into the bottom of the file:
 
 ```bash
 # Git
@@ -692,21 +693,13 @@ export EDITOR='atom --wait'
 export VISUAL='atom --wait'
 ```
 
-3.  Colorize git in the command line
+-   Colorize git in the command line
 
 ```bash
 git config --global color.ui true
 ```
 
-4.  Set up a global 'excludesfile', listing all the files that we might want git
-to ignore.
-
-```bash
-git config --global core.excludesfile ~/.gitignore
-cp .gitignore ~/.gitignore # from this repository directory
-```
-
-5.  Configure Git
+-   Configure Git
 
 ```bash
 git config --global user.name "<yourUsername>"
@@ -718,14 +711,14 @@ git config --global branch.autosetupmerge true
 git config --global core.editor "atom --wait"
 ```
 
-### Linking with GitHub
+## Linking with GitHub
 
-__Both OS X and Linux__
+### Both OS X and Linux
 
 In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
 
-1.  Generate a new key by running
+-   Generate a new key by running
 
 ```bash
 ssh-keygen -t rsa -C "<your_email@example.com>"
@@ -734,27 +727,29 @@ ssh-keygen -t rsa -C "<your_email@example.com>"
 (Feel free to put in a password or select a non-default location for your keys,
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
-2.  Add this new key to your system by running:
+-   Add this new key to your system by running:
 
 ```bash
 ssh-add ~/.ssh/id_rsa
 ```
 
-3.  Copy the new key to your clipboard using either:
+-   Copy the new key to your clipboard using either:
 
-#### OSX
+### OSX ONLY
 
 ```bash
   pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-#### Linux
+### Linux
 
 ```bash
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
 
-4.  Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
+### OSX and Linux
+
+-   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
 and paste in your SSH key. To test it out, type the following into the command
 line:
 
@@ -777,15 +772,33 @@ following:
 Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
 ```
 
-Last thing, not that you have git and GitHub we want this repo on your local
+Last thing, now that you have git and GitHub we want this repo on your local
 computer. Please follow along as I show you how to fork, clone and put the repo
 in the correct directory.
+
+-   Now that our local machine is set up with Git, we need to `fork and clone`
+the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
+fork to your Github  account, make sure you copy the HTTPS clone link (It will
+look something like `https://github.com/<your github name>/orientation.git`)
+
+-   In your root directory `cd ~`, let's move to our downloads file by `cd
+Downloads/`, then run `git clone <link copied from github>`.
+
+-   Move into the `oritentation` directory by `cd orientation/`. Now we have to set up
+a global 'excludesfile', listing all the files that we might want git to ignore.
+
+```bash
+git config --global core.excludesfile ~/.gitignore
+cp .gitignore ~/.gitignore # from this repository directory
+```
 
 ### Install [`hub`](https://github.com/github/hub)
 
 > hub is a command line tool that wraps git in order to extend it with extra
 > features and commands that make working with GitHub easier. -- [`hub`
 > README](https://github.com/github/hub).
+
+#### OSX ONLY
 
 ```bash
 brew install hub
@@ -797,21 +810,50 @@ After installing `hub`, add the following line to your `~/.bashrc`.
 eval "$(hub alias -s)"
 ```
 
-### Rbenv, Ruby, and Rails
+####Linux ONLY
 
+Paste at a Terminal prompt:
+
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+```
+
+```sh
+PATH="$HOME/.linuxbrew/bin:$PATH"
+```
+
+Edit your ~/.bash_profile to add ~/.linuxbrew/bin to your PATH:
+
+```sh
+echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+```
+
+Now you need to install some setup-tools:
+
+```sh
+sudo apt-get install build-essential curl git python-setuptools ruby
+```
+
+You're done! Try installing hub:
+
+```sh
+brew install hub
+```
+
+## Rbenv, Ruby, and Rails
 
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
 1.  Install Rbenv
 
-#### OS X
+### OS X
 
 ```bash
 brew install rbenv
 ```
 
-#### Linux
+### Linux
 
 Copy and paste this entire line into your terminal and run it.
 
@@ -821,9 +863,9 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 
 2.  Tell Rbenv to use homebrew's directories instead of rbenv's
 
-#### OS X
+### OS X ONLY
 
-`Open ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
+`atom ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
 in about Git.
 
 ```bash
@@ -833,9 +875,9 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-#### Linux
+### Linux
 
-`Open ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
+`atom ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
 in about Git.
 
 ```bash
@@ -856,13 +898,13 @@ source ~/.bashrc
 
 4.  ***Note: after installing gems you may need to run this command***
 
-#### OS X and Linux
+### OS X and Linux
 
 ```bash
 rbenv rehash
 ```
 
-#### Linux
+### Linux ONLY
 
 Rbenv on Linux depends on another library called `libffi-dev`. Download and
 install it with the following command.
@@ -873,13 +915,13 @@ sudo apt-get install libffi-dev
 
 5.Install `ruby-build`, a plugin for rbenv.
 
-#### OS X
+### OS X
 
 ```bash
 brew install ruby-build
 ```
 
-#### Linux
+### Linux
 
 ```bash
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -889,11 +931,11 @@ Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
 ### OS X and Linux
 
-6.Install version 2.3.0 of Ruby and make it the system-wide default using the
+6.Install version 2.3.1 of Ruby and make it the system-wide default using the
 command:
 
 ```bash
-rbenv install 2.3.0 && rbenv global 2.3.0
+rbenv install 2.3.1 && rbenv global 2.3.1
 ```
 
 You can see what versions of Ruby rbenv has downloaded by running
@@ -910,7 +952,8 @@ Ruby to skip those by running the following command:
 echo 'gem: --no-document' >> ~/.gemrc
 ```
 
-Next, we'll go ahead and install Rails.
+Next, we'll go ahead and install Rails. ***First though, back out of the `orientation`
+repo by running `cd ~`. This will move us to the root/home directory.***
 
 ```bash
 gem install rails
@@ -924,21 +967,20 @@ gem install rubocop
 gem install scss_lint
 ```
 
-
-### Postgres
+## Postgres
 
 Next, we'll download Postgres, a database program that we'll be using for most
 of the course.
 
 1.First, download and install Postgres.
 
-#### OS X
+### OS X ONLY
 
 ```bash
 brew install postgres
 ```
 
-#### Linux
+### Linux ONLY
 
 Run to install Postgres and its dependencies.
 
@@ -949,7 +991,7 @@ sudo apt-get install postgresql libpq-dev
 2.Then, configure your new Postgres installation by entering the following
 lines into the console:
 
-#### OS X
+### OS X ONLY
 
 ```bash
 mkdir -p ~/Library/LaunchAgents
@@ -961,7 +1003,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 createdb `whoami`
 ```
 
-#### Linux
+### Linux ONLY
 
 ```bash
 sudo -u postgres createuser `whoami` -s
@@ -969,12 +1011,11 @@ sudo -u postgres createuser `whoami` -s
 sudo -u postgres createdb `whoami`
 ```
 
-Type `\q` to quit postgres
-
-See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
-
 > Whether you're on OS X or Linux, you can test your configuration by running
 > `psql` in the console.
+> To quit, type `\q`
+
+See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
 
 3.  Finally, install the `pg` gem from the command line so that Ruby programs
 can communicate with Postgres.
@@ -985,13 +1026,13 @@ gem install pg
 
 ## Other Goodies
 
-#### OS X
+### OS X ONLY
 
 ```bash
 brew install libsass
 ```
 
-#### Linux
+### Linux ONLY
 
 ```bash
 sudo apt-get install libsass
@@ -1003,9 +1044,10 @@ If you do not already have Google Chrome, download it now and set it as your
 default browser.
 
 When done do the following on any page in Chrome:
-- Press Command + opttion + J simultaneously to open up the Chrome inspector
-- On the top right of the inspector window there are three dots, click that.
-- Goto settings and make sure yours look like the following images.
+
+-   Press Command + option + J simultaneously to open up the Chrome inspector
+-   On the top right of the inspector window there are three dots, click that.
+-   Goto settings and make sure yours look like the following images.
 
 ![Google](https://cloud.githubusercontent.com/assets/388761/15828315/c771a996-2bdc-11e6-843b-18059be92774.png)
 ![Google](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)

@@ -1,63 +1,524 @@
-![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)
+[![Stories in Ready](https://badge.waffle.io/ga-wdi-boston/installfest.svg?label=ready&title=Ready)](http://waffle.io/ga-wdi-boston/installfest)
 
-Before you come in...
-=====================
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-OS X
-----
-Please upgrade to the latest version of OS X, Yosemite (10.10.5). After you're on the latest version of OS X, download & install an application called XCode through the App Store.
+# Web Development Immersive Orientation
 
-Windows or Linux
-----------------
+## Welcome to Web Developement Immersive
 
-General Assembly no longer officially supports Windows or Linux in immersive programs. If you have a Windows or a Linux machine, you should contact your Immsersive Producer. Instructors may provide support for these operating systems at their own discretion.
+We are super excited to have you as part of our flagship program here at General
+Assembly! This README will provide all the information you will need to be
+successfully oriented into the Web Development Immersive Program.
 
-If you are on a Windows machine, you **must** set up your computer to dual-boot Linux Ubuntu before you can get started.
+## Before we get started
 
---------------------------------------------------------------------------------
+Please be sure that your computer is up-to-date with the most recent version of
+your operating system.
 
-Installfest!
-============
+### OS X
 
-Follow these instructions to set up your laptop for work in WDI. If you've previously set up a development environment on your computer, you may wish to skip some of these steps; **do not do so** without first checking with an instructor!
+Please upgrade to the latest version of OS X, El Capitan (10.11.6).
 
-If at any point you are unsure of whether you have done something correctly, ask an instructor. It's important in many cases that we do these steps in order.
+### Windows or Linux
 
-Bash (OS X)
-===========
+General Assembly no longer officially supports Windows or Linux in immersive
+programs. If you have a Windows or a Linux machine, you should contact your
+Immersive Producer. Instructors may provide support for these operating systems
+ at their own discretion.
 
-OS X ships with utilities that are slightly different from standard Linux tools. To smooth out *some* of the differences, we need to change how OS X loads our shell (`bash`) configuration.
+If you are on a Windows machine, you **must** set up your computer to dual-boot
+Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 
-Check if you have a `.bashrc` file in your home directory. Open your terminal and type `ls ~/.bashrc`. If you receive a warning saying no such file or directory exists, type `touch ~/.bashrc`. This creates an empty file for us.
+## Table of Contents
 
-Next, check if you have a `.bash_profile` in your home directory. Open your terminal and type `ls ~/.bash_profile`. If you receive a warning saying no such file or directory exists, type `touch ~/.bash_profile`.
+-   [Agenda](#agenda)
+-   [Consultant Team Introductions](#consultant-team-introductions)
+-   [Icebreakers](#icebreakers)
+-   [Alumni Panel](#alumni-panel)
+-   [Consultant Q&A](#consultant-qa)
+-   [Program Roadmap](#program-roadmap)
+-   [Expectations & Policies](#expectations--policies)
+-   [Workspace Culture](#workspace-culture)
+-   [Staff Introductions](#staff-introductions)
+-   [Operations](#operations)
+-   [Outcomes](#outcomes)
+-   [Installfest](#installfest)
 
-Then, execute the follow commands at the terminal.
+## Agenda
 
+Orientation is a very packed, busy day for everyone involved! The day will begin
+promptly at 9:00am and will run until 5:00pm, and is split into two parts:
+Orientation and Install-fest.
+
+| Time    |             Event              |
+|:--------|:------------------------------:|
+| 9:00am  | Opening and Team Introductions |
+| 9:15am  |          Icebreakers           |
+| 10:00am |          Alumni Panel          |
+| 10:30am |    Break / Equipment Audit     |
+| 10:40am |      Consultant Panel Q&A      |
+| 11:15am |        Program Roadmap         |
+| 11:30am |    Expectations & Policies     |
+| 12:00pm |       Workspace Culture        |
+| 12:15pm |   Campus Staff Introductions   |
+| 12:30pm |             Lunch              |
+| 1:30pm  |    Operations Presentation     |
+| 1:45pm  |     Outcomes Presentation      |
+| 2:00pm  |          Installfest           |
+| 5:00pm  |    Wrap up and Celebration     |
+
+**_Times and Events are subject to change_**
+
+## Consultant Team Introductions
+
+Throughout the Web Development Immersive program, you will have a dedicated team
+of Consultants provide you with training, support and direction. During this
+portion of Orientation you can expect to learn:
+
+-   Names of the consultant team members
+-   How long they have been with General Assembly
+-   What they were doing prior to General Assembly
+-   Learn an interesting fact or guilty pleasure from each
+-   Learn their favorite applications and why
+
+## Icebreakers
+
+During this portion of orientation, we will begin to break the 'ice' and get
+to know eachother a bit better!
+
+### Two Truth's and a Lie
+
+Here's how to play:
+
+-   Write 3 interesting facts on the lined side of a 3x5 index card
+-   Two of the facts are **true** and one of the facts will be a **lie**
+-   Keep in mind that the lie should be believable like a truth and the truths
+could be lies
+-   Cards are collected, shuffled and passed back out
+-   'Johnny' starts and reads the facts on the card he holds
+-   'Johnny' has 2 guesses to indentify the person whos card he's holding
+-   After 2 guess, if 'Johnny' is not correct, 'Jane' shares that it's her card
+-   'Johnny' now has 2 guesses to try and pick the fact that is the **lie**
+-   'Johnny' highlights which fact is the **lie** and 'Jane' on blank side of
+the index card
+-   'Jane' goes next and reads the facts on the card she holds
+-   This continues until everyone has played!
+
+## Alumni Panel
+
+Let's be honest, deciding to make the life changing decision to enroll in this
+full-time immersive program, most likely came with some questions and possible
+doubt. This portion of orientation will give you the opportunity to hear from
+alumni from past Web Development Immersive programs. You can expect to hear:
+
+-   Names of each alumni panelist and what they were doing before WDI
+-   What the alumni do now after successfully completing the program
+-   What their experience was like in WDI
+-   What some the challenges were that they faced during their cohorts
+-   What was something they wish they knew at the start of the program
+-   Open the floor up for questions
+
+Example questions to ask:
+
+-   What do you wish someone had told you? Would you have believed it?
+-   How long was the gap in time between learning something and feeling
+comfortable using it?
+-   What is your learning process on-the-job?
+-   How important were the projects for your learning and comfort?
+-   What was it like day-to-day and week-to-week during the program?
+-   How did you convince someone that you can do the job even though you
+don't have experience?
+-   What was your highest level of education? Did your degree matter?
+
+## Consultant Q&A
+
+You just heard from various WDI alumni, now is your opportunity
+to ask the Consultant team questions you'd like answered. From each
+Consultant, you can expect to hear:
+
+-   More about their background and journey
+-   How they began their careers in web development
+-   The biggest challenge they had in starting their careers
+-   Projects they've worked on
+
+Here are some example questions you should ask:
+
+-   What do you believe the key to success is in this program?
+-   What is your personality and communication style?
+-   How do I keep a positive attitude when things seem impossible?
+-   Any words of wisdom before we begin this journey?
+
+## Program Roadmap
+
+Web Development Immersive is split into 4 main units. Below you'll find a high
+level breakdown of what you can expect in each unit:
+
+**UNIT 1**
+
+-   Learn programming fundamentals with JavaScript and practice using basic
+development tools
+-   Use HTML and CSS to construct a single page application, and use JS and
+jQuery to interact with them through the DOM. Use AJAX to communicate with an
+API
+-   _Project 1_ : Build in-browser game utilizing a backend API
+
+**UNIT 2**
+
+-   Revisit programming fundamentals with Ruby, and take our first steps into
+Rails
+-   Learn about using SQL databases and persisting data in Rails
+-   Practice building Rails back-ends that integrate into client-side apps via
+an API
+-   _Project 2_ : Build your first full-stack application
+
+**UNIT 3**
+
+-   Explore building an API in JavaScript using Node.js and Express
+-   Explore a non-relational database, MongoDB, and integrate it into Express
+using the Mongoose Objext-Document Mapper. Use Express middleware to add new
+features to an Express apps
+-   _Project 3_ : Build your second full-stack application as a group
+
+**UNIT 4**
+
+-   Learn about a client-side JavaScript framework, Ember.js, and learn how to
+add it on top of an API
+-   _Capstone Project_ : Build a full-stack application that will serve as your
+main portfolio piece
+
+**DAY IN THE LIFE OF**
+
+| Time of Day      |       Event       |
+|:-----------------|:-----------------:|
+| 9:00am - 9:30am  |    Diagnostic     |
+| 9:30am - 12:00pm |   Training Bloc   |
+| 12:00pm - 1:00pm |       Lunch       |
+| 1:00pm - 4:00pm  | Training/Workshop |
+| 4:00pm - 5:00pm  | 1-on-1 / Workshop |
+| 5:00pm - 10:00pm |  Practice/Study   |
+
+## Expectations & Policies
+
+We take great pride in our Web Development Immersive program! A main reason why
+our program is so successful is due to **very** clear expectations and policies
+we have in place. You will find these below.
+
+First and foremost, to be successful in this program, it is **imperative** that
+you understand what a **_Growth Mindset_** is and have one!
+
+**GROWTH MINDSET DIAGRAM**
+
+![Growth Mindset](https://cloud.githubusercontent.com/assets/8379295/15218249/feed4808-182c-11e6-8c62-4ce78903bee9.png)
+
+**MUST WATCH** [The power of belief: Mindset & Success](https://www.youtube.com/watch?v=pN34FNbOKXc)
+
+**Please Note** : The goal of the program is not to produce working code,
+working code is a by-product of the goal. The goal of the program is to learn
+how to create working code.
+
+### Diagnostics
+
+-   Diagnostics will be given regularly, and are designed to reflect
+recently-covered material
+-   These diagnostics scores will not impact your completion; they are a tool
+for you and us to gauge your comprehension of the material
+-   **Don't stress out about these diagnostics, and don't obsess over the
+results**
+
+### Practice
+
+-   Practice will be assigned semi-regularly, and will be assessed in terms of:
+
+    -   Code quality (e.g. indentation, good comments, readability, etc.)
+    -   Functionality (Does it run correctly? Is it robust? Is it efficient?)
+
+-   However, as important as doing your practice work is, remember that the
+most important thing is what you're learning.
+
+### Professionalism
+
+-   We will treat you like adults and expect you to behave like adults.
+-   Disagreements with other students should be resolved on your own.
+-   As with every rule, there are exceptions. If any student is behaving in a
+way that is disrespectful and/or dangerous towards their fellow developers,
+that should be brought to the producer's attention immediately. Similarly,
+any issues that involved consultants should be brought to the producer's
+attention immediately
+-   Please see the 'Code of Conduct' portion of your student enrollment
+agreement if you have questions about this
+
+### Independence
+
+-   We will do our best to train you with everything we can in the time we have.
+ However, the ultimate responsibility for what you learn lies with **YOU**.
+-   If you're having trouble with material, ask questions. See out consultants
+outside of class. Find extra tutorials online.
+-   If you're ahead, ask for more work!
+
+### Attendance
+
+#### Late arrivals and Early departures
+
+-   If you arrive after **9:00am** you are late. Any
+training missed is your responsibility to make up.
+-   If you leave before **5:00pm**, you have left early.
+-   If your late arrivals and early departures exceed **5**, you will not
+successfully complete the program.
+
+#### Absences
+
+-   If you miss more than **3** days regardless of reason, you will not
+successfully complete the program
+
+-   If you know of a planned absence(s), please contract a producer ASAP
+
+### Successful Completion Requirements
+
+-   Program Attendance
+-   Successful completion of **ALL** projects
+-   Submission of all Assignments
+-   Outcomes Programming Attendance
+-   Outcomes Programming Participation
+
+### Rewards for Successful Completion
+
+-   Outcomes Support
+-   Participation in the Meet & Hire
+-   Letter and Certificate of Completion
+-   Participation in sem-anual Graduation Celebration
+-   You may also request a reference or recommendation from Consultants
+
+## Workspace Culture
+
+Break into groups of three or four. In your group, discuss and outline your
+expectations of each other as colleagues. Then, we'll share what each group has
+discussed and record a social contract.
+
+Most groups of developers come up with something like the following:
+
+-   Respect is mutually given, not earned; follow [Wheaton's
+    Law](http://knowyourmeme.com/memes/wheatons-law)
+-   Be an open communicator; do not disengage when working in a group, and
+    practice active listening.
+-   Be open to constructive feedback; when giving feedback, be specific.
+-   Take others' intent into account; follow [Hanlon's
+    Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor).
+-   Be collaborative, share freely, and respect others' abilities and
+    preferences.
+-   Maintain a growth mindset and a good attitude.
+-   Ask lots of questions, but do your due diligence!
+-   Leave outside stress and your ego at the door.
+-   Foster a space where it safe to fail and learn from mistakes.
+-   Have fun!
+
+## Staff Introductions
+
+Majority of your experiences in the program workspace will have you interact
+with the consultants, production, outcomes and operations teams. However, there
+are addition departments working hard, behind the scenes, to ensure your
+experience along with that of future programs are the best they possibly can be.
+This portion will allow you to meet some addition friendly faces that you will
+see around campus. This includes:
+
+-   Senior Leadership
+-   Marketing
+-   Partnerships
+-   Classes, Events & Workshops
+-   Admissions
+-   Product
+-   Other Immersive Programs Teams
+
+## Operations
+
+We want to ensure that you have the best experience possible during your time in
+WDI! One of the key components to ensure outstanding student experiences is our
+Operations team.
+
+Who makes up our Operations team? Our **Campus Commander** and
+**Front-Lines** staff.
+
+The Operations team is responsible for so many crucial parts of our campus and
+programs, that we cannot list them all, but here are several things you could go
+to them for:
+
+-   Adjusting the temperature of the workspace
+-   Conference room bookings
+-   Printing
+-   Office supplies
+-   Loaner computer
+-   And many more!
+
+Since we are in a co-working space called, WeWork, there are some additional
+amenities you'll have access to. But first, we should define what our
+relationship with WeWork looks like. We rent out our 4 workspace rooms from
+WeWork. What this means is that we **do not own** WeWork **nor** does WeWork own
+General Assembly! Here are area's that you'll have access to, but are not
+**_exclusive_** to General Assmebly students or staff:
+
+-   The Dugout
+-   Kitchen areas
+-   Floors 1, 2, 6, 7 (This includes kitchens, conference rooms, phone
+booths, etc. on those floors)
+
+How do I get access to these amenities you might ask. You have to provide three
+pieces of information to our Campus Commander:
+
+-   Picture of your Photo I.D. / Identification
+-   Picture of you, shoulder up, with a white background (Selfie)
+-   First Name, Last Name and Email Address
+
+Once the Campus Commander has these three items **_FROM EVERYONE_**, access
+cards will be created and handed out. **PLEASE NOTE** No one will receive their
+access card until all information is collected!
+
+We will be collecting these access cards on your final day of the program.
+
+## Outcomes
+
+One of the most valuable resources and benefits from participating in an
+Immersive Program at General Assembly is our Outcomes Team. Upon successful
+completion of the Web Development Immersive Program, you will have access to
+this great resourse! During this segment, you will have a chance to hear from
+you Outcomes Producer and to get a high level snapshot of what you can expect
+for Outcomes throughout the course.
+
+You will have much more information provided during your first Outcomes
+Programming session, so do not worry if every question you have is not answered
+during this segment!
+
+## Installfest
+
+Follow these instructions to set up your laptop for work in WDI. If you've
+previously set up a development environment on your computer, you may wish to
+skip some of these steps; **do not do so** without first checking with an
+consultant!
+
+If at any point you are unsure of whether you have done something correctly,
+ask an consultant. It's important in many cases that we do these steps in order.
+
+## Atom
+
+The text editor we'll be using in this course is called **Atom**; it was
+developed by the GitHub team, and is highly extensible.
+
+***Note: From this point forward you will open Atom from the command line***
+
+### OS X & Linux
+
+Download Atom from [Atom.io](https://atom.io/)
+
+### Linux ONLY
+
+Once finished run the following command:
+
+```bash
+sudo dpkg -i atom-amd64.deb
 ```
+
+### Atom Shell commands
+
+Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
+on 'install shell commands' to install the necessary toolkit.
+
+### Atom Add-Ons
+
+We're going to use Atom's package manager, `apm`, to add a number of helpful
+extensions to your Atom installation. For each package listed below, run
+`apm install <name-of-package>` in the terminal to perform the installation.
+
+```bash
+  apm install aligner
+```
+
+```bash
+  apm install aligner-scss
+```
+
+```bash
+  apm install aligner-css
+```
+
+Now that we have some practice with running the 'apm install <package_name>' we
+do a shortcut where is runs the same command but installs all packages in one
+go!
+
+```bash
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+```
+
+### OS X (Only)
+
+OS X ships with utilities that are slightly different from standard Linux tools.
+To smooth out *some* of the differences, we need to change how OS X loads our
+shell (`bash`) configuration.
+
+1.Check if you have a `.bashrc` file in your home directory. Open your terminal
+and type:
+
+```bash
+ls ~/.bashrc
+```
+
+***IF*** you receive a warning saying no such file or directory exists type:
+
+```bash
+touch ~/.bashrc
+```
+
+This creates an empty file for us.
+
+2.Check if you have a `.bash_profile` in your home directory. In your
+terminal type:
+
+```bash
+ls ~/.bash_profile
+```
+
+***IF*** you receive a warning saying no such file or directory exists type:
+
+```bash
+touch ~/.bash_profile
+```
+
+3.Execute the follow commands at the terminal:
+
+```bash
 echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
 echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
 ```
 
-Next, we'll look at `.bash_profile` to make sure it has the contents we expect. Type `cat ~/.bash_profile` in the terminal to look at the contents of the file. Near the bottom, you should have something that looks like this:
+Next, we'll look at `.bash_profile` to make sure it has the contents we expect.
+Type the following in the terminal to look at the contents of the file:
 
+```bash
+cat ~/.bash_profile
 ```
+
+Near the bottom, you should have something that looks like this:
+
+```bash
 # ~/.bash_profile
 
 export PATH=/usr/local/bin:$PATH
 test -f ~/.bashrc && source ~/.bashrc
 ```
 
-You will also need to update `/etc/paths` by running the following commands.
+4.You will also need to update `/etc/paths` by running the following commands:
 
-```
+```bash
 echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
 echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
 ```
 
-Finally, let's inspect our changes by typing `cat /etc/pahts`. It should look like this:
+5.Finally, let's inspect our changes by typing:
 
+```bash
+cat /etc/paths
 ```
+
+It should look like this:
+
+```bash
 # /etc/paths
 
 /usr/local/bin
@@ -67,375 +528,547 @@ Finally, let's inspect our changes by typing `cat /etc/pahts`. It should look li
 /sbin
 ```
 
-Homebrew
-========
+## Homebrew
 
-Those of you who are on Ubuntu already have a powerful package manager, `apt`, built into your operating system. However, OS X doesn't come with a package manager installed, so we'll be installing a 3rd-party package manager called Homebrew to install software from the command line. If you're running Linux, please feel free to skip ahead to the next section.
+Those of you who are on Ubuntu already have a powerful package manager, `apt`,
+built into your operating system. However, OS X doesn't come with a package
+manager installed, so we'll be installing a 3rd-party package manager called
+Homebrew to install software from the command line. ***If you're running Linux,
+please hold tight until we get to the section on `nvm`.***
 
-Command Line Tools
-------------------
+### Command Line Tools
 
-In order for Homebrew to work, we'll need to rely on a number of programs that come pre-installed on Linux. Install these tools **via the terminal** using the command `xcode-select --install`. This may require that you run a Software Update before proceeding.
+In order for Homebrew to work, we'll need to rely on a number of programs that
+come pre-installed on Linux. Install these tools **via the terminal** using the
+command:
 
-Install Homebrew
-----------------
-
-1. First, go to [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/), scroll down to "Installation" and copy and paste the entire command listed there into your terminal.
-
-1. Homebrew has a built-in diagnostic tool to determine if it's working correctly; you can run it by entering the command `brew doctor` into your terminal.
-
-    **NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these errors are probably minor, but some might not be; please wait until one of the instructors has given you the go-ahead before moving on.
-
-1. Once Homebrew says `Your system is ready to brew`, run  `brew update` to update Homebrew's directory of packages.
-
-NVM and Node/NPM
-================
-
-We're going to be installing Node next; Node (and its various packages) will be the foundation of a large part of the course. First, though, we're going to download a tool called [NVM](https://github.com/creationix/nvm) that allows us to maintain multiple different versions of Node, in case we want to switch between them for different projects. Then we'll download Node, and use its associated package manager, NPM, to download and install the following Node modules:
-
-- JShint, a tool for testing JavaScript code quality. (`jshint`)
-- Grunt, a tool for automating background tasks. (`grunt-cli`)
-
---------------------------------------------------------------------------------
-
-1. Run **one** of the following commands to install NVM.
-
-    ```
-    # OS X
-    brew install nvm
-    ```
-
-    ```
-    # Linux
-    sudo apt-get install npm
-    ```
-
-1. Add the following snippets to your bash configuration files (`.bash_profile` on OS X, `.bashrc` on Linux).
-
-    ```
-    # OS X
-    export NVM_DIR=~/.nvm
-    source $(brew --prefix nvm)/nvm.sh
-    ```
-
-    ```
-    # Linux
-    export NVM_DIR="/home/your_username/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-    ```
-
-1. Use NVM to install the latest stable version of Node
-
-    ```
-    nvm install stable
-    ```
-
-1. Finally, use NPM to install the Node modules mentioned earlier and make them available across all of our projects.
-
-    ```
-    npm install -g jshint grunt-cli
-    ```
-
-Sublime Text 3
-==============
-
-OS X
-----
-
-* Download the latest Sublime Text build from [http://www.sublimetext.com/3](http://www.sublimetext.com/3).
-* Double-click the .dmg file to open it, and drag the icon into your 'Applications' folder.
-* Next, enter the following into your terminal - it will create a 'symlink', a shortcut that we can use to open Sublime from the command line. Do not skip this step!
-
-    ```
-    ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-    ```
-
-Linux
------
-
-* Add the PPA (personal package archive) for SublimeText 3 to `apt` and update your package directory.
-
-  `sudo add-apt-repository ppa:webupd8team/sublime-text-3`
-
-  `sudo apt-get update`
-
-* Use `apt` to install SublimeText 3
-
-  `sudo apt-get install sublime-text-installer`
-
-* Create a symlink shortcut for your terminal.
-
-  `sudo ln -s /**wherever the binary for Sublime is** /bin/subl`
-
-
-Configure Sublime Text
-----------------------
-
-Once Sublime Text is installed, there are a couple of modifications that you'll need to make before you're all set.
-
-Go to your Preferences in Sublime Text, open "Settings - User", and **replace the entire contents** with the following:
-
-```
-{
-  "autocomplete_on_tab": false,
-  "ensure_newline_at_eof_on_save": true,
-  "ignored_packages":
-  [
-  "Vintage"
-  ],
-  "scroll_past_end": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
-}
+```bash
+xcode-select --install
 ```
 
-Note: If you've already made other customizations to this preferences file, you'll need to manually add them back later.
+This may require that you run a Software Update before proceeding.
 
-Don't forget to save the file before closing it!
+## Install Homebrew
 
-Install the Package Manager
----------------------------
+-   First, enter this command into your terminal:
 
-One of Sublime Text's best features is its extensibility - there are a wide variety of add-ons and extras. To keep all those add-ons organized and up-to-date, we'll need a package manager.
-
-Hit ``ctrl + ` ``  to enter the Sublime Text console; there, paste in the following code.
-
-```
-import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Install Add-On Packages
------------------------
+-   Homebrew has a built-in diagnostic tool to determine if it's working
+correctly; you can run it by entering the following command in your terminal:
 
-1. Hit `command + shift + p` to enter the Command Pallette; and enter `install` into the search bar to open the package manager.
-1. Install each of the following plugins:
-    * All Autocomplete
-    * AngularJS
-    * BeautifyRuby
-    * Better CoffeeScript
-    * Dotfiles Syntax Highlighting
-    * GitGutter
-    * Haml
-    * Handlebars
-    * HTML5
-    * jQuery
-    * Sass
-    * SideBarEnhancements
+```bash
+brew doctor
+```
 
-Git (and GitHub)
-================
+**NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these
+errors are probably minor, but some might not be; please wait until one of the
+consultants has given you the go-ahead before moving on.
 
-GitHub
-------
+-   Once Homebrew says `Your system is ready to brew`, run the following command
+update Homebrew's directory of packages.
 
-If you haven't done so already, go to [GitHub](http://www.github.com) and create and account; be sure to write down your username and password somewhere, since we'll be using these credentials later.
+```bash
+brew update
+```
 
-Installing Git
---------------
+-   Lastly, install tidy-html5
 
-For OS X, enter the command `brew install git`. For Linux, enter `sudo apt-get install git`. Easy as pie!
+```bash
+brew install tidy-html5
+```
 
-Configuring Git
----------------
+### Installing NVM and Node/NPM
+
+We're going to be installing Node next; Node (and its various packages) will be
+the foundation of a large part of the course. First, though, we're going to
+download a tool called [NVM](https://github.com/creationix/nvm) that allows us
+to maintain multiple different versions of Node, in case we want to switch
+between them for different projects. Then we'll download Node, and use its
+associated package manager, NPM, to download and install the following Node
+modules:
+
+-   JShint, a tool for testing JavaScript code quality. (`jshint`)
+-   Grunt, a tool for automating background tasks. (`grunt-cli`)
+
+### OSX
+
+```bash
+brew install nvm
+```
+
+### Linux
+
+```bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
+```
+
+### OSX and Linux
+
+**Restart your terminal (close it and reopen it; not just the window!)**
+
+-   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
+    following depending on your operating system:
+
+### OSX Only
+
+```bash
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
+
+### Only Linux
+
+```bash
+export NVM_DIR="/home/$(whoami)/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+```
+
+### OSX and Linux
+
+-   Use NVM to install the latest longterm stable version of Node (4.4.7)
+
+```bash
+nvm install --lts=argon
+nvm alias default v4
+nvm use default
+```
+
+-   ***Restart your Terminal by quitting the application and re-opening it.***
+
+-   ***AGAIN, Restart your Terminal***
+
+-   Finally, use NPM to install the Node modules mentioned earlier and make them
+    available across all of our projects.
+
+Just like we did before with the Atom packages install, we can string
+together the various packages we'd like installed into one executable
+command:
+
+```bash
+npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower ember
+```
+
+### Git (and GitHub)
+
+If you haven't done so already, go to [GitHub](http://www.github.com) and create
+and account; be sure to write down your username and password somewhere, since
+we'll be using these credentials later.
+
+### OS X ONLY
+
+Enter the command:
+`brew install git`
+
+### Linux ONLY
+
+Enter the command:
+`sudo apt-get install git`
+
+## Configuring Git
+
+### Both OS X and Linux
 
 Now let's take care of some settings.
 
-- Show the current Git branch in the terminal prompt
+-   Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
+variable so that commit message pop-ups open in Atom. Run the command:
 
-    Run the command `subl ~/.bashrc`. Paste the following code into the bottom of the file.
+```bash
+atom ~/.bashrc
+```
 
-    ```bash
-      # Git
-      function parse_git_branch {
-        ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-        echo "("${ref#refs/heads/}")"
-      }
-      export PS1="\w \$(parse_git_branch)\$ "
-    ```
+-   Paste the following code into the bottom of the file:
 
-- Tweak Git's EDITOR variable so that commit message pop-ups open in Sublime.
+```bash
+# Git
+function parse_git_branch {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo "("${ref#refs/heads/}")"
+}
+export PS1="\w \$(parse_git_branch)\$ "
+export EDITOR='atom --wait'
+export VISUAL='atom --wait'
+```
 
-    ```
-    echo "export EDITOR='subl -w'" >> ~/.bashrc
-    ```
+-   Colorize git in the command line
 
-- Colorize git in the command line
+```bash
+git config --global color.ui true
+```
 
-    ```
-    git config --global color.ui true`
-    ```
+-   Configure Git
 
-- Set up a global 'excludesfile', listing all the files that we might want git to ignore.
+```bash
+git config --global user.name "<yourUsername>"
+git config --global user.email "<your_email@example.com>"
+git config --global pull.rebase true
+git config --global branch.autosetuprebase always
+git config --global push.default simple
+git config --global branch.autosetupmerge true
+git config --global core.editor "atom --wait"
+```
 
-    ```
-    git config --global core.excludesfile ~/.gitignore
-    echo ".DS_Store" >> ~/.gitignore
-    ```
+## Linking with GitHub
 
-- Set a default user
+### Both OS X and Linux
 
-    ```
-    git config --global user.name "yourUsername"
-    git config --global user.email "your_email@example.com"
-    ```
+In order to push commits to GitHub from the command line, we need Git and
+GitHub to have a matching set of SSH keys.
 
-Linking with GitHub
--------------------
+-   Generate a new key by running
 
-In order to push commits to GitHub from the command line, we need Git and GitHub to have a matching set of SSH keys.
+```bash
+ssh-keygen -t rsa -C "<your_email@example.com>"
+```
 
-1. Generate a new key by running `ssh-keygen -t rsa -C "your_email@example.com"` (feel free to put in a password or select a non-default location for your keys, but it's not necessary to do so; to move ahead, just keep hitting `enter`).
-2. Add this new key to your system by running `ssh-add ~/.ssh/id_rsa`
-3. Copy the new key to your clipboard using either `pbcopy < ~/.ssh/id_rsa.pub` (OS X) or `xclip -selection clipboard < ~/.ssh/id_rsa.pub` (Linux); then, log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh), and paste in your SSH key. To test it out, type the following into the command line:
+(Feel free to put in a password or select a non-default location for your keys,
+but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
-  `ssh -T git@github.com`
+-   Add this new key to your system by running:
+
+```bash
+ssh-add ~/.ssh/id_rsa
+```
+
+-   Copy the new key to your clipboard using either:
+
+### OSX ONLY
+
+```bash
+  pbcopy < ~/.ssh/id_rsa.pub
+```
+
+### Linux
+
+```bash
+  xclip -selection clipboard < ~/.ssh/id_rsa.pub
+```
+
+### OSX and Linux
+
+-   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
+and paste in your SSH key. To test it out, type the following into the command
+line:
+
+```bash
+ssh -T git@github.com
+```
 
 If you get a prompt along the lines of
-  ```
-  The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can't be established.
-  RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
-  Are you sure you want to continue connecting (yes/no)?
-  ```
-just type 'yes'. If everything's working, you should get a response like the following:
 
-  `Hi yourUsername! You've succesfully authenticated, but GitHub does not provide shell access.`
+```bash
+The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
+RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
+Are you sure you want to continue connecting (yes/no)?
+```
 
-Rbenv, Ruby, and Rails
-======================
+Just type 'yes'. If everything's working, you should get a response like the
+following:
 
-From Rbenv to Ruby
-------------------
+```bash
+Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
+```
 
-Rbenv is a tool that we can use to manage multiple versions of Ruby and determine which version we use for a particular project.
+Last thing, now that you have git and GitHub we want this repo on your local
+computer. Please follow along as I show you how to fork, clone and put the repo
+in the correct directory.
 
-1. Install Rbenv
+-   Now that our local machine is set up with Git, we need to `fork and clone`
+the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
+fork to your Github  account, make sure you copy the HTTPS clone link (It will
+look something like `https://github.com/<your github name>/orientation.git`)
 
-  #####OS X
+-   In your root directory `cd ~`, let's move to our downloads file by `cd
+Downloads/`, then run `git clone <link copied from github>`.
 
-    Run `brew install rbenv`.
+-   Move into the `oritentation` directory by `cd orientation/`. Now we have to set up
+a global 'excludesfile', listing all the files that we might want git to ignore.
 
-  #####Linux
+```bash
+git config --global core.excludesfile ~/.gitignore
+cp .gitignore ~/.gitignore # from this repository directory
+```
 
-    Copy and paste this entire line into your terminal and run it.
+### Install [`hub`](https://github.com/github/hub)
 
-    `curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash`
+> hub is a command line tool that wraps git in order to extend it with extra
+> features and commands that make working with GitHub easier. -- [`hub`
+> README](https://github.com/github/hub).
 
-2. Tell Rbenv to use homebrew's directories instead of rbenv's
+#### OSX ONLY
 
-  #####OS X
-  Open ~/.bashrc and paste in the following code BEFORE the stuff you pasted in about Git.
+```bash
+brew install hub
+```
 
-    ```bash
-    # Rbenv
-    export RBENV_ROOT=/usr/local/var/rbenv
-    export PATH="$HOME/.rbenv/bin:$PATH"
-    eval "$(rbenv init -)"
-    ```
+After installing `hub`, add the following line to your `~/.bashrc`.
 
-  #####Linux
+```bash
+eval "$(hub alias -s)"
+```
 
-    Open ~/.bashrc and paste in the following code BEFORE the stuff you pasted in about Git.
+####Linux ONLY
 
-    ```bash
-    # Rbenv
-    export RBENV_ROOT="${HOME}/.rbenv"
-    if [ -d "${RBENV_ROOT}" ]; then
-      export PATH="${RBENV_ROOT}/bin:${PATH}"
-      eval "$(rbenv init -)"
-    fi
-    ```
+Paste at a Terminal prompt:
 
-  Once you've done this, run `source ~/.bashrc` to reload the terminal's settings.
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+```
 
-3. (OS X only) Install a tool to re-hash gems after each installation (Linux users, unfortunately must do this manually).
+```sh
+PATH="$HOME/.linuxbrew/bin:$PATH"
+```
 
-    `brew install rbenv-gem-rehash`
+Edit your ~/.bash_profile to add ~/.linuxbrew/bin to your PATH:
 
-  Then download a package with a number of common gems.
+```sh
+echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+```
 
-    `brew install rbenv-default-gems`
+Now you need to install some setup-tools:
 
-4. (Linux only) Rbenv on Linux depends on another library called `libffi-dev`. Download and install it with the following command.
+```sh
+sudo apt-get install build-essential curl git python-setuptools ruby
+```
 
-    `sudo apt-get install libffi-dev`
+You're done! Try installing hub:
 
-5. Install `ruby-build`, a plugin for rbenv.
+```sh
+brew install hub
+```
 
-  #####OS X
+## Rbenv, Ruby, and Rails
 
-    `brew install ruby-build`
+Rbenv is a tool that we can use to manage multiple versions of Ruby and
+determine which version we use for a particular project.
 
-  #####Linux
+1.  Install Rbenv
 
-    `git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build`
+### OS X
 
-    `rbenv install ruby-build`
+```bash
+brew install rbenv
+```
 
-5. Install version 2.2.0 of Ruby and make it the system-wide default using the command
+### Linux
 
-  `rbenv install 2.2.0 && rbenv global 2.2.0`
+Copy and paste this entire line into your terminal and run it.
 
-  You can see what versions of Ruby rbenv has downloaded by running `rbenv versions`; to see which version you are currently using, type either `rbenv version` or `ruby -v`.
+```bash
+curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+```
+
+2.  Tell Rbenv to use homebrew's directories instead of rbenv's
+
+### OS X ONLY
+
+`atom ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
+in about Git.
+
+```bash
+# Rbenv
+export RBENV_ROOT=/usr/local/var/rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+```
+
+### Linux
+
+`atom ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
+in about Git.
+
+```bash
+# Rbenv
+export RBENV_ROOT="${HOME}/.rbenv"
+if [ -d "${RBENV_ROOT}" ]; then
+  export PATH="${RBENV_ROOT}/bin:${PATH}"
+  eval "$(rbenv init -)"
+fi
+```
+
+3.  Once you've done this, run the following command to reload the terminal's
+settings:
+
+```bash
+source ~/.bashrc
+```
+
+4.  ***Note: after installing gems you may need to run this command***
+
+### OS X and Linux
+
+```bash
+rbenv rehash
+```
+
+### Linux ONLY
+
+Rbenv on Linux depends on another library called `libffi-dev`. Download and
+install it with the following command.
+
+```bash
+sudo apt-get install libffi-dev
+```
+
+5.Install `ruby-build`, a plugin for rbenv.
+
+### OS X
+
+```bash
+brew install ruby-build
+```
+
+### Linux
+
+```bash
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
+Don't worry if the above step doesn't take. Some Linux machines may not need it.
+
+### OS X and Linux
+
+6.Install version 2.3.1 of Ruby and make it the system-wide default using the
+command:
+
+```bash
+rbenv install 2.3.1 && rbenv global 2.3.1
+```
+
+You can see what versions of Ruby rbenv has downloaded by running
+`rbenv versions`; to see which version you are currently using, type either
+`rbenv version` or `ruby -v`.
 
 ## From Ruby to Rails (and more)
 
-Now that you have Ruby installed, you can begin to install gems on your own. However, gems usually come with a lot of unnecessary documentation - let's tell Ruby to skip those by running the following command:
+Now that you have Ruby installed, you can begin to install gems on your own.
+However, gems usually come with a lot of unnecessary documentation - let's tell
+Ruby to skip those by running the following command:
 
-  `echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc`
+```bash
+echo 'gem: --no-document' >> ~/.gemrc
+```
 
-Next, we'll go ahead and install Rails.
+Next, we'll go ahead and install Rails. ***First though, back out of the `orientation`
+repo by running `cd ~`. This will move us to the root/home directory.***
 
-  `gem install rails`
+```bash
+gem install rails
+```
 
 Here are a couple of other gems we should also install.
 
-  `gem install bundler`
+```bash
+gem install bundler
+gem install rubocop
+gem install scss_lint
+```
 
-#Postgres
+## Postgres
 
-Next, we'll download Postgres, the database program we'll be using for most of the course.
+Next, we'll download Postgres, a database program that we'll be using for most
+of the course.
 
-1. First, download and install Postgres.
+1.First, download and install Postgres.
 
-  #####OS X
+### OS X ONLY
 
-  Download and install the Postgress App : http://postgresapp.com/
+```bash
+brew install postgres
+```
 
-  #####Linux
+### Linux ONLY
 
-  Run `sudo apt-get install postgresql libpq-dev` to install Postgres and its dependencies.
+Run to install Postgres and its dependencies.
 
-2. Once you've installed Postgres, install the postgres gem from the command line so that Ruby can access it.
+```bash
+sudo apt-get install postgresql libpq-dev
+```
 
-  #####OS X
-  `gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config`
+2.Then, configure your new Postgres installation by entering the following
+lines into the console:
 
-  #####Linux
-  `gem install pg`
+### OS X ONLY
 
-  Linux folks must also specify a default database user, using the following command:
+```bash
+mkdir -p ~/Library/LaunchAgents
 
-  `sudo -u postgres createuser *<ubuntu_username>* -s`
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 
-  See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
-3. It's terminal shortcut time! Let's configure a `psql` shortcut so that we can run Postgres from the command line.
+createdb `whoami`
+```
 
-  #####OS X
+### Linux ONLY
 
-  Create a new terminal shortcut, just like we did with Sublime Text.
+```bash
+sudo -u postgres createuser `whoami` -s
 
-  `ln -s /Applications/Postgres.app/Contents/Versions/9.4/bin/psql /usr/local/bin/psql`
+sudo -u postgres createdb `whoami`
+```
 
-  #####Linux
+> Whether you're on OS X or Linux, you can test your configuration by running
+> `psql` in the console.
+> To quit, type `\q`
 
-  Linux already has a shortcut set up for us; just add the existing shortcut to the environmental PATH variable.
-  `echo "export PATH=/usr/local/psql/bin:$PATH" >> ~/.bashrc`
+See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
 
-# Evernote
+3.  Finally, install the `pg` gem from the command line so that Ruby programs
+can communicate with Postgres.
+
+```bash
+gem install pg
+```
+
+## Other Goodies
+
+### OS X ONLY
+
+```bash
+brew install libsass
+```
+
+### Linux ONLY
+
+```bash
+sudo apt-get install libsass
+```
+
+## Chrome
+
+If you do not already have Google Chrome, download it now and set it as your
+default browser.
+
+When done do the following on any page in Chrome:
+
+-   Press Command + option + J simultaneously to open up the Chrome inspector
+-   On the top right of the inspector window there are three dots, click that.
+-   Goto settings and make sure yours look like the following images.
+
+![Google](https://cloud.githubusercontent.com/assets/388761/15828315/c771a996-2bdc-11e6-843b-18059be92774.png)
+![Google](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
+
+## Evernote
+__Suggested__
 
 [Download and install Evernote](https://evernote.com/evernote/)
 
-#CONGRATULATIONS! YOU'RE READY TO ROLL!
+## ScreenHero
+__Suggested__
+
+You will be sent and invitation to download screenhero, an app that allows you
+to share your screen with other users. This is a useful tool for remote
+debugging and pair-programming. Please download this and setup your account when
+you get your invite via email.
+
+# CONGRATULATIONS! YOU'RE READY TO ROLL!
+
+## [License](LICENSE)
+
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.

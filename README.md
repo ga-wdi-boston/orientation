@@ -403,17 +403,7 @@ developed by the GitHub team, and is highly extensible.
 
 ***Note: From this point forward you will open Atom from the command line***
 
-### OS X & Linux
-
 Download Atom from [Atom.io](https://atom.io/)
-
-### Linux ONLY
-
-Once finished run the following command:
-
-```bash
-sudo dpkg -i atom-amd64.deb
-```
 
 ### Atom Shell commands
 
@@ -446,7 +436,6 @@ go!
 apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
-### OS X (Only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
 To smooth out *some* of the differences, we need to change how OS X loads our
@@ -593,40 +582,19 @@ modules:
 -   JShint, a tool for testing JavaScript code quality. (`jshint`)
 -   Grunt, a tool for automating background tasks. (`grunt-cli`)
 
-### OSX
-
 ```bash
 brew install nvm
 ```
-
-### Linux
-
-```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
-```
-
-### OSX and Linux
 
 **Restart your terminal (close it and reopen it; not just the window!)**
 
 -   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
     following depending on your operating system:
 
-### OSX Only
-
 ```bash
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
-
-### Only Linux
-
-```bash
-export NVM_DIR="/home/$(whoami)/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-```
-
-### OSX and Linux
 
 -   Use NVM to install the latest longterm stable version of Node (4.4.7)
 
@@ -657,15 +625,8 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-### OS X ONLY
-
 Enter the command:
 `brew install git`
-
-### Linux ONLY
-
-Enter the command:
-`sudo apt-get install git`
 
 ## Configuring Git
 
@@ -713,8 +674,6 @@ git config --global core.editor "atom --wait"
 
 ## Linking with GitHub
 
-### Both OS X and Linux
-
 In order to push commits to GitHub from the command line, we need Git and
 GitHub to have a matching set of SSH keys.
 
@@ -735,19 +694,9 @@ ssh-add ~/.ssh/id_rsa
 
 -   Copy the new key to your clipboard using either:
 
-### OSX ONLY
-
 ```bash
   pbcopy < ~/.ssh/id_rsa.pub
 ```
-
-### Linux
-
-```bash
-  xclip -selection clipboard < ~/.ssh/id_rsa.pub
-```
-
-### OSX and Linux
 
 -   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
 and paste in your SSH key. To test it out, type the following into the command
@@ -798,8 +747,6 @@ cp .gitignore ~/.gitignore # from this repository directory
 > features and commands that make working with GitHub easier. -- [`hub`
 > README](https://github.com/github/hub).
 
-#### OSX ONLY
-
 ```bash
 brew install hub
 ```
@@ -808,30 +755,6 @@ After installing `hub`, add the following line to your `~/.bashrc`.
 
 ```bash
 eval "$(hub alias -s)"
-```
-
-####Linux ONLY
-
-Paste at a Terminal prompt:
-
-```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
-```
-
-```sh
-PATH="$HOME/.linuxbrew/bin:$PATH"
-```
-
-Edit your ~/.bash_profile to add ~/.linuxbrew/bin to your PATH:
-
-```sh
-echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
-```
-
-Now you need to install some setup-tools:
-
-```sh
-sudo apt-get install build-essential curl git python-setuptools ruby
 ```
 
 You're done! Try installing hub:
@@ -847,23 +770,11 @@ determine which version we use for a particular project.
 
 1.  Install Rbenv
 
-### OS X
-
 ```bash
 brew install rbenv
 ```
 
-### Linux
-
-Copy and paste this entire line into your terminal and run it.
-
-```bash
-curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
-```
-
 2.  Tell Rbenv to use homebrew's directories instead of rbenv's
-
-### OS X ONLY
 
 `atom ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
 in about Git.
@@ -875,20 +786,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-### Linux
-
-`atom ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
-in about Git.
-
-```bash
-# Rbenv
-export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${RBENV_ROOT}" ]; then
-  export PATH="${RBENV_ROOT}/bin:${PATH}"
-  eval "$(rbenv init -)"
-fi
-```
-
 3.  Once you've done this, run the following command to reload the terminal's
 settings:
 
@@ -898,19 +795,8 @@ source ~/.bashrc
 
 4.  ***Note: after installing gems you may need to run this command***
 
-### OS X and Linux
-
 ```bash
 rbenv rehash
-```
-
-### Linux ONLY
-
-Rbenv on Linux depends on another library called `libffi-dev`. Download and
-install it with the following command.
-
-```bash
-sudo apt-get install libffi-dev
 ```
 
 5.Install `ruby-build`, a plugin for rbenv.
@@ -920,16 +806,6 @@ sudo apt-get install libffi-dev
 ```bash
 brew install ruby-build
 ```
-
-### Linux
-
-```bash
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-```
-
-Don't worry if the above step doesn't take. Some Linux machines may not need it.
-
-### OS X and Linux
 
 6.Install version 2.3.1 of Ruby and make it the system-wide default using the
 command:
@@ -974,24 +850,12 @@ of the course.
 
 1.First, download and install Postgres.
 
-### OS X ONLY
-
 ```bash
 brew install postgres
 ```
 
-### Linux ONLY
-
-Run to install Postgres and its dependencies.
-
-```bash
-sudo apt-get install postgresql libpq-dev
-```
-
 2.Then, configure your new Postgres installation by entering the following
 lines into the console:
-
-### OS X ONLY
 
 ```bash
 mkdir -p ~/Library/LaunchAgents
@@ -1003,15 +867,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 createdb `whoami`
 ```
 
-### Linux ONLY
-
-```bash
-sudo -u postgres createuser `whoami` -s
-
-sudo -u postgres createdb `whoami`
-```
-
-> Whether you're on OS X or Linux, you can test your configuration by running
+>  You can test your configuration by running
 > `psql` in the console.
 > To quit, type `\q`
 
@@ -1026,16 +882,8 @@ gem install pg
 
 ## Other Goodies
 
-### OS X ONLY
-
 ```bash
 brew install libsass
-```
-
-### Linux ONLY
-
-```bash
-sudo apt-get install libsass
 ```
 
 ## Chrome

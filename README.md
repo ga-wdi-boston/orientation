@@ -17,7 +17,7 @@ your operating system.
 
 ### OS X
 
-Please upgrade to the latest version of OS X, El Capitan (10.11.6).
+Please upgrade to the latest version of OS X, Sierra (10.12).
 
 ### Windows or Linux
 
@@ -67,7 +67,7 @@ Orientation and Install-fest.
 | 2:00pm  |          Installfest           |
 | 5:00pm  |    Wrap up and Celebration     |
 
-**_Times and Events are subject to change_**
+*Times and Events are subject to change*
 
 ## Consultant Team Introductions
 
@@ -153,14 +153,14 @@ Here are some example questions you should ask:
 Web Development Immersive is split into 4 main units. Below you'll find a high
 level breakdown of what you can expect in each unit:
 
-**UNIT 1**
+*UNIT 1*
 
 -   Learn programming fundamentals with JavaScript and practice using basic
 development tools
 -   Use HTML and CSS to construct a single page application, and use JS and
 jQuery to interact with them through the DOM. Use AJAX to communicate with an
 API
--   _Project 1_ : Build in-browser game utilizing a backend API
+-   *Project 1* : Build in-browser game utilizing a backend API
 
 **UNIT 2**
 
@@ -169,7 +169,7 @@ Rails
 -   Learn about using SQL databases and persisting data in Rails
 -   Practice building Rails back-ends that integrate into client-side apps via
 an API
--   _Project 2_ : Build your first full-stack application
+-   *Project 2* : Build your first full-stack application
 
 **UNIT 3**
 
@@ -177,13 +177,13 @@ an API
 -   Explore a non-relational database, MongoDB, and integrate it into Express
 using the Mongoose Objext-Document Mapper. Use Express middleware to add new
 features to an Express apps
--   _Project 3_ : Build your second full-stack application as a group
+-   *Project 3* : Build your second full-stack application as a group
 
 **UNIT 4**
 
 -   Learn about a client-side JavaScript framework, Ember.js, and learn how to
 add it on top of an API
--   _Capstone Project_ : Build a full-stack application that will serve as your
+-   *Capstone Project* : Build a full-stack application that will serve as your
 main portfolio piece
 
 **DAY IN THE LIFE OF**
@@ -474,7 +474,7 @@ shell (`bash`) configuration.
     At the bottom, you should have something that looks like this:
     ```bash
     # ~/.bash_profile
-    
+
     test -f ~/.bashrc && source ~/.bashrc
     ```
 
@@ -491,7 +491,7 @@ shell (`bash`) configuration.
     It should look like this:
     ```bash
     # /etc/paths
-    
+
     /usr/local/bin
     /usr/bin
     /bin
@@ -513,7 +513,7 @@ In order for Homebrew to work, we'll need to rely on a number of programs that
 come pre-installed on Linux. Install these tools **via the terminal** using the
 command:
 
-```bash
+```shell
 xcode-select --install
 ```
 

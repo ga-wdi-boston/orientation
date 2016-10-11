@@ -414,6 +414,7 @@ Download Atom from [Atom.io](https://atom.io/)
 Once finished run the following command:
 
 ```bash
+# Linux Only
 sudo dpkg -i atom-amd64.deb
 ```
 
@@ -455,51 +456,66 @@ To smooth out *some* of the differences, we need to change how OS X loads our
 shell (`bash`) configuration.
 
 1. Make sure that a `.bashrc` file exists in your home directory. In your terminal, type:
-    ```bash
-    touch ~/.bashrc
-    ```
+
+```bash
+touch ~/.bashrc
+```
 
 2. Make sure that a `.bash_profile` file exists in your home directory. In your terminal, type:
-    ```bash
-    touch ~/.bash_profile
-    ```
 
-3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X doesn't do this by default. So we add a command to do so. In your terminal, type:
-    ```bash
-    echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
-    ```
+```bash
+touch ~/.bash_profile
+```
 
-4. Next, we'll look at `.bash_profile` to make sure it has the contents we expect. Type the following in the terminal to look at the contents of the file:
-    ```bash
-    cat ~/.bash_profile
-    ```
-    At the bottom, you should have something that looks like this:
-    ```bash
-    # ~/.bash_profile
+3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X
+doesn't do this by default. So we add a command to do so. In your terminal,
+type:
 
-    test -f ~/.bashrc && source ~/.bashrc
-    ```
+```bash
+echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
+```
 
-5. Much of the software we'll be installing goes in `/usr/local/bin`, a directory that OS X doesn't search by default. You will also need to update `/etc/paths` to add this directory. In your terminal, type:
-    ```bash
-    echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-    echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
+4. Next, we'll look at `.bash_profile` to make sure it has the contents we
+expect. Type the following in the terminal to look at the contents of the file:
+
+```bash
+cat ~/.bash_profile
+```
+
+At the bottom, you should have something that looks like this:
+
+```bash
+# ~/.bash_profile
+
+test -f ~/.bashrc && source ~/.bashrc
+```
+
+5. Much of the software we'll be installing goes in `/usr/local/bin`, a
+directory that OS X doesn't search by default. You will also need to update
+`/etc/paths` to add this directory. In your terminal, type:
+
+```bash
+echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
+echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
     ```
 
 6. Finally, let's inspect our changes by typing:
-    ```bash
-    cat /etc/paths
-    ```
-    It should look like this:
-    ```bash
-    # /etc/paths
 
-    /usr/local/bin
-    /usr/bin
-    /bin
-    /usr/sbin
-    /sbin
-    ```
+```bash
+cat /etc/paths
+```
+
+It should look like this:
+
+```bash
+# /etc/paths
+
+/usr/local/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+```
 
 ## Homebrew
 
@@ -566,15 +582,13 @@ modules:
 -   JShint, a tool for testing JavaScript code quality. (`jshint`)
 -   Grunt, a tool for automating background tasks. (`grunt-cli`)
 
-### OSX
-
 ```bash
+# OSX ONLY
 brew install nvm
 ```
 
-### Linux
-
 ```bash
+#LINUX ONLY
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
@@ -585,16 +599,14 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
 -   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
     following depending on your operating system:
 
-### OSX Only
-
 ```bash
+# OSX ONLY
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
-### Only Linux
-
 ```bash
+#LINUX ONLY
 export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
@@ -708,15 +720,15 @@ ssh-add ~/.ssh/id_rsa
 
 -   Copy the new key to your clipboard using either:
 
-### OSX ONLY
-
 ```bash
+# OSX ONLY
   pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-### Linux
+### OR
 
 ```bash
+# LINUX ONLY
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
 
@@ -823,6 +835,7 @@ determine which version we use for a particular project.
 ### OS X
 
 ```bash
+# OSX ONLY
 brew install rbenv
 ```
 
@@ -831,6 +844,7 @@ brew install rbenv
 Copy and paste this entire line into your terminal and run it.
 
 ```bash
+# LINUX ONLY
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 ```
 
@@ -842,6 +856,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 in about Git.
 
 ```bash
+#OSX ONLY
 # Rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -854,6 +869,7 @@ eval "$(rbenv init -)"
 in about Git.
 
 ```bash
+#LINUX ONLY
 # Rbenv
 export RBENV_ROOT="${HOME}/.rbenv"
 if [ -d "${RBENV_ROOT}" ]; then
@@ -888,15 +904,13 @@ sudo apt-get install libffi-dev
 
 5.Install `ruby-build`, a plugin for rbenv.
 
-### OS X
-
 ```bash
+# OSX ONLY
 brew install ruby-build
 ```
 
-### Linux
-
 ```bash
+# LINUX ONLY
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
@@ -947,17 +961,15 @@ of the course.
 
 1.First, download and install Postgres.
 
-### OS X ONLY
-
 ```bash
+# OSX ONLY
 brew install postgres
 ```
-
-### Linux ONLY
 
 Run to install Postgres and its dependencies.
 
 ```bash
+# LINUX ONLY
 sudo apt-get install postgresql libpq-dev
 ```
 
@@ -999,15 +1011,13 @@ gem install pg
 
 ## Other Goodies
 
-### OS X ONLY
-
 ```bash
+# OSX ONLY
 brew install libsass
 ```
 
-### Linux ONLY
-
 ```bash
+# LINUX ONLY
 sudo apt-get install libsass
 ```
 

@@ -446,87 +446,58 @@ go!
 apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
 ```
 
-### OS X (Only)
+## Shell Configuration (OS X only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
 To smooth out *some* of the differences, we need to change how OS X loads our
 shell (`bash`) configuration.
 
-1.Check if you have a `.bashrc` file in your home directory. Open your terminal
-and type:
+1. Make sure that a `.bashrc` file exists in your home directory. In your terminal, type:
+    ```bash
+    touch ~/.bashrc
+    ```
 
-```bash
-ls ~/.bashrc
-```
+2. Make sure that a `.bash_profile` file exists in your home directory. In your terminal, type:
+    ```bash
+    touch ~/.bash_profile
+    ```
 
-***IF*** you receive a warning saying no such file or directory exists type:
+3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X doesn't do this by default. So we add a command to do so. In your terminal, type:
+    ```bash
+    echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
+    ```
 
-```bash
-touch ~/.bashrc
-```
+4. Next, we'll look at `.bash_profile` to make sure it has the contents we expect. Type the following in the terminal to look at the contents of the file:
+    ```bash
+    cat ~/.bash_profile
+    ```
+    At the bottom, you should have something that looks like this:
+    ```bash
+    # ~/.bash_profile
+    
+    test -f ~/.bashrc && source ~/.bashrc
+    ```
 
-This creates an empty file for us.
+5. Much of the software we'll be installing goes in `/usr/local/bin`, a directory that OS X doesn't search by default. You will also need to update `/etc/paths` to add this directory. In your terminal, type:
+    ```bash
+    echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
+    echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
+    ```
 
-2.Check if you have a `.bash_profile` in your home directory. In your
-terminal type:
-
-```bash
-ls ~/.bash_profile
-```
-
-***IF*** you receive a warning saying no such file or directory exists type:
-
-```bash
-touch ~/.bash_profile
-```
-
-3.Execute the follow commands at the terminal:
-
-```bash
-echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
-echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
-```
-
-Next, we'll look at `.bash_profile` to make sure it has the contents we expect.
-Type the following in the terminal to look at the contents of the file:
-
-```bash
-cat ~/.bash_profile
-```
-
-Near the bottom, you should have something that looks like this:
-
-```bash
-# ~/.bash_profile
-
-export PATH=/usr/local/bin:$PATH
-test -f ~/.bashrc && source ~/.bashrc
-```
-
-4.You will also need to update `/etc/paths` by running the following commands:
-
-```bash
-echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
-```
-
-5.Finally, let's inspect our changes by typing:
-
-```bash
-cat /etc/paths
-```
-
-It should look like this:
-
-```bash
-# /etc/paths
-
-/usr/local/bin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
-```
+6. Finally, let's inspect our changes by typing:
+    ```bash
+    cat /etc/paths
+    ```
+    It should look like this:
+    ```bash
+    # /etc/paths
+    
+    /usr/local/bin
+    /usr/bin
+    /bin
+    /usr/sbin
+    /sbin
+    ```
 
 ## Homebrew
 

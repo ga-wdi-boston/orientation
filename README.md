@@ -490,16 +490,16 @@ At the bottom, you should have something that looks like this:
 test -f ~/.bashrc && source ~/.bashrc
 ```
 
-5. Much of the software we'll be installing goes in `/usr/local/bin`, a
+5.  Much of the software we'll be installing goes in `/usr/local/bin`, a
 directory that OS X doesn't search by default. You will also need to update
 `/etc/paths` to add this directory. In your terminal, type:
 
 ```bash
 echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
 echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
-    ```
+```
 
-6. Finally, let's inspect our changes by typing:
+6.  Finally, let's inspect our changes by typing:
 
 ```bash
 cat /etc/paths

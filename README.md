@@ -396,7 +396,7 @@ skip some of these steps; **do not do so** without first checking with an
 consultant!
 
 If at any point you are unsure of whether you have done something correctly,
-ask an consultant. It's important in many cases that we do these steps in order.
+ask a consultant. It's important in many cases that we do these steps in order.
 
 ## Atom
 

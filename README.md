@@ -441,6 +441,10 @@ extensions to your Atom installation. For each package listed below, run
   apm install aligner-css
 ```
 
+```bash
+  apm enable autosave
+```
+
 Now that we have some practice with running the 'apm install <package_name>' we
 do a shortcut where is runs the same command but installs all packages in one
 go!

@@ -355,7 +355,7 @@ amenities you'll have access to. But first, we should define what our
 relationship with WeWork looks like. We rent out our 4 workspace rooms from
 WeWork. What this means is that we **do not own** WeWork **nor** does WeWork own
 General Assembly! Here are area's that you'll have access to, but are not
-**_exclusive_** to General Assmebly students or staff:
+**_exclusive_** to General Assembly students or staff:
 
 -   The Dugout
 -   Kitchen areas
@@ -396,7 +396,7 @@ skip some of these steps; **do not do so** without first checking with an
 consultant!
 
 If at any point you are unsure of whether you have done something correctly,
-ask an consultant. It's important in many cases that we do these steps in order.
+ask a consultant. It's important in many cases that we do these steps in order.
 
 ## Atom
 

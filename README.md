@@ -926,7 +926,8 @@ Don't worry if the above step doesn't take. Some Linux machines may not need it.
 command:
 
 ```bash
-rbenv install 2.3.1 && rbenv global 2.3.1
+rbenv install 2.3.1
+rbenv global 2.3.1
 ```
 
 You can see what versions of Ruby rbenv has downloaded by running

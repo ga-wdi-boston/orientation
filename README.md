@@ -1067,17 +1067,17 @@ When done do the following on any page in Chrome:
 -   On the top right of the inspector window there are three dots, click that.
 -   Goto settings and make sure yours look like the following image.
 
-![Google](https://cloud.githubusercontent.com/assets/5384023/21694746/c5732f78-d354-11e6-9cad-9b712ae66a68.png)
+![Chrome Inspector Settings](https://cloud.githubusercontent.com/assets/5384023/21694746/c5732f78-d354-11e6-9cad-9b712ae66a68.png)
 
 -   Next, close the settings section by clicking on the X at the top right.
 -   Then click on the Console tab at the top and make sure yours looks like the following image.
 
-![Google](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
+![Chrome Inspector Console](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
 
 -   Finally, click on the Sources tab that is next to the Console tab.
 -   Make sure yours looks like the following image.
 
-![Google](https://cloud.githubusercontent.com/assets/5384023/21694848/2b115a6c-d355-11e6-9ed6-1d6d0a320fa7.png)
+![Chrome Inspector Sources](https://cloud.githubusercontent.com/assets/5384023/21694848/2b115a6c-d355-11e6-9ed6-1d6d0a320fa7.png)
 
 ## Evernote
 __Suggested__

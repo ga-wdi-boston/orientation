@@ -486,7 +486,7 @@ expect. Type the following in the terminal to look at the contents of the file:
   cat ~/.bash_profile
   ```
 
-At the bottom, you should have something that looks like this:
+  At the bottom, you should have something that looks like this:
 
   ```bash
   # ~/.bash_profile

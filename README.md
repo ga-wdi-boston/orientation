@@ -284,7 +284,7 @@ successfully complete the program
 
 ### Rewards for Successful Completion
 
--   Outcomes Support
+-   Post-graduation outcomes support
 -   Participation in the Meet & Hire
 -   Letter and Certificate of Completion
 -   Participation in sem-anual Graduation Celebration
@@ -317,9 +317,10 @@ Most groups of developers come up with something like the following:
 
 Majority of your experiences in the program workspace will have you interact
 with the consultants, production, outcomes and operations teams. However, there
-are addition departments working hard, behind the scenes, to ensure your
+are additional departments working hard, behind the scenes, to ensure your
 experience along with that of future programs are the best they possibly can be.
-This portion will allow you to meet some addition friendly faces that you will
+
+This portion will allow you to meet some additional friendly faces that you will
 see around campus. This includes:
 
 -   Senior Leadership
@@ -461,53 +462,53 @@ shell (`bash`) configuration.
 
 1. Make sure that a `.bashrc` file exists in your home directory. In your terminal, type:
 
-```bash
-touch ~/.bashrc
-```
+  ```bash
+  touch ~/.bashrc
+  ```
 
 2. Make sure that a `.bash_profile` file exists in your home directory. In your terminal, type:
 
-```bash
-touch ~/.bash_profile
-```
+  ```bash
+  touch ~/.bash_profile
+  ```
 
 3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X
 doesn't do this by default. So we add a command to do so. In your terminal,
 type:
 
-```bash
-echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
-```
+  ```bash
+  echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
+  ```
 
 4. Next, we'll look at `.bash_profile` to make sure it has the contents we
 expect. Type the following in the terminal to look at the contents of the file:
 
-```bash
-cat ~/.bash_profile
-```
+  ```bash
+  cat ~/.bash_profile
+  ```
 
-At the bottom, you should have something that looks like this:
+  At the bottom, you should have something that looks like this:
 
-```bash
-# ~/.bash_profile
+  ```bash
+  # ~/.bash_profile
 
-test -f ~/.bashrc && source ~/.bashrc
-```
+  test -f ~/.bashrc && source ~/.bashrc
+  ```
 
 5.  Much of the software we'll be installing goes in `/usr/local/bin`, a
 directory that OS X doesn't search by default. You will also need to update
 `/etc/paths` to add this directory. In your terminal, type:
 
-```bash
-echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
-```
+  ```bash
+  echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
+  echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
+  ```
 
 6.  Finally, let's inspect our changes by typing:
 
-```bash
-cat /etc/paths
-```
+  ```bash
+  cat /etc/paths
+  ```
 
 It should look like this:
 
@@ -543,7 +544,13 @@ This may require that you run a Software Update before proceeding.
 
 ## Install Homebrew
 
--   First, enter this command into your terminal:
+- First, set permissions for `/usr/local` by entering the following command into your terminal.
+
+```bash
+chmod -R $(whoami):admin /usr/local
+```
+
+-   Second, enter this command into your terminal:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -637,7 +644,8 @@ together the various packages we'd like installed into one executable
 command:
 
 ```bash
-npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower ember phantomjs-prebuilt
+npm install --global npm
+npm install -g jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
 ```
 
 ### Git (and GitHub)
@@ -677,7 +685,7 @@ function parse_git_branch {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   echo "("${ref#refs/heads/}")"
 }
-export PS1="\w \$(parse_git_branch)\$ "
+export PS1="\w \$(parse_git_branch)\n\$ "
 export EDITOR='atom --wait'
 export VISUAL='atom --wait'
 ```
@@ -834,6 +842,16 @@ brew install hub
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
+Before we install Rbenv we want to make sure a similar Ruby manager rvm is not
+already installed and if it is then we will uninstall it.
+
+```bash
+rvm -h
+# expect rvm -h to result in message 'rvm not found'
+# if you do not see the message 'rvm not found' then run
+rvm implode
+```
+
 1.  Install Rbenv
 
 ### OS X
@@ -862,9 +880,12 @@ in about Git.
 ```bash
 #OSX ONLY
 # Rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then
+  export RBENV_ROOT=/usr/local/var/rbenv
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
+
 ```
 
 ### Linux
@@ -875,11 +896,12 @@ in about Git.
 ```bash
 #LINUX ONLY
 # Rbenv
-export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${RBENV_ROOT}" ]; then
+if which rbenv > /dev/null; then
+  export RBENV_ROOT="${HOME}/.rbenv"
   export PATH="${RBENV_ROOT}/bin:${PATH}"
   eval "$(rbenv init -)"
 fi
+
 ```
 
 3.  Once you've done this, run the following command to reload the terminal's
@@ -921,6 +943,14 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
 ### OS X and Linux
+
+Before installing our Ruby versions, we need to confirm that rbenv has been installed correctly.
+
+```bash
+rbenv --version
+# expecting message 'rbenv 1.1.0'
+# if you do not get the message 'rbenv 1.1.0' refer to an instructor
+```
 
 6.Install version 2.3.1 of Ruby and make it the system-wide default using the
 command:
@@ -1035,10 +1065,19 @@ When done do the following on any page in Chrome:
 
 -   Press Command + option + J simultaneously to open up the Chrome inspector
 -   On the top right of the inspector window there are three dots, click that.
--   Goto settings and make sure yours look like the following images.
+-   Goto settings and make sure yours look like the following image.
 
-![Google](https://cloud.githubusercontent.com/assets/388761/15828315/c771a996-2bdc-11e6-843b-18059be92774.png)
-![Google](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
+![Chrome Inspector Settings](https://cloud.githubusercontent.com/assets/5384023/21694746/c5732f78-d354-11e6-9cad-9b712ae66a68.png)
+
+-   Next, close the settings section by clicking on the X at the top right.
+-   Then click on the Console tab at the top and make sure yours looks like the following image.
+
+![Chrome Inspector Console](https://cloud.githubusercontent.com/assets/388761/15828344/e518662e-2bdc-11e6-8ceb-890eb1ffb1a6.png)
+
+-   Finally, click on the Sources tab that is next to the Console tab.
+-   Make sure yours looks like the following image.
+
+![Chrome Inspector Sources](https://cloud.githubusercontent.com/assets/5384023/21694848/2b115a6c-d355-11e6-9ed6-1d6d0a320fa7.png)
 
 ## Evernote
 __Suggested__

@@ -444,9 +444,8 @@ extensions to your Atom installation. For each package listed below, run
   apm enable autosave
 ```
 
-Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one
-go!
+Now that we have some practice with running 'apm install <package_name>', we can
+use a shortcut that installs all packages in one go!
 
 ```bash
 apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines language-ember-htmlbars

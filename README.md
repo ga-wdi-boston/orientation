@@ -931,6 +931,14 @@ Don't worry if the above step doesn't take. Some Linux machines may not need it.
 
 ### OS X and Linux
 
+Before installing our Ruby versions, we need to confirm that rbenv has been installed correctly.
+
+```bash
+rbenv --version
+# expecting message 'rbenv 1.1.0'
+# if you do not get the message 'rbenv 1.1.0' refer to an instructor
+```
+
 6.Install version 2.3.1 of Ruby and make it the system-wide default using the
 command:
 

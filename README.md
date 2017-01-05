@@ -204,7 +204,7 @@ we have in place. You will find these below.
 First and foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and have one!
 
-![Growth Mindset Chart](http://media2.policymic.com/c4bfc173c1b89c4356546074c7abc735.jpg)
+![Growth Mindset Chart](https://cloud.githubusercontent.com/assets/388761/21698706/4c6a08d8-d366-11e6-8758-8bf63f65fe60.jpg)
 
 **GROWTH MINDSET DIAGRAM**
 

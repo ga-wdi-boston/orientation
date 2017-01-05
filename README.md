@@ -637,7 +637,8 @@ together the various packages we'd like installed into one executable
 command:
 
 ```bash
-npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
+npm install --global npm
+npm install -g jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
 ```
 
 ### Git (and GitHub)

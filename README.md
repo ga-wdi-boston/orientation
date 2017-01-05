@@ -316,10 +316,8 @@ Most groups of developers come up with something like the following:
 ## Staff Introductions
 
 Majority of your experiences in the program workspace will have you interact
-with the consultants, production, outcomes and operations teams. However, there
-are addition departments working hard, behind the scenes, to ensure your
-experience along with that of future programs are the best they possibly can be.
-This portion will allow you to meet some addition friendly faces that you will
+with the consultants, production, outcomes and operations teams. However, there are additional departments working hard, behind the scenes, to ensure your experience along with that of future programs are the best they possibly can be.
+This portion will allow you to meet some additional friendly faces that you will
 see around campus. This includes:
 
 -   Senior Leadership

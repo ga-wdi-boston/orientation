@@ -284,7 +284,7 @@ successfully complete the program
 
 ### Rewards for Successful Completion
 
--   Outcomes Support
+-   Post-graduation outcomes support
 -   Participation in the Meet & Hire
 -   Letter and Certificate of Completion
 -   Participation in sem-anual Graduation Celebration

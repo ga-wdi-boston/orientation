@@ -1059,7 +1059,7 @@ When done do the following on any page in Chrome:
 -   On the top right of the inspector window there are three dots, click that.
 -   Goto settings and make sure yours look like the following image.
 
-![Google](https://cloud.githubusercontent.com/assets/5384023/21694746/c5732f78-d354-11e6-9cad-9b712ae66a68.png")
+![Google](https://cloud.githubusercontent.com/assets/5384023/21694746/c5732f78-d354-11e6-9cad-9b712ae66a68.png)
 
 -   Next, close the settings section by clicking on the X at the top right.
 -   Then click on the Console tab at the top and make sure yours looks like the following image.

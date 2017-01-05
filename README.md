@@ -541,7 +541,13 @@ This may require that you run a Software Update before proceeding.
 
 ## Install Homebrew
 
--   First, enter this command into your terminal:
+- First, set permissions for /usr/local by entering the following command into your terminal.
+
+```bash
+chmod -R $(whoami):admin /usr/local
+```
+
+-   Second, enter this command into your terminal:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

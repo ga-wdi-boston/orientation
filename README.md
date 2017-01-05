@@ -834,6 +834,15 @@ brew install hub
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
+Before we install Rbenv we want to make sure a similar Ruby manager rvm is not already installed and if it is then we will uninstall it.
+
+```bash
+rvm -h
+# expect rvm -h to result in message 'rvm not found'
+# if you do not see the message 'rvm not found' then run
+rvm implode
+```
+
 1.  Install Rbenv
 
 ### OS X

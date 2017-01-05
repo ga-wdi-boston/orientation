@@ -876,9 +876,12 @@ in about Git.
 ```bash
 #OSX ONLY
 # Rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then
+  export RBENV_ROOT=/usr/local/var/rbenv
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
+
 ```
 
 ### Linux
@@ -889,11 +892,12 @@ in about Git.
 ```bash
 #LINUX ONLY
 # Rbenv
-export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${RBENV_ROOT}" ]; then
+if which rbenv > /dev/null; then
+  export RBENV_ROOT="${HOME}/.rbenv"
   export PATH="${RBENV_ROOT}/bin:${PATH}"
   eval "$(rbenv init -)"
 fi
+
 ```
 
 3.  Once you've done this, run the following command to reload the terminal's

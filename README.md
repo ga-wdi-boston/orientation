@@ -541,7 +541,7 @@ This may require that you run a Software Update before proceeding.
 
 ## Install Homebrew
 
-- First, set permissions for /usr/local by entering the following command into your terminal.
+- First, set permissions for `/usr/local` by entering the following command into your terminal.
 
 ```bash
 chmod -R $(whoami):admin /usr/local

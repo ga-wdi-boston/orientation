@@ -316,7 +316,10 @@ Most groups of developers come up with something like the following:
 ## Staff Introductions
 
 Majority of your experiences in the program workspace will have you interact
-with the consultants, production, outcomes and operations teams. However, there are additional departments working hard, behind the scenes, to ensure your experience along with that of future programs are the best they possibly can be.
+with the consultants, production, outcomes and operations teams. However, there
+are additional departments working hard, behind the scenes, to ensure your
+experience along with that of future programs are the best they possibly can be.
+
 This portion will allow you to meet some additional friendly faces that you will
 see around campus. This includes:
 
@@ -839,7 +842,8 @@ brew install hub
 Rbenv is a tool that we can use to manage multiple versions of Ruby and
 determine which version we use for a particular project.
 
-Before we install Rbenv we want to make sure a similar Ruby manager rvm is not already installed and if it is then we will uninstall it.
+Before we install Rbenv we want to make sure a similar Ruby manager rvm is not
+already installed and if it is then we will uninstall it.
 
 ```bash
 rvm -h

@@ -1,5 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/ga-wdi-boston/installfest.svg?label=ready&title=Ready)](http://waffle.io/ga-wdi-boston/installfest)
-
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # Web Development Immersive Orientation
@@ -206,7 +204,7 @@ we have in place. You will find these below.
 First and foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and have one!
 
-![Growth Mindset Chart](http://media2.policymic.com/c4bfc173c1b89c4356546074c7abc735.jpg)
+![Growth Mindset Chart](https://cloud.githubusercontent.com/assets/388761/21698706/4c6a08d8-d366-11e6-8758-8bf63f65fe60.jpg)
 
 **GROWTH MINDSET DIAGRAM**
 
@@ -442,17 +440,29 @@ extensions to your Atom installation. For each package listed below, run
   apm install aligner-css
 ```
 
-```bash
-  apm enable autosave
-```
-
-Now that we have some practice with running the 'apm install <package_name>' we
-do a shortcut where is runs the same command but installs all packages in one
-go!
+Now that we have some practice with running 'apm install <package_name>', we can
+use a shortcut that installs all packages in one go!
 
 ```bash
 apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines language-ember-htmlbars
 ```
+
+Part of being a good developer is using tools that help you make fewer mistakes.
+To that end, let's configure a useful feature in Atom: autosave! First, let's
+enable the autosave plugin.
+
+```bash
+  apm enable autosave
+```
+
+Next, open Atom's settings, click the packages tab, and search for autosave.
+Then open the "Settings" panel for the autosave plugin.
+
+![Atom Settings > Packages](https://cloud.githubusercontent.com/assets/388761/21697829/41986714-d362-11e6-87ac-f0c42eac72e0.png)
+
+Lastly, ensure the "Enabled" option is checked.
+
+![Autosave Settings](https://cloud.githubusercontent.com/assets/388761/21697838/47338b72-d362-11e6-9106-4a5f476945ca.png)
 
 ## Shell Configuration (OS X only)
 

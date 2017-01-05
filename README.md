@@ -461,53 +461,53 @@ shell (`bash`) configuration.
 
 1. Make sure that a `.bashrc` file exists in your home directory. In your terminal, type:
 
-```bash
-touch ~/.bashrc
-```
+  ```bash
+  touch ~/.bashrc
+  ```
 
 2. Make sure that a `.bash_profile` file exists in your home directory. In your terminal, type:
 
-```bash
-touch ~/.bash_profile
-```
+  ```bash
+  touch ~/.bash_profile
+  ```
 
 3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X
 doesn't do this by default. So we add a command to do so. In your terminal,
 type:
 
-```bash
-echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
-```
+  ```bash
+  echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
+  ```
 
 4. Next, we'll look at `.bash_profile` to make sure it has the contents we
 expect. Type the following in the terminal to look at the contents of the file:
 
-```bash
-cat ~/.bash_profile
-```
+  ```bash
+  cat ~/.bash_profile
+  ```
 
 At the bottom, you should have something that looks like this:
 
-```bash
-# ~/.bash_profile
+  ```bash
+  # ~/.bash_profile
 
-test -f ~/.bashrc && source ~/.bashrc
-```
+  test -f ~/.bashrc && source ~/.bashrc
+  ```
 
 5.  Much of the software we'll be installing goes in `/usr/local/bin`, a
 directory that OS X doesn't search by default. You will also need to update
 `/etc/paths` to add this directory. In your terminal, type:
 
-```bash
-echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
-```
+  ```bash
+  echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
+  echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
+  ```
 
 6.  Finally, let's inspect our changes by typing:
 
-```bash
-cat /etc/paths
-```
+  ```bash
+  cat /etc/paths
+  ```
 
 It should look like this:
 

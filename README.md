@@ -263,7 +263,7 @@ outside of class. Find extra tutorials online.
 
 -   If you arrive after **9:00am** you are late. Any
 training missed is your responsibility to make up.
--   If you leave before **5:00pm**, you have left early.
+-   If you are not present at the beginning of afternoon announcements, or if you leave before **5:00 pm**, you will accrue one early departure.
 -   If your late arrivals and early departures exceed **5**, you will not
 successfully complete the program.
 

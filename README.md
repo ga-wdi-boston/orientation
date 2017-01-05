@@ -17,7 +17,7 @@ your operating system.
 
 ### OS X
 
-Please upgrade to the latest version of OS X, El Capitan (10.11.6).
+Please upgrade to the latest version of OS X, Sierra (10.12).
 
 ### Windows or Linux
 
@@ -67,7 +67,7 @@ Orientation and Install-fest.
 | 2:00pm  |          Installfest           |
 | 5:00pm  |    Wrap up and Celebration     |
 
-**_Times and Events are subject to change_**
+*Times and Events are subject to change*
 
 ## Consultant Team Introductions
 
@@ -153,14 +153,14 @@ Here are some example questions you should ask:
 Web Development Immersive is split into 4 main units. Below you'll find a high
 level breakdown of what you can expect in each unit:
 
-**UNIT 1**
+*UNIT 1*
 
 -   Learn programming fundamentals with JavaScript and practice using basic
 development tools
 -   Use HTML and CSS to construct a single page application, and use JS and
 jQuery to interact with them through the DOM. Use AJAX to communicate with an
 API
--   _Project 1_ : Build in-browser game utilizing a backend API
+-   *Project 1* : Build in-browser game utilizing a backend API
 
 **UNIT 2**
 
@@ -169,7 +169,7 @@ Rails
 -   Learn about using SQL databases and persisting data in Rails
 -   Practice building Rails back-ends that integrate into client-side apps via
 an API
--   _Project 2_ : Build your first full-stack application
+-   *Project 2* : Build your first full-stack application
 
 **UNIT 3**
 
@@ -177,13 +177,13 @@ an API
 -   Explore a non-relational database, MongoDB, and integrate it into Express
 using the Mongoose Objext-Document Mapper. Use Express middleware to add new
 features to an Express apps
--   _Project 3_ : Build your second full-stack application as a group
+-   *Project 3* : Build your second full-stack application as a group
 
 **UNIT 4**
 
 -   Learn about a client-side JavaScript framework, Ember.js, and learn how to
 add it on top of an API
--   _Capstone Project_ : Build a full-stack application that will serve as your
+-   *Capstone Project* : Build a full-stack application that will serve as your
 main portfolio piece
 
 **DAY IN THE LIFE OF**
@@ -205,6 +205,8 @@ we have in place. You will find these below.
 
 First and foremost, to be successful in this program, it is **imperative** that
 you understand what a **_Growth Mindset_** is and have one!
+
+![Growth Mindset Chart](http://media2.policymic.com/c4bfc173c1b89c4356546074c7abc735.jpg)
 
 **GROWTH MINDSET DIAGRAM**
 
@@ -353,7 +355,7 @@ amenities you'll have access to. But first, we should define what our
 relationship with WeWork looks like. We rent out our 4 workspace rooms from
 WeWork. What this means is that we **do not own** WeWork **nor** does WeWork own
 General Assembly! Here are area's that you'll have access to, but are not
-**_exclusive_** to General Assmebly students or staff:
+**_exclusive_** to General Assembly students or staff:
 
 -   The Dugout
 -   Kitchen areas
@@ -394,7 +396,7 @@ skip some of these steps; **do not do so** without first checking with an
 consultant!
 
 If at any point you are unsure of whether you have done something correctly,
-ask an consultant. It's important in many cases that we do these steps in order.
+ask a consultant. It's important in many cases that we do these steps in order.
 
 ## Atom
 
@@ -412,6 +414,7 @@ Download Atom from [Atom.io](https://atom.io/)
 Once finished run the following command:
 
 ```bash
+# Linux Only
 sudo dpkg -i atom-amd64.deb
 ```
 
@@ -438,79 +441,69 @@ extensions to your Atom installation. For each package listed below, run
   apm install aligner-css
 ```
 
+```bash
+  apm enable autosave
+```
+
 Now that we have some practice with running the 'apm install <package_name>' we
 do a shortcut where is runs the same command but installs all packages in one
 go!
 
 ```bash
-apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines
+apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines language-ember-htmlbars
 ```
 
-### OS X (Only)
+## Shell Configuration (OS X only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
 To smooth out *some* of the differences, we need to change how OS X loads our
 shell (`bash`) configuration.
 
-1.Check if you have a `.bashrc` file in your home directory. Open your terminal
-and type:
-
-```bash
-ls ~/.bashrc
-```
-
-***IF*** you receive a warning saying no such file or directory exists type:
+1. Make sure that a `.bashrc` file exists in your home directory. In your terminal, type:
 
 ```bash
 touch ~/.bashrc
 ```
 
-This creates an empty file for us.
-
-2.Check if you have a `.bash_profile` in your home directory. In your
-terminal type:
-
-```bash
-ls ~/.bash_profile
-```
-
-***IF*** you receive a warning saying no such file or directory exists type:
+2. Make sure that a `.bash_profile` file exists in your home directory. In your terminal, type:
 
 ```bash
 touch ~/.bash_profile
 ```
 
-3.Execute the follow commands at the terminal:
+3. Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X
+doesn't do this by default. So we add a command to do so. In your terminal,
+type:
 
 ```bash
-echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
 echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
 ```
 
-Next, we'll look at `.bash_profile` to make sure it has the contents we expect.
-Type the following in the terminal to look at the contents of the file:
+4. Next, we'll look at `.bash_profile` to make sure it has the contents we
+expect. Type the following in the terminal to look at the contents of the file:
 
 ```bash
 cat ~/.bash_profile
 ```
 
-Near the bottom, you should have something that looks like this:
+At the bottom, you should have something that looks like this:
 
 ```bash
 # ~/.bash_profile
 
-export PATH=/usr/local/bin:$PATH
 test -f ~/.bashrc && source ~/.bashrc
 ```
 
-4.You will also need to update `/etc/paths` by running the following commands:
+5.  Much of the software we'll be installing goes in `/usr/local/bin`, a
+directory that OS X doesn't search by default. You will also need to update
+`/etc/paths` to add this directory. In your terminal, type:
 
 ```bash
 echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
 echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
 ```
 
-5.Finally, let's inspect our changes by typing:
+6.  Finally, let's inspect our changes by typing:
 
 ```bash
 cat /etc/paths
@@ -542,7 +535,7 @@ In order for Homebrew to work, we'll need to rely on a number of programs that
 come pre-installed on Linux. Install these tools **via the terminal** using the
 command:
 
-```bash
+```shell
 xcode-select --install
 ```
 
@@ -593,15 +586,13 @@ modules:
 -   JShint, a tool for testing JavaScript code quality. (`jshint`)
 -   Grunt, a tool for automating background tasks. (`grunt-cli`)
 
-### OSX
-
 ```bash
+# OSX ONLY
 brew install nvm
 ```
 
-### Linux
-
 ```bash
+#LINUX ONLY
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash
 ```
 
@@ -612,16 +603,14 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | b
 -   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
     following depending on your operating system:
 
-### OSX Only
-
 ```bash
+# OSX ONLY
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
-### Only Linux
-
 ```bash
+#LINUX ONLY
 export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ```
@@ -648,7 +637,7 @@ together the various packages we'd like installed into one executable
 command:
 
 ```bash
-npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower ember
+npm install -g npm jshint jsonlint grunt-cli remark-lint jscs bower ember phantomjs-prebuilt
 ```
 
 ### Git (and GitHub)
@@ -735,15 +724,15 @@ ssh-add ~/.ssh/id_rsa
 
 -   Copy the new key to your clipboard using either:
 
-### OSX ONLY
-
 ```bash
+# OSX ONLY
   pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-### Linux
+### OR
 
 ```bash
+# LINUX ONLY
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
 
@@ -850,6 +839,7 @@ determine which version we use for a particular project.
 ### OS X
 
 ```bash
+# OSX ONLY
 brew install rbenv
 ```
 
@@ -858,6 +848,7 @@ brew install rbenv
 Copy and paste this entire line into your terminal and run it.
 
 ```bash
+# LINUX ONLY
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 ```
 
@@ -869,6 +860,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 in about Git.
 
 ```bash
+#OSX ONLY
 # Rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -881,6 +873,7 @@ eval "$(rbenv init -)"
 in about Git.
 
 ```bash
+#LINUX ONLY
 # Rbenv
 export RBENV_ROOT="${HOME}/.rbenv"
 if [ -d "${RBENV_ROOT}" ]; then
@@ -915,15 +908,13 @@ sudo apt-get install libffi-dev
 
 5.Install `ruby-build`, a plugin for rbenv.
 
-### OS X
-
 ```bash
+# OSX ONLY
 brew install ruby-build
 ```
 
-### Linux
-
 ```bash
+# LINUX ONLY
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
@@ -935,7 +926,8 @@ Don't worry if the above step doesn't take. Some Linux machines may not need it.
 command:
 
 ```bash
-rbenv install 2.3.1 && rbenv global 2.3.1
+rbenv install 2.3.1
+rbenv global 2.3.1
 ```
 
 You can see what versions of Ruby rbenv has downloaded by running
@@ -974,17 +966,15 @@ of the course.
 
 1.First, download and install Postgres.
 
-### OS X ONLY
-
 ```bash
+# OSX ONLY
 brew install postgres
 ```
-
-### Linux ONLY
 
 Run to install Postgres and its dependencies.
 
 ```bash
+# LINUX ONLY
 sudo apt-get install postgresql libpq-dev
 ```
 
@@ -1026,15 +1016,13 @@ gem install pg
 
 ## Other Goodies
 
-### OS X ONLY
-
 ```bash
+# OSX ONLY
 brew install libsass
 ```
 
-### Linux ONLY
-
 ```bash
+# LINUX ONLY
 sudo apt-get install libsass
 ```
 
@@ -1069,5 +1057,6 @@ you get your invite via email.
 
 ## [License](LICENSE)
 
-Source code distributed under the MIT license. Text and other assets copyright
-General Assembly, Inc., all rights reserved.
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.

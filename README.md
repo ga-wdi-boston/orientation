@@ -877,15 +877,6 @@ rvm implode
 brew install rbenv
 ```
 
-### Linux
-
-Copy and paste this entire line into your terminal and run it.
-
-```bash
-# LINUX ONLY
-curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
-```
-
 2.  Tell Rbenv to use homebrew's directories instead of rbenv's
 
 ### OS X ONLY

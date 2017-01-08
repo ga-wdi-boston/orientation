@@ -453,6 +453,12 @@ enable the autosave plugin.
 
 ```bash
   apm enable autosave
+
+  # Expect the following response
+
+  # Not Disabled:
+  #    autosave
+  # Please specify a package to enable
 ```
 
 Next, open Atom's settings, click the packages tab, and search for autosave.

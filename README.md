@@ -863,8 +863,8 @@ already installed and if it is then we will uninstall it.
 
 ```bash
 rvm -h
-# expect rvm -h to result in message 'rvm not found'
-# if you do not see the message 'rvm not found' then run
+# expect rvm -h to result in message 'rvm command not found'
+# if you do not see the message 'rvm command not found' then run
 rvm implode
 ```
 

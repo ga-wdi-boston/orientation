@@ -660,7 +660,7 @@ command:
 
 ```bash
 npm install --global npm
-npm install -g jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
+npm install --global jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
 ```
 
 ### Git (and GitHub)

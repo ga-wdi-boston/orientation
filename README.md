@@ -404,12 +404,13 @@ developed by the GitHub team, and is highly extensible.
 
 ***Note: From this point forward you will open Atom from the command line***
 
-### OS X & Linux
+### OS X ONLY
 
 Download Atom from [Atom.io](https://atom.io/)
 
 ### Linux ONLY
 
+Download the `.deb` file from [Atom.io](https://atom.io/)
 Once finished run the following command:
 
 ```bash

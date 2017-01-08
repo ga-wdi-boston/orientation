@@ -879,29 +879,12 @@ brew install rbenv
 
 2.  Tell Rbenv to use homebrew's directories instead of rbenv's
 
-### OS X ONLY
+### OSX and Linux
 
-`atom ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
+`atom ~/.bashrc` and paste in the following code **BEFORE** the stuff you pasted
 in about Git.
 
 ```bash
-#OSX ONLY
-# Rbenv
-if which rbenv > /dev/null; then
-  export RBENV_ROOT=/usr/local/var/rbenv
-  export PATH="$HOME/.rbenv/bin:$PATH"
-  eval "$(rbenv init -)"
-fi
-
-```
-
-### Linux
-
-`atom ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
-in about Git.
-
-```bash
-#LINUX ONLY
 # Rbenv
 if which rbenv > /dev/null; then
   export RBENV_ROOT="${HOME}/.rbenv"

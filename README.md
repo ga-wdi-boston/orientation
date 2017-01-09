@@ -1037,13 +1037,8 @@ gem install pg
 ## Other Goodies
 
 ```bash
-# OSX ONLY
+# OSX and LINUX
 brew install libsass
-```
-
-```bash
-# LINUX ONLY
-sudo apt-get install libsass
 ```
 
 ## Chrome

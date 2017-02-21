@@ -404,12 +404,13 @@ developed by the GitHub team, and is highly extensible.
 
 ***Note: From this point forward you will open Atom from the command line***
 
-### OS X & Linux
+### OS X ONLY
 
 Download Atom from [Atom.io](https://atom.io/)
 
 ### Linux ONLY
 
+Download the `.deb` file from [Atom.io](https://atom.io/)
 Once finished run the following command:
 
 ```bash
@@ -453,6 +454,12 @@ enable the autosave plugin.
 
 ```bash
   apm enable autosave
+
+  # Expect the following response
+
+  # Not Disabled:
+  #    autosave
+  # Please specify a package to enable
 ```
 
 Next, open Atom's settings, click the packages tab, and search for autosave.
@@ -534,11 +541,10 @@ It should look like this:
 
 ## Homebrew
 
-Those of you who are on Ubuntu already have a powerful package manager, `apt`,
-built into your operating system. However, OS X doesn't come with a package
-manager installed, so we'll be installing a 3rd-party package manager called
-Homebrew to install software from the command line. ***If you're running Linux,
-please hold tight until we get to the section on `nvm`.***
+Those of you who are on Ubuntu may already have a powerful package manager, `apt`,
+built into your operating system. However, for both OS X and Linux we'll
+be installing a 3rd-party package manager called Homebrew to install software
+from the command line.
 
 ### Command Line Tools
 
@@ -557,7 +563,7 @@ This may require that you run a Software Update before proceeding.
 - First, set permissions for `/usr/local` by entering the following command into your terminal.
 
 ```bash
-chmod -R $(whoami):admin /usr/local
+chown -R $(whoami):admin /usr/local
 ```
 
 -   Second, enter this command into your terminal:
@@ -655,7 +661,7 @@ command:
 
 ```bash
 npm install --global npm
-npm install -g jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
+npm install --global jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
 ```
 
 ### Git (and GitHub)
@@ -857,8 +863,8 @@ already installed and if it is then we will uninstall it.
 
 ```bash
 rvm -h
-# expect rvm -h to result in message 'rvm not found'
-# if you do not see the message 'rvm not found' then run
+# expect rvm -h to result in message 'rvm command not found'
+# if you do not see the message 'rvm command not found' then run
 rvm implode
 ```
 
@@ -871,40 +877,14 @@ rvm implode
 brew install rbenv
 ```
 
-### Linux
-
-Copy and paste this entire line into your terminal and run it.
-
-```bash
-# LINUX ONLY
-curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
-```
-
 2.  Tell Rbenv to use homebrew's directories instead of rbenv's
 
-### OS X ONLY
+### OSX and Linux
 
-`atom ~/.bashrc` and paste in the following code ***BEFORE*** the stuff you pasted
+`atom ~/.bashrc` and paste in the following code **BEFORE** the stuff you pasted
 in about Git.
 
 ```bash
-#OSX ONLY
-# Rbenv
-if which rbenv > /dev/null; then
-  export RBENV_ROOT=/usr/local/var/rbenv
-  export PATH="$HOME/.rbenv/bin:$PATH"
-  eval "$(rbenv init -)"
-fi
-
-```
-
-### Linux
-
-`atom ~/.bashrc` and paste in the following code BEFORE the stuff you pasted
-in about Git.
-
-```bash
-#LINUX ONLY
 # Rbenv
 if which rbenv > /dev/null; then
   export RBENV_ROOT="${HOME}/.rbenv"
@@ -1057,13 +1037,8 @@ gem install pg
 ## Other Goodies
 
 ```bash
-# OSX ONLY
+# OSX and LINUX
 brew install libsass
-```
-
-```bash
-# LINUX ONLY
-sudo apt-get install libsass
 ```
 
 ## Chrome

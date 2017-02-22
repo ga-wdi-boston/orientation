@@ -3,7 +3,7 @@
 Follow these instructions to set up your laptop for work in WDI. If you've
 previously set up a development environment on your computer, you may wish to
 skip some of these steps; **do not do so** without first checking with an
-consultant! 
+consultant!
 
 If at any point you are unsure of whether you have done something correctly,
 ask a consultant. It's important in many cases that we do these steps in order.
@@ -642,6 +642,7 @@ See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/commu
 can communicate with Postgres.
 
 ```bash
+# OSX and LINUX
 gem install pg
 ```
 

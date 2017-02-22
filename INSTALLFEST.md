@@ -275,8 +275,8 @@ brew install nvm
 
     ```bash
     # OSX and LINUX
-    nvm install --lts=argon
-    nvm alias default v4
+    nvm install --lts=boron
+    nvm alias default v6
     nvm use default
     ```
 

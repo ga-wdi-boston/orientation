@@ -40,7 +40,7 @@ Linux Ubuntu before you can get started.  ***Running a VM will not do!***
 -   [Staff Introductions](#staff-introductions)
 -   [Operations](#operations)
 -   [Outcomes](#outcomes)
--   [Installfest](INSTALLFEST)
+-   [Installfest](INSTALLFEST.md)
 
 ## Agenda
 
@@ -387,7 +387,7 @@ You will have much more information provided during your first Outcomes
 Programming session, so do not worry if every question you have is not answered
 during this segment!
 
-## [Installfest](INSTALLFEST)
+## [Installfest](INSTALLFEST.md)
 
 ## [License](LICENSE)
 

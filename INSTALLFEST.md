@@ -193,6 +193,13 @@ command:
 xcode-select --install
 ```
 
+You should click on the `Install` button when a dialog box appears.
+
+<img width="449"
+ alt="cdn_osxdaily_com_wp-content_uploads_2014_02_confirm-install-command-line-tools-mac-os-x_jpg"
+ src="https://cloud.githubusercontent.com/assets/388761/23191483/da2ed6c4-f86b-11e6-8f8c-df842736b899.png"
+/>
+
 This may require that you run a Software Update before proceeding.
 
 ## Install Homebrew

@@ -512,19 +512,18 @@ sudo apt-get install libffi-dev
     in about Git.
 
     ```bash
+    # OSX and LINUX
     # Rbenv
     if which rbenv > /dev/null; then
-      export RBENV_ROOT="${HOME}/.rbenv"
-      export PATH="${RBENV_ROOT}/bin:${PATH}"
-      eval "$(rbenv init -)"
+     eval "$(rbenv init -)"
     fi
-
     ```
 
 1.  Once you've done this, run the following command to reload the terminal's
     settings:
 
     ```bash
+    # OSX and LINUX
     source ~/.bashrc
     ```
 
@@ -559,6 +558,17 @@ sudo apt-get install libffi-dev
     # if you do not get the message 'rbenv 1.1.0' refer to an instructor
     ```
 
+1.  Next, we will install a default gem, `bundler`.
+    ```bash
+    # OSX and LINUX
+    touch ~/.rbenv/default-gems
+    ```
+    then:
+    ```bash
+    # OSX and LINUX
+    echo bundler < ~/.rbenv/default-gems
+    ```
+
 1.  Install version 2.3.1 of Ruby and make it the system-wide default using the
     command:
 
@@ -572,33 +582,14 @@ sudo apt-get install libffi-dev
     `rbenv versions`; to see which version you are currently using, type either
     `rbenv version` or `ruby -v`.
 
-## From Ruby to Rails (and more)
+1.  Now that you have Ruby installed, you can begin to install gems on your own.
+    However, gems usually come with a lot of unnecessary documentation - let's tell
+    Ruby to skip those by running the following command:
 
-Now that you have Ruby installed, you can begin to install gems on your own.
-However, gems usually come with a lot of unnecessary documentation - let's tell
-Ruby to skip those by running the following command:
-
-```bash
-# OSX and LINUX
-echo 'gem: --no-document' >> ~/.gemrc
-```
-
-Next, we'll go ahead and install Rails. ***First though, back out of the `orientation`
-repo by running `cd ~`. This will move us to the root/home directory.***
-
-```bash
-# OSX and LINUX
-gem install rails
-```
-
-Here are a couple of other gems we should also install.
-
-```bash
-# OSX and LINUX
-gem install bundler
-gem install rubocop
-gem install scss_lint
-```
+    ```bash
+    # OSX and LINUX
+    echo 'gem: --no-document' >> ~/.gemrc
+    ```
 
 ## Postgres
 

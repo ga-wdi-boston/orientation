@@ -348,6 +348,10 @@ Now let's take care of some settings.
 
 -   Configure Git
 
+    Use the same email you used to sign up for your gitHub account, and your
+    gitHub username. Do not include the `<` or `>`; these are an indication that
+    you should change the content in between them.
+
     ```bash
     git config --global user.name "<yourUsername>"
     git config --global user.email "<your_email@example.com>"

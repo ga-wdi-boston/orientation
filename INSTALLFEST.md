@@ -17,7 +17,8 @@ developed by the GitHub team, and is highly extensible.
 
 ### OSX ONLY
 
-Download Atom from [Atom.io](https://atom.io/)
+1.  Download Atom from [Atom.io](https://atom.io/).
+1.  Move Atom from downloads to the Application directory.
 
 ### Linux ONLY
 

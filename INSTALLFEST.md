@@ -510,7 +510,7 @@ sudo apt-get install libffi-dev
     brew install rbenv
     ```
 
-1.  Tell Rbenv to use homebrew's directories instead of rbenv's
+1.  Configure rbenv to use the correct directories:
 
     `atom ~/.bashrc` and paste in the following code **BEFORE** the stuff you pasted
     in about Git.

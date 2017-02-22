@@ -64,7 +64,11 @@ use a shortcut that installs all packages in one go!
 
 ```bash
   # OSX and LINUX
-  apm install aligner-ruby atom-beautify linter-jshint editorconfig esformatter fixmyjs git-diff-details git-history git-plus language-markdown less-than-slash linter linter-csslint linter-eslint linter-markdown linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer sort-lines language-ember-htmlbars
+  apm install aligner-ruby atom-beautify linter-jshint editorconfig \
+  esformatter fixmyjs git-diff-details git-history git-plus language-markdown \
+  less-than-slash linter linter-csslint linter-eslint linter-markdown \
+  linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer \
+  sort-lines language-ember-htmlbars
 ```
 
 Part of being a good developer is using tools that help you make fewer mistakes.

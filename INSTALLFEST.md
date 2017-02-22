@@ -46,6 +46,9 @@ extensions to your Atom installation. For each package listed below, run
   apm install aligner
 ```
 
+If you get a `command not found` response in your terminal, you have not
+installed shell commands correctly.
+
 ```bash
   # OSX and LINUX
   apm install aligner-scss

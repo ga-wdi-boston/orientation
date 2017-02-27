@@ -583,12 +583,7 @@ sudo apt-get install libffi-dev
 1.  Next, we will install a default gem, `bundler`.
     ```bash
     # OSX and LINUX
-    touch ~/.rbenv/default-gems
-    ```
-    then:
-    ```bash
-    # OSX and LINUX
-    echo bundler < ~/.rbenv/default-gems
+    echo bundler > ~/.rbenv/default-gems
     ```
 
 1.  Install version 2.3.1 of Ruby and make it the system-wide default using the

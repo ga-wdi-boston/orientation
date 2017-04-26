@@ -41,47 +41,21 @@ on 'install shell commands' to install the necessary toolkit.
 ### Atom Add-Ons
 
 We're going to use Atom's package manager, `apm`, to add a number of helpful
-extensions to your Atom installation. For each package listed below, run
-`apm install <name-of-package>` in the terminal to perform the installation.
+extensions to your Atom installation.
 
 ```bash
-  # OSX and LINUX
-  apm install aligner
+  config/atom.sh
 ```
 
 If you get a `command not found` response in your terminal, you have not
 installed shell commands correctly.
 
-```bash
-  # OSX and LINUX
-  apm install aligner-scss
-```
-
-```bash
-  # OSX and LINUX
-  apm install aligner-css
-```
-
-Now that we have some practice with running 'apm install <package_name>', we can
-use a shortcut that installs all packages in one go!
-
-```bash
-  # OSX and LINUX
-  apm install aligner-ruby atom-beautify linter-jshint editorconfig \
-  esformatter fixmyjs git-diff-details git-history git-plus language-markdown \
-  less-than-slash linter linter-csslint linter-eslint linter-markdown \
-  linter-rubocop linter-ruby linter-scss-lint linter-tidy markdown-writer \
-  sort-lines language-ember-htmlbars
-```
-
 Part of being a good developer is using tools that help you make fewer mistakes.
 To that end, let's configure a useful feature in Atom: autosave! First, let's
 enable the autosave plugin.
 
-```bash
-  apm enable autosave
-
-  # Expect the following response
+```
+  # Expect the following response from previous script
 
   # Not Disabled:
   #    autosave
@@ -103,66 +77,16 @@ OS X ships with utilities that are slightly different from standard Linux tools.
 To smooth out *some* of the differences, we need to change how OS X loads our
 shell (`bash`) configuration.
 
-1.  Make sure that a `.bashrc` file exists in your home directory. In your
+ In your
     terminal, type:
 
     ```bash
-    # OSX ONLY
-    touch ~/.bashrc
+    config/bash.sh
     ```
 
-1.  Make sure that a `.bash_profile` file exists in your home directory. In your
-    terminal, type:
+Now, we will verify the changes made by the previous script:
 
-    ```bash
-    # OSX ONLY
-    touch ~/.bash_profile
-    ```
-
-1.  Bash is usually configured to load `.bashrc` from `.bash_profile`, but OS X
-    doesn't do this by default. So we add a command to do so. In your terminal,
-    type:
-
-    ```bash
-    # OSX ONLY
-    echo 'test -f ~/.bashrc && source ~/.bashrc' >> ~/.bash_profile
-    ```
-
-1.  Next, we'll look at `.bash_profile` to make sure it has the contents we
-    expect. Type the following in the terminal to look at the contents of the file:
-
-    ```bash
-    # OSX ONLY
-    cat ~/.bash_profile
-    ```
-
-    At the bottom, you should have something that looks like this:
-
-    ```bash
-    # OSX ONLY
-    # ~/.bash_profile
-
-    test -f ~/.bashrc && source ~/.bashrc
-    ```
-
-1.  Much of the software we'll be installing goes in `/usr/local/bin`, a
-    directory that OS X doesn't search by default. You will also need to update
-    `/etc/paths` to add this directory. In your terminal, type:
-
-    ```bash
-    # OSX ONLY
-    echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-    echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
-    ```
-
-1.  Finally, let's inspect our changes by typing:
-
-    ```bash
-    # OSX and LINUX
-    cat /etc/paths
-    ```
-
-    It should look like this:
+    In your command line you should see output like this:
 
     ```bash
     # OSX and LINUX
@@ -204,46 +128,27 @@ This may require that you run a Software Update before proceeding.
 
 ## Install Homebrew
 
-- First, set permissions for `/usr/local` by entering the following command
+- We will now execute a script to install homebrew. Enter the following command
   into your terminal.
 
     ```bash
-    # OSX and LINUX
-    chown -R $(whoami):admin /usr/local
-    ```
-
--   Second, enter this command into your terminal:
-
-    ```bash
-    # OSX and LINUX
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    ```
-
--   Homebrew has a built-in diagnostic tool to determine if it's working
-    correctly; you can run it by entering the following command in your terminal:
-
-    ```bash
-    # OSX and LINUX
-    brew doctor
+    config/homebrew.sh
     ```
 
 **NOTE: YOUR SYSTEM WILL PROBABLY THROW SOME ERRORS HERE!** Some of these
 errors are probably minor, but some might not be; please wait until one of the
 consultants has given you the go-ahead before moving on.
 
--   Once Homebrew says `Your system is ready to brew`, run the following command
-update Homebrew's directory of packages.
+-   After resolving errors, enter:
 
 ```bash
-# OSX and LINUX
-brew update
+  brew doctor
 ```
 
--   Lastly, install tidy-html5
+-   Once Homebrew says `Your system is ready to brew`, run the following command
 
 ```bash
-# OSX and LINUX
-brew install tidy-html5
+config/homebrew.sh update
 ```
 
 ### Installing NVM and Node/NPM
@@ -266,45 +171,19 @@ brew install nvm
 
 **Restart your terminal (close it and reopen it; not just the window!)**
 
--   Open your `.bashrc` file by typing `atom ~/.bashrc` and paste in the
-    following depending on your operating system:
+-   Run the following command in your terminal:
 
     ```bash
-    # OSX ONLY
-    export NVM_DIR=~/.nvm
-    source $(brew --prefix nvm)/nvm.sh
+    config/nvm.sh
     ```
-
-    ```bash
-    #LINUX ONLY
-    export NVM_DIR="/home/$(whoami)/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-    ```
-
--   Use NVM to install the latest longterm stable version of Node (4.4.7)
-
-    ```bash
-    # OSX and LINUX
-    nvm install --lts=boron
-    nvm alias default v6
-    nvm use default
-    ```
-
--   ***Restart your Terminal by quitting the application and re-opening it.***
 
 -   ***AGAIN, Restart your Terminal***
 
--   Finally, use NPM to install the Node modules mentioned earlier and make them
+-   Finally, we will install the Node modules mentioned earlier and make them
     available across all of our projects.
 
-    Just like we did before with the Atom packages install, we can string
-    together the various packages we'd like installed into one executable
-    command:
-
     ```bash
-    # OSX and LINUX
-    npm install --global npm
-    npm install --global jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
+    config/npm.sh
     ```
 
 ### Git (and GitHub)
@@ -318,48 +197,20 @@ Enter the command:
 
 ## Configuring Git
 
-Now let's take care of some settings.
+Now let's take care of some settings. In your terminal, run:
 
--   Show the current Git branch in the terminal prompt, and tweak Git's EDITOR
-    variable so that commit message pop-ups open in Atom. Run the command:
 
     ```bash
-    atom ~/.bashrc
-    ```
-
--   Paste the following code into the bottom of the file:
-
-    ```bash
-    # Git
-    function parse_git_branch {
-      ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-      echo "("${ref#refs/heads/}")"
-    }
-    export PS1="\w \$(parse_git_branch)\n\$ "
-    export EDITOR='atom --wait'
-    export VISUAL='atom --wait'
-    ```
-
--   Colorize git in the command line
-
-    ```bash
-    git config --global color.ui true
+    config/git.sh
     ```
 
 -   Configure Git
 
-    Use the same email you used to sign up for your gitHub account, and your
-    gitHub username. Do not include the `<` or `>`; these are an indication that
-    you should change the content in between them.
+    Enter the same email you used to sign up for your gitHub account, and your
+    gitHub username when prompted after running:
 
     ```bash
-    git config --global user.name "<yourUsername>"
-    git config --global user.email "<your_email@example.com>"
-    git config --global pull.rebase true
-    git config --global branch.autosetuprebase always
-    git config --global push.default simple
-    git config --global branch.autosetupmerge true
-    git config --global core.editor "atom --wait"
+    config/git_config.sh
     ```
 
 ## Linking with GitHub
@@ -378,24 +229,10 @@ GitHub to have a matching set of SSH keys.
 (Feel free to put in a password or select a non-default location for your keys,
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
--   Add this new key to your system by running:
+-   Add this new key to your system and copy the new key to your clipboard by running:
 
     ```bash
-    ssh-add ~/.ssh/id_rsa
-    ```
-
--   Copy the new key to your clipboard using either:
-
-    ```bash
-    # OSX ONLY
-      pbcopy < ~/.ssh/id_rsa.pub
-    ```
-
-    **OR**
-
-    ```bash
-    # LINUX ONLY
-      xclip -selection clipboard < ~/.ssh/id_rsa.pub
+    config/github_link.sh
     ```
 
 -   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
@@ -433,12 +270,11 @@ in the correct directory.
 -   In your root directory `cd ~`, let's move to our downloads file by `cd
     Downloads/`, then run `git clone <link copied from github>`.
 
--   Move into the `oritentation` directory by `cd orientation/`. Now we have to set up
+-   Move into the `oritentation` directory by typing `cd orientation/`. Now we have to set up
     a global 'excludesfile', listing all the files that we might want git to ignore.
 
     ```bash
-    git config --global core.excludesfile ~/.gitignore
-    cp .gitignore ~/.gitignore # from this repository directory
+    config/git_config.sh
     ```
 
 ### Install [`hub`](https://github.com/github/hub)
@@ -447,223 +283,9 @@ in the correct directory.
 > features and commands that make working with GitHub easier. -- [`hub`
 > README](https://github.com/github/hub).
 
-#### OSX ONLY
 ```bash
-# OSX only
-brew install hub
+config/hub.sh
 ```
-
-After installing `hub`, add the following line to your `~/.bashrc`.
-
-```bash
-# OSX only
-eval "$(hub alias -s)"
-```
-
-#### Linux ONLY
-
-Paste at a Terminal prompt:
-
-```sh
-# LINUX ONLY
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
-```
-
-```sh
-# LINUX ONLY
-PATH="$HOME/.linuxbrew/bin:$PATH"
-```
-
-Edit your ~/.bash_profile to add ~/.linuxbrew/bin to your PATH:
-
-```sh
-# LINUX ONLY
-echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
-```
-
-Now you need to install some setup-tools:
-
-```sh
-# LINUX ONLY
-sudo apt-get install build-essential curl git python-setuptools ruby
-```
-
-You're done! Try installing hub:
-
-```sh
-# LINUX ONLY
-brew install hub
-```
-
-## Rbenv, Ruby, and Rails
-
-Rbenv is a tool that we can use to manage multiple versions of Ruby and
-determine which version we use for a particular project.
-
-Before we install Rbenv we want to make sure a similar Ruby manager rvm is not
-already installed and if it is then we will uninstall it.
-
-```bash
-# OSX and LINUX
-rvm -h
-# expect rvm -h to result in message 'rvm command not found'
-# if you do not see the message 'rvm command not found' then run
-rvm implode
-```
-
-### Linux ONLY
-
-Rbenv on Linux depends on another library called `libffi-dev`. Download and
-install it with the following command.
-
-```bash
-# LINUX ONLY
-sudo apt-get install libffi-dev
-```
-
-1.  Install Rbenv
-
-    ```bash
-    # OSX and LINUX
-    brew install rbenv
-    ```
-
-1.  Configure rbenv to use the correct directories:
-
-    `atom ~/.bashrc` and paste in the following code **BEFORE** the stuff you pasted
-    in about Git.
-
-    ```bash
-    # OSX and LINUX
-    # Rbenv
-    if which rbenv > /dev/null; then
-     eval "$(rbenv init -)"
-    fi
-    ```
-
-1.  Once you've done this, run the following command to reload the terminal's
-    settings:
-
-    ```bash
-    # OSX and LINUX
-    source ~/.bashrc
-    ```
-
-1.  ***Note: after installing gems you may need to run this command***
-
-    ```bash
-    # OSX and LINUX
-    rbenv rehash
-    ```
-
-1.  Install `ruby-build`, a plugin for rbenv.
-
-    ```bash
-    # OSX ONLY
-    brew install ruby-build
-    ```
-
-    ```bash
-    # LINUX ONLY
-    git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-    ```
-
-    Don't worry if the above step doesn't take. Some Linux machines may not need it.
-
-1.  Before installing our Ruby versions, we need to confirm that rbenv has been
-    installed correctly.
-
-    ```bash
-    # OSX and LINUX
-    rbenv --version
-    # expecting message 'rbenv 1.1.0'
-    # if you do not get the message 'rbenv 1.1.0' refer to an instructor
-    ```
-
-1.  Next, we will install a default gem, `bundler`.
-    ```bash
-    # OSX and LINUX
-    echo bundler > ~/.rbenv/default-gems
-    ```
-
-1.  Install version 2.3.1 of Ruby and make it the system-wide default using the
-    command:
-
-    ```bash
-    # OSX and LINUX
-    rbenv install 2.3.1
-    rbenv global 2.3.1
-    ```
-
-    You can see what versions of Ruby rbenv has downloaded by running
-    `rbenv versions`; to see which version you are currently using, type either
-    `rbenv version` or `ruby -v`.
-
-1.  Now that you have Ruby installed, you can begin to install gems on your own.
-    However, gems usually come with a lot of unnecessary documentation - let's tell
-    Ruby to skip those by running the following command:
-
-    ```bash
-    # OSX and LINUX
-    echo 'gem: --no-document' >> ~/.gemrc
-    ```
-
-## Postgres
-
-Next, we'll download Postgres, a database program that we'll be using for most
-of the course.
-
-1.  First, download and install Postgres.
-    #### OSX ONLY
-    ```bash
-    # OSX ONLY
-    brew install postgres
-    ```
-    #### LINUX ONLY
-    Run to install Postgres and its dependencies.
-
-    ```bash
-    # LINUX ONLY
-    sudo apt-get install postgresql libpq-dev
-    ```
-
-1.  Then, configure your new Postgres installation by entering the following
-    lines into the console:
-
-    #### OSX ONLY
-
-    ```bash
-    # OSX ONLY
-    mkdir -p ~/Library/LaunchAgents
-
-    ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-
-    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-
-    createdb `whoami`
-    ```
-
-    #### LINUX ONLY
-    ```bash
-    # LINUX ONLY
-    sudo -u postgres createuser `whoami` -s
-
-    sudo -u postgres createdb `whoami`
-    ```
-
-    > Whether you're on OS X or Linux, you can test your configuration by running
-    > `psql` in the console.
-    > To quit, type `\q`
-
-    See [https://help.ubuntu.com/community/PostgreSQL](https://help.ubuntu.com/community/PostgreSQL) if you run into any issues with the installation.
-
-1.  Finally, install the `pg` gem from the command line so that Ruby programs
-    can communicate with Postgres.
-
-    ```bash
-    # OSX and LINUX
-    gem install pg
-    ```
 
 ## Other Goodies
 

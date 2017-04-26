@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if uname -s = 'Darwin'; then
+if [[ $(uname -s) = 'Darwin' ]]; then
   touch ~/.bashrc
 
   touch ~/.bash_profile

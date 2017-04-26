@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if uname -s != 'Darwin'; then
+if [[ $(uname -s) = 'Darwin' ]]; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
   PATH="$HOME/.linuxbrew/bin:$PATH"
   echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile

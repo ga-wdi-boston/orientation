@@ -26,7 +26,7 @@ source ~/.bashrc
 
 rbenv rehash
 
-if uname -s != 'Darwin'; then
+if [[ $(uname -s) != 'Darwin' ]]; then
   git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 else
   brew install ruby-build

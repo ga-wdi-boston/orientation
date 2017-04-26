@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if uname -s != 'Darwin'; then
+if [[ $(uname -s) != 'Darwin' ]]; then
   export NVM_DIR="/home/$(whoami)/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 else

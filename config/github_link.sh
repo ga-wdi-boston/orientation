@@ -9,7 +9,7 @@
 
 ssh-add ~/.ssh/id_rsa
 
-if uname -s != 'Darwin'; then
+if [[ $(uname -s) != 'Darwin' ]]; then
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 else
   pbcopy < ~/.ssh/id_rsa.pub

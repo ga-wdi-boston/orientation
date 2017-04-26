@@ -80,15 +80,15 @@ shell (`bash`) configuration.
  In your
     terminal, type:
 
-    ```bash
-    config/bash.sh
-    ```
+```bash
+  config/bash.sh
+```
 
 Now, we will verify the changes made by the previous script:
 
     In your command line you should see output like this:
 
-    ```bash
+
     # OSX and LINUX
     # /etc/paths
 
@@ -97,7 +97,7 @@ Now, we will verify the changes made by the previous script:
     /bin
     /usr/sbin
     /sbin
-    ```
+
 
 ## Homebrew
 
@@ -200,9 +200,9 @@ Enter the command:
 Now let's take care of some settings. In your terminal, run:
 
 
-    ```bash
-    config/git.sh
-    ```
+```bash
+  config/git.sh
+```
 
 -   Configure Git
 

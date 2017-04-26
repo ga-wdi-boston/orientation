@@ -6,7 +6,6 @@ if uname -s != 'Darwin'; then
   sudo -u postgres createdb `whoami`
 else
   brew install postgres
-  mkdir -p ~/Library/LaunchAgents
 
   ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 

@@ -192,26 +192,13 @@ If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-Enter the command:
-`brew install git`
-
 ## Configuring Git
 
-Now let's take care of some settings. In your terminal, run:
-
+Now let's take care of some settings. When prompted, enter the same email you used to sign up for your gitHub account and your gitHub username.
 
 ```bash
   config/git.sh
 ```
-
--   Configure Git
-
-    Enter the same email you used to sign up for your gitHub account, and your
-    gitHub username when prompted after running:
-
-    ```bash
-    config/git_config.sh
-    ```
 
 ## Linking with GitHub
 

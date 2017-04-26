@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-if which xcode-select; then
-  echo 'xcode CLI tools already installed!'
-else
-  echo 'installing...'
+if uname -s = 'Darwin'; then
   xcode-select --install
 fi

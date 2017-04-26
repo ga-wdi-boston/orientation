@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 npm install --global npm
-npm install --global jshint jsonlint grunt-cli remark-lint jscs bower phantomjs-prebuilt
+npm install --global jsonlint eslint grunt-cli remark-lint bower phantomjs-prebuilt

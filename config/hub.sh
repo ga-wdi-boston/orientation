@@ -6,10 +6,10 @@ if uname -s != 'Darwin'; then
   sudo apt-get install build-essential curl git python-setuptools ruby
   brew install hub
 else
-  if which hub; then
+  if brew ls --versions hub; then
     brew upgrade hub
   else
     brew install hub
   fi
-  echo 'eval "$(hub alias -s)"' >> ~/.bashrc 
+  echo 'eval "$(hub alias -s)"' >> ~/.bashrc
 fi

@@ -19,9 +19,6 @@ if uname -s = 'Darwin'; then
     read
   fi
 
-  echo '/\/usr\/local\/bin/\nd\nwq' | sudo ed /etc/paths
-
-  echo '1i\n/usr/local/bin\n.\nwq' | sudo ed /etc/paths
 fi
 
 cat /etc/paths

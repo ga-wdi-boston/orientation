@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 if which rvm; then
-  rvm implode
+  read -r -p "Are you sure you would like to remove rvm? [y/n] " response
+  if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
+  then
+    rvm implode
+  fi
 fi
 
 #brew install rbenv
-if $uname != 'Darwin'; then
+if uname -s != 'Darwin'; then
   sudo apt-get install libffi-dev
 fi
 

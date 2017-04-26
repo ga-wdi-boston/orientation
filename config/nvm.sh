@@ -7,6 +7,6 @@ else
   source $(brew --prefix nvm)/nvm.sh
 fi
 
-nvm install --lts=boron
+nvm install --lts=boron || nvm install 6.9.4
 nvm alias default v6
 nvm use default

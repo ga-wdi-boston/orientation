@@ -16,10 +16,12 @@ brew install rbenv
 
 #add to .bashrc
 cat <<'EOF' >> ~/.bashrc
+
 # Rbenv
 if which rbenv > /dev/null; then
    eval "$(rbenv init -)"
 fi
+
 EOF
 
 source ~/.bashrc
@@ -33,10 +35,9 @@ else
 fi
 
 rbenv --version
-echo -e "# expecting message 'rbenv 1.1.0'
+read -p "# expecting message 'rbenv 1.1.0'
 # if you do not get the message 'rbenv 1.1.0' refer to an instructor \n
 Press [ENTER] to continue"
-read
 
 echo bundler > ~/.rbenv/default-gems
 

@@ -57,9 +57,9 @@ enable the autosave plugin.
 ```
   # Expect the following response from previous script
 
-  # Not Disabled:
-  #    autosave
-  # Please specify a package to enable
+   Not Disabled:
+      autosave
+   Please specify a package to enable
 ```
 
 Next, open Atom's settings, click the packages tab, and search for autosave.
@@ -87,10 +87,6 @@ shell (`bash`) configuration.
 Now, we will verify the changes made by the previous script:
 
     In your command line you should see output like this:
-
-
-    # OSX and LINUX
-    # /etc/paths
 
     /usr/local/bin
     /usr/bin
@@ -158,11 +154,8 @@ the foundation of a large part of the course. First, though, we're going to
 download a tool called [NVM](https://github.com/creationix/nvm) that allows us
 to maintain multiple different versions of Node, in case we want to switch
 between them for different projects. Then we'll download Node, and use its
-associated package manager, NPM, to download and install the following Node
-modules:
-
--   JShint, a tool for testing JavaScript code quality. (`jshint`)
--   Grunt, a tool for automating background tasks. (`grunt-cli`)
+associated package manager, NPM, to download and install some Node
+modules.
 
 ```bash
 # OSX and LINUX
@@ -186,13 +179,13 @@ brew install nvm
     config/npm.sh
     ```
 
-### Git (and GitHub)
+## Git (and GitHub)
 
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 and account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
-## Configuring Git
+### Configuring Git
 
 Now let's take care of some settings. When prompted, enter the same email you used to sign up for your gitHub account and your gitHub username.
 
@@ -248,13 +241,6 @@ in the correct directory.
 
 ```bash
 config/hub.sh
-```
-
-## Other Goodies
-
-```bash
-# OSX and LINUX
-brew install libsass
 ```
 
 ## Chrome

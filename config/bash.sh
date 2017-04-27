@@ -14,9 +14,8 @@ if [[ $(uname -s) = 'Darwin' ]]; then
   then
     echo "Looks good!"
   else
-    echo "Oh No! It looks like there was an issue. Ask for assistance before continuing.
+    read -p "Oh No! It looks like there was an issue. Ask for assistance before continuing.
     Press [ENTER] to continue."
-    read
   fi
 
 fi

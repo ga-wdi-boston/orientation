@@ -200,35 +200,11 @@ Now let's take care of some settings. When prompted, enter the same email you us
   config/git.sh
 ```
 
-## Linking with GitHub
-
-### Both OSX and Linux
-
-In order to push commits to GitHub from the command line, we need Git and
-GitHub to have a matching set of SSH keys.
-
--   Generate a new key by running
-
-    ```bash
-    ssh-keygen -t rsa -C "<your_email@example.com>"
-    ```
-
-(Feel free to put in a password or select a non-default location for your keys,
+(Feel free to put in a password or select a non-default location for your keys when prompted,
 but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
--   Add this new key to your system and copy the new key to your clipboard by running:
-
-    ```bash
-    config/github_link.sh
-    ```
-
 -   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
-    and paste in your SSH key. To test it out, type the following into the command
-    line:
-
-    ```bash
-    ssh -T git@github.com
-    ```
+    and paste in your SSH key.
 
     If you get a prompt along the lines of
 

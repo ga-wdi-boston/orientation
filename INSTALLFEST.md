@@ -187,8 +187,10 @@ developed by the GitHub team, and is highly extensible.
 
 ### OSX ONLY
 
-1.  Download Atom from [Atom.io](https://atom.io/).
-1.  Move Atom from downloads to the Application directory.
+```bash
+# OSX ONLY
+brew cask install atom
+```
 
 ### Linux ONLY
 
@@ -199,11 +201,6 @@ Once finished run the following command:
 # LINUX ONLY
 sudo dpkg -i atom-amd64.deb
 ```
-
-### Atom Shell commands
-
-Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
-on 'install shell commands' to install the necessary toolkit.
 
 ### Atom Add-Ons
 

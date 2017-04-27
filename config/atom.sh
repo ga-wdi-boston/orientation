@@ -11,5 +11,5 @@ if which apm; then
 
   apm enable autosave
 else
-  echo -e "\n There was an issue with atom installation. Please ask for assistance. \n"
+  echo -e "\n Open Atom and select atom option at top, then 'Install Shell Commands'. Rerun script. If issues, ask for assistance. \n"
 fi

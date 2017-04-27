@@ -34,11 +34,12 @@ else
   brew install ruby-build
 fi
 
-rbenv --version
-read -p "# expecting message 'rbenv 1.1.0'
-# if you do not get the message 'rbenv 1.1.0' refer to an instructor \n
-Press [ENTER] to continue"
+if [[ $(rbenv --version) != 'rbenv 1.1.0' ]]; then
+  echo -e "\n There may have been an issue installing rbenv. Please ask consultant for assistance. \n"
+fi
 
+#TODO prompt for destructive action
+#this command just throws error
 echo bundler > ~/.rbenv/default-gems
 
 rbenv install 2.3.1

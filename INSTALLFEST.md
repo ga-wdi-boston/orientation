@@ -14,11 +14,11 @@ expect, please notify a consultant.
 ## Git (and GitHub)
 
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
-and account; be sure to write down your username and password somewhere, since
+an account; be sure to write down your username and password somewhere, since
 we'll be using these credentials later.
 
 
-Now that you are set up with GitHub we want this repo on your local
+Now that you are set up with GitHub, we want this repo on your local
 computer. Please follow along as I show you how to fork, clone and put the repo
 in the correct directory.
 
@@ -34,7 +34,7 @@ in the correct directory.
 
 ### Configuring Git
 
-Now let's take care of some settings. When prompted, enter the same email you used to sign up for your gitHub account and your gitHub username.
+Now let's take care of some settings. Run the command below in your terminal. When prompted, enter the same email you used to sign up for your Github account and your Github username.
 
 ```bash
   config/git.sh

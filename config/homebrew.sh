@@ -2,7 +2,14 @@
 if [[ $# -eq 0 ]] ; then
   sudo chown -R $(whoami):admin /usr/local
 
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  if [[ $(uname -s) = 'Darwin' ]]; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  else
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+    PATH="$HOME/.linuxbrew/bin:$PATH"
+
+    echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+  fi
 
   brew doctor
 fi

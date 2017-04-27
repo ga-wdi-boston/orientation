@@ -3,12 +3,15 @@ if [[ $# -eq 0 ]] ; then
   sudo chown -R $(whoami):admin /usr/local
 
   if [[ $(uname -s) = 'Darwin' ]]; then
+    #MAC
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   else
+    #LINUX
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
     PATH="$HOME/.linuxbrew/bin:$PATH"
 
     echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+    sudo apt-get install build-essential curl git python-setuptools ruby
   fi
 
   brew doctor

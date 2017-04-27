@@ -61,16 +61,6 @@ but it's not necessary to do so; to move ahead, just keep hitting `enter`).
     Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
     ```
 
-### Install [`hub`](https://github.com/github/hub)
-
-> hub is a command line tool that wraps git in order to extend it with extra
-> features and commands that make working with GitHub easier. -- [`hub`
-> README](https://github.com/github/hub).
-
-```bash
-config/hub.sh
-```
-
 ## Shell Configuration (OS X only)
 
 OS X ships with utilities that are slightly different from standard Linux tools.
@@ -178,6 +168,15 @@ brew install nvm
     ```bash
     config/npm.sh
     ```
+### Install [`hub`](https://github.com/github/hub)
+
+> hub is a command line tool that wraps git in order to extend it with extra
+> features and commands that make working with GitHub easier. -- [`hub`
+> README](https://github.com/github/hub).
+
+```bash
+config/hub.sh
+```
 
 ## Atom
 

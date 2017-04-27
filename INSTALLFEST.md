@@ -11,65 +11,65 @@ In general, if you receive no output, the command has executed successfully. (No
 news is good news.) If you receive output in your terminal that you didn't
 expect, please notify a consultant.
 
-## Atom
+## Git (and GitHub)
 
-The text editor we'll be using in this course is called **Atom**; it was
-developed by the GitHub team, and is highly extensible.
+If you haven't done so already, go to [GitHub](http://www.github.com) and create
+and account; be sure to write down your username and password somewhere, since
+we'll be using these credentials later.
 
-***Note: From this point forward you will open Atom from the command line***
 
-### OSX ONLY
+Now that you are set up with GitHub we want this repo on your local
+computer. Please follow along as I show you how to fork, clone and put the repo
+in the correct directory.
 
-1.  Download Atom from [Atom.io](https://atom.io/).
-1.  Move Atom from downloads to the Application directory.
+-   We need to `fork and clone`
+    the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
+    fork to your Github  account, make sure you copy the HTTPS clone link (It will
+    look something like `https://github.com/<your github name>/orientation.git`)
 
-### Linux ONLY
+-   In your root directory `cd ~`, let's move to our downloads file by `cd
+    Downloads/`, then run `git clone <link copied from github>`.
 
-Download the `.deb` file from [Atom.io](https://atom.io/)
-Once finished run the following command:
+-   Move into the `oritentation` directory by typing `cd orientation/`. This directory contains another directory called `config/` containing scripts that we will run to set up our machines!
 
-```bash
-# LINUX ONLY
-sudo dpkg -i atom-amd64.deb
-```
+### Configuring Git
 
-### Atom Shell commands
-
-Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
-on 'install shell commands' to install the necessary toolkit.
-
-### Atom Add-Ons
-
-We're going to use Atom's package manager, `apm`, to add a number of helpful
-extensions to your Atom installation.
+Now let's take care of some settings. When prompted, enter the same email you used to sign up for your gitHub account and your gitHub username.
 
 ```bash
-  config/atom.sh
+  config/git.sh
 ```
 
-If you get a `command not found` response in your terminal, you have not
-installed shell commands correctly.
+(Feel free to put in a password or select a non-default location for your keys when prompted,
+but it's not necessary to do so; to move ahead, just keep hitting `enter`).
 
-Part of being a good developer is using tools that help you make fewer mistakes.
-To that end, let's configure a useful feature in Atom: autosave! First, let's
-enable the autosave plugin.
+-   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
+    and paste in your SSH key.
 
+    If you get a prompt along the lines of
+
+    ```bash
+    The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
+    RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
+    Are you sure you want to continue connecting (yes/no)?
+    ```
+
+    Just type 'yes'. If everything's working, you should get a response like the
+    following:
+
+    ```bash
+    Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
+    ```
+
+### Install [`hub`](https://github.com/github/hub)
+
+> hub is a command line tool that wraps git in order to extend it with extra
+> features and commands that make working with GitHub easier. -- [`hub`
+> README](https://github.com/github/hub).
+
+```bash
+config/hub.sh
 ```
-  # Expect the following response from previous script
-
-   Not Disabled:
-      autosave
-   Please specify a package to enable
-```
-
-Next, open Atom's settings, click the packages tab, and search for autosave.
-Then open the "Settings" panel for the autosave plugin.
-
-![Atom Settings > Packages](https://cloud.githubusercontent.com/assets/388761/21697829/41986714-d362-11e6-87ac-f0c42eac72e0.png)
-
-Lastly, ensure the "Enabled" option is checked.
-
-![Autosave Settings](https://cloud.githubusercontent.com/assets/388761/21697838/47338b72-d362-11e6-9106-4a5f476945ca.png)
 
 ## Shell Configuration (OS X only)
 
@@ -179,69 +179,65 @@ brew install nvm
     config/npm.sh
     ```
 
-## Git (and GitHub)
+## Atom
 
-If you haven't done so already, go to [GitHub](http://www.github.com) and create
-and account; be sure to write down your username and password somewhere, since
-we'll be using these credentials later.
+The text editor we'll be using in this course is called **Atom**; it was
+developed by the GitHub team, and is highly extensible.
 
-### Configuring Git
+***Note: From this point forward you will open Atom from the command line***
 
-Now let's take care of some settings. When prompted, enter the same email you used to sign up for your gitHub account and your gitHub username.
+### OSX ONLY
 
-```bash
-  config/git.sh
-```
+1.  Download Atom from [Atom.io](https://atom.io/).
+1.  Move Atom from downloads to the Application directory.
 
-(Feel free to put in a password or select a non-default location for your keys when prompted,
-but it's not necessary to do so; to move ahead, just keep hitting `enter`).
+### Linux ONLY
 
--   Log into GitHub.com, go to [https://github.com/settings/ssh](https://github.com/settings/ssh),
-    and paste in your SSH key.
-
-    If you get a prompt along the lines of
-
-    ```bash
-    The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
-    RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
-    Are you sure you want to continue connecting (yes/no)?
-    ```
-
-    Just type 'yes'. If everything's working, you should get a response like the
-    following:
-
-    ```bash
-    Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
-    ```
-
-Last thing, now that you have git and GitHub we want this repo on your local
-computer. Please follow along as I show you how to fork, clone and put the repo
-in the correct directory.
-
--   Now that our local machine is set up with Git, we need to `fork and clone`
-    the [orientation repo](https://github.com/ga-wdi-boston/orientation). Once you
-    fork to your Github  account, make sure you copy the HTTPS clone link (It will
-    look something like `https://github.com/<your github name>/orientation.git`)
-
--   In your root directory `cd ~`, let's move to our downloads file by `cd
-    Downloads/`, then run `git clone <link copied from github>`.
-
--   Move into the `oritentation` directory by typing `cd orientation/`. Now we have to set up
-    a global 'excludesfile', listing all the files that we might want git to ignore.
-
-    ```bash
-    config/git_config.sh
-    ```
-
-### Install [`hub`](https://github.com/github/hub)
-
-> hub is a command line tool that wraps git in order to extend it with extra
-> features and commands that make working with GitHub easier. -- [`hub`
-> README](https://github.com/github/hub).
+Download the `.deb` file from [Atom.io](https://atom.io/)
+Once finished run the following command:
 
 ```bash
-config/hub.sh
+# LINUX ONLY
+sudo dpkg -i atom-amd64.deb
 ```
+
+### Atom Shell commands
+
+Once Atom is successfully downloaded, open it and in the 'Atom' menu item, click
+on 'install shell commands' to install the necessary toolkit.
+
+### Atom Add-Ons
+
+We're going to use Atom's package manager, `apm`, to add a number of helpful
+extensions to your Atom installation.
+
+```bash
+  config/atom.sh
+```
+
+If you get a `command not found` response in your terminal, you have not
+installed shell commands correctly.
+
+Part of being a good developer is using tools that help you make fewer mistakes.
+To that end, let's configure a useful feature in Atom: autosave! First, let's
+enable the autosave plugin.
+
+```
+  # Expect the following response from previous script
+
+   Not Disabled:
+      autosave
+   Please specify a package to enable
+```
+
+Next, open Atom's settings, click the packages tab, and search for autosave.
+Then open the "Settings" panel for the autosave plugin.
+
+![Atom Settings > Packages](https://cloud.githubusercontent.com/assets/388761/21697829/41986714-d362-11e6-87ac-f0c42eac72e0.png)
+
+Lastly, ensure the "Enabled" option is checked.
+
+![Autosave Settings](https://cloud.githubusercontent.com/assets/388761/21697838/47338b72-d362-11e6-9106-4a5f476945ca.png)
 
 ## Chrome
 

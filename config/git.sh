@@ -34,6 +34,11 @@ git config --global push.default simple
 git config --global branch.autosetupmerge true
 git config --global core.editor "atom --wait"
 
+#this should be run from orientation directory
+#set up git ignore
+git config --global core.excludesfile ~/.gitignore
+cp .gitignore ~/.gitignore # from this repository directory
+
 ssh-keygen -t rsa -C "$email"
 ssh-add ~/.ssh/id_rsa
 

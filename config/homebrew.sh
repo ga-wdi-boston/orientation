@@ -10,7 +10,7 @@ if [[ $# -eq 0 ]] ; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
     PATH="$HOME/.linuxbrew/bin:$PATH"
 
-    echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+    echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >> ~/.bashrc
     sudo apt-get install build-essential curl git python-setuptools ruby
   fi
 

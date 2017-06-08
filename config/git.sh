@@ -45,6 +45,7 @@ ssh-add ~/.ssh/id_rsa
 if [[ $(uname -s) = 'Darwin' ]]; then
   pbcopy < ~/.ssh/id_rsa.pub
 else
+  sudo apt install xclip
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 fi
 

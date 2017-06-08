@@ -149,7 +149,7 @@ modules.
 
 ```bash
 # OSX and LINUX
-brew install nvm
+config/nvm.sh
 ```
 
 **Restart your terminal (close it and reopen it; not just the window!)**
@@ -157,7 +157,7 @@ brew install nvm
 -   Run the following command in your terminal:
 
     ```bash
-    config/nvm.sh
+    config/nvm.sh node
     ```
 
 -   ***AGAIN, Restart your Terminal***

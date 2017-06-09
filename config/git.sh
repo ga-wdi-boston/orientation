@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-if brew ls --versions git; then
-  brew upgrade git
-else
-  brew install git
-fi
-
 cat <<'EOF' >> ~/.bashrc
 
 # Git

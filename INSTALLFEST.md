@@ -15,7 +15,7 @@ expect, please notify a consultant.
 
 If you haven't done so already, go to [GitHub](http://www.github.com) and create
 an account; be sure to write down your username and password somewhere, since
-we'll be using these credentials later.
+we'll be using these credentials later. Next, go to [GitHub Enterprise](https://git.generalassemb.ly) and create an account. It is recommended that you use the same username. This will be the source of your learning material throughout WDI, while your personal Github will be where you showcase your projects.
 
 
 Now that you are set up with GitHub, we want this repo on your local
@@ -30,7 +30,7 @@ in the correct directory.
 -   In your root directory `cd ~`, let's move to our downloads file by `cd
     Downloads/`, then run `git clone <link copied from github>`.
 
--   Move into the `oritentation` directory by typing `cd orientation/`. This directory contains another directory called `config/` containing scripts that we will run to set up our machines!
+-   Move into the `orientation` directory by typing `cd orientation/`. This directory contains another directory called `config/` containing scripts that we will run to set up our machines!
 
 ### Configuring Git
 
@@ -60,6 +60,9 @@ but it's not necessary to do so; to move ahead, just keep hitting `enter`).
     ```bash
     Hi yourUsername! You\'ve succesfully authenticated, but GitHub does not provide shell access.
     ```
+
+-   Log into git.generalassemb.ly, go to [https://git.generalassemb.ly/settings/keys](https://git.generalassemb.ly/settings/keys),
+    and paste in the same SSH key.
 
 ## Shell Configuration (OS X only)
 

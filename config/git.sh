@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-if brew ls --versions git; then
-  brew upgrade git
-else
-  brew install git
-fi
-
 cat <<'EOF' >> ~/.bashrc
 
 # Git
@@ -45,6 +39,7 @@ ssh-add ~/.ssh/id_rsa
 if [[ $(uname -s) = 'Darwin' ]]; then
   pbcopy < ~/.ssh/id_rsa.pub
 else
+  sudo apt install xclip
   xclip -selection clipboard < ~/.ssh/id_rsa.pub
 fi
 
